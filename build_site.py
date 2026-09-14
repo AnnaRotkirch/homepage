@@ -226,7 +226,7 @@ footer { clear: both; }
 /* the first block after a floated photo starts level with the photo's top edge */
 figure.portrait + * { margin-top: 0; }
 /* jump links to the sections of a long page */
-nav.jump { display: flex; flex-wrap: wrap; gap: 0.3rem 1.2rem; margin: 0.4rem 0 1.8rem;
+nav.jump { clear: both; display: flex; flex-wrap: wrap; gap: 0.3rem 1.2rem; margin: 0.2rem 0 1.6rem;
   padding: 0.7rem 0; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule);
   font-family: "IBM Plex Sans", system-ui, -apple-system, sans-serif; font-size: 1rem;
   font-weight: 500; }
@@ -266,7 +266,11 @@ def add_ids_and_jump(body, slug=None):
     long_page = len(heads) >= JUMP_MIN or (slug in JUMP_ALWAYS and len(heads) >= 2)
     if long_page:
         links = " ".join(f'<a href="#{i}">{t}</a>' for i, t in heads)
-        body = body.replace("<h2 ", f'<nav class="jump" aria-label="Sections">{links}</nav>\n<h2 ', 1)
+        bar = f'<nav class="jump" aria-label="Sections">{links}</nav>'
+        # the bar goes directly under the h1, spanning the full column: beside a floated
+        # photo it would be squeezed into two or three lines
+        body = (body.replace("</h1>", "</h1>\n" + bar, 1) if "</h1>" in body
+                else bar + "\n" + body)
     return body, long_page
 
 MEDIA_SECTIONS = ["Interviews", "Talks and podcasts", "Press mentions"]
@@ -365,8 +369,10 @@ def main():
         fig = figure(slug)
         if fig:
             # plain string replace: the figure HTML must not be read as a regex template
-            body = (body.replace("</h1>", "</h1>" + fig, 1)
-                    if "</h1>" in body else fig + body)
+            # the photo goes after the section bar when there is one, else straight after the h1
+            anchor = "</nav>" if '<nav class="jump"' in body else "</h1>"
+            body = (body.replace(anchor, anchor + fig, 1)
+                    if anchor in body else fig + body)
         open(os.path.join(DOCS, slug), "w", encoding="utf-8").write(
             page(slug, title, body, desc, long_page))
         written.append(slug)

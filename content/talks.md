@@ -1,10 +1,10 @@
 # Talks
 description: Keynotes, invited lectures and public talks by Anna Rotkirch, with recordings where available.
 
-I give keynotes, invited lectures and policy briefings on fertility decline, family relations and
-population policy. Invitations: [anna.rotkirch@vaestoliitto.fi](mailto:anna.rotkirch@vaestoliitto.fi).
+I give lectures and policy briefings on fertility decline, family relations and population policy.
+Invitations: [anna.rotkirch@vaestoliitto.fi](mailto:anna.rotkirch@vaestoliitto.fi).
 
-## Invited keynotes and talks
+## Keynotes and talks
 
 Did smartphones accelerate fertility decline? Plenary keynote, EHBEA 2026 Annual Conference,
 European Human Behaviour and Evolution Association, Pesthuis, Leiden University, Leiden,
