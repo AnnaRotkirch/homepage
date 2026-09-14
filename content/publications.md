@@ -127,15 +127,9 @@ Hiidenheimo, S., Ritamäki, T., Lång, F., & Rotkirch, A. (Eds.) (2009). *Me muu
 
 Rotkirch, A. (2008). Yksin kotona. In K. Janhunen & M. Oulasmaa (Eds.), *Äidin kielletyt tunteet* (pp. 72–85). Helsinki: Väestöliitto.
 
-Haavio-Mannila, E., Rotkirch, A., & Kontula, O. (2005). Contradictory trends in sexual life in St Petersburg, Estonia and Finland. In A. Štulhofer & T. Sandfort (Eds.), *Sexuality and gender in postcommunist Eastern Europe and Russia* (pp. 317–363). Haworth Press.
-
 Haavio-Mannila, E., & Rotkirch, A. (2004). Ydin- ja versoperheet Suomessa ja Pietarissa. In I. Arminen & R. Alapuro (Eds.), *Vertailevan tutkimuksen ulottuvuuksista*. Helsinki: WSOY.
 
-Haavio-Mannila, E., Kontula, O., & Rotkirch, A. (2003). Sexuelle Lebensstile in drei Generationen. *Zeitschrift für Sexualforschung*, 16, 1–17.
-
 Rotkirch, A. (2000). Pirstoutunut vanhemmuus. In J. P. Roos & T. Hoikkala (Eds.), *2000-luvun elämä* (pp. 187–200). Helsinki: Gaudeamus.
-
-Rotkirch, A., & Haavio-Mannila, E. (2000). Gender polarisation and liberalisation: comparing sexuality in St Petersburg, Finland and Sweden. *Idäntutkimus*, 3–4/2000, 4–26.
 
 ## Population policies
 
@@ -251,6 +245,8 @@ Temkina, A., & Rotkirch, A. (2007). Sovetskie gendernye kontrakty i ih izmenenia
 
 Rotkirch, A. (2005). ["Sauver ses fils": migrations trans-européennes comme stratégies maternelles](files/Migrations-societe_Rotkirch.pdf). *Migrations Société*, 17(99–100), 161–172.
 
+Haavio-Mannila, E., Rotkirch, A., & Kontula, O. (2005). Contradictory trends in sexual life in St Petersburg, Estonia and Finland. In A. Štulhofer & T. Sandfort (Eds.), *Sexuality and gender in postcommunist Eastern Europe and Russia* (pp. 317–363). Haworth Press.
+
 Rotkirch, A. (2004). [New woman with old feelings? Contrasting Kollontay's and Colette's writings on love](files/kollontay-and-colette.pdf). In E. Witt-Brattström (Ed.), *The new woman and the aesthetic opening* (pp. 137–154). Södertörn Academic Studies.
 
 Rotkirch, A. (2004). "Besputnaia zhizn'": seks, sem'ia i sotsial'naia mobil'nost' v muzhskih avtobiografiah. In S. Oushakine (Ed.), *Semia. Model dlia sborki* (pp. 548–575). Moscow: NLO.
@@ -260,6 +256,8 @@ Rotkirch, A. (2003). ["What kind of sex can you talk about?" Acquiring sexual kn
 Rotkirch, A. (2003). Vem är rädd för städerskan? Globalisering och kvinnors autonoma migration. *Sociologisk forskning*, 2/2003, 11–18.
 
 Rotkirch, A. (2003). Hva er tradisjonalisme? Utvidet moderskap og ekteskap i Aleksandra Chistyakovas livshistorie. *Kvinneforskning*, 2/2003, 31–46.
+
+Haavio-Mannila, E., Kontula, O., & Rotkirch, A. (2003). Sexuelle Lebensstile in drei Generationen. *Zeitschrift für Sexualforschung*, 16, 1–17.
 
 Rotkirch, A. (2002). Sovetskie kul'tury seksual'nosti. In E. Zdravomyslova & A. Temkina (Eds.), *V poiskakh seksual'nosti* (pp. 128–171). St Petersburg: Dmitrii Bulanin.
 
@@ -272,3 +270,5 @@ Rotkirch, A. (2002). "Nyt en aio lähteä minnekään…" Valittajan vahvuudet A
 Rotkirch, A. (2001). Emma Goldman. In M. Jolly (Ed.), *Encyclopedia of life writing* (pp. 385–386). Fitzroy Dearborn. Also five entries in C. Nechemias & N. Noonan (Eds.), *Dictionary of the women's movement in Russia* (2001).
 
 Rotkirch, A. (2000). Loving with and without words: same-sex experiences in Russian women's autobiographies during late socialism. In M. Liljeström, A. Rosenholm, & I. Savkina (Eds.), *Models of self: Russian women's autobiographical texts* (pp. 229–245). Helsinki: Kikimora.
+
+Rotkirch, A., & Haavio-Mannila, E. (2000). Gender polarisation and liberalisation: comparing sexuality in St Petersburg, Finland and Sweden. *Idäntutkimus*, 3–4/2000, 4–26.
