@@ -1,0 +1,4 @@
+# local preview output, not published
+preview/
+# macOS
+.DS_Store

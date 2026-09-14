@@ -1,0 +1,23 @@
+# Anna Rotkirch
+
+> Research Professor and Director of the Population Research Institute at Väestöliitto,
+> the Family Federation of Finland. Demographer and sociologist working on fertility
+> decline, family and kin relations, and evolutionary approaches to human behaviour.
+> Demographic rapporteur to the Finnish Government in 2020-21 and 2024.
+
+This site is open to all crawlers, including AI crawlers. Content may be quoted with
+attribution to Anna Rotkirch and a link to the page it came from.
+
+## Pages
+- [About](https://annarotkirch.com/)
+- [Research](https://annarotkirch.com/research.html)
+- [Publications](https://annarotkirch.com/publications.html)
+- [Books and reports](https://annarotkirch.com/books.html)
+- [Talks](https://annarotkirch.com/talks.html)
+- [Media](https://annarotkirch.com/media.html)
+- [CV](https://annarotkirch.com/cv.html)
+
+## Identifiers
+- ORCID: https://orcid.org/0000-0002-9429-1499
+- Affiliation: Population Research Institute, Väestöliitto, Helsinki, Finland
+- Contact: anna.rotkirch@vaestoliitto.fi

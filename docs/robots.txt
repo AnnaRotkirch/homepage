@@ -1,0 +1,5 @@
+# Every crawler, including AI crawlers, is welcome on this site.
+User-agent: *
+Allow: /
+
+Sitemap: https://annarotkirch.com/sitemap.xml
