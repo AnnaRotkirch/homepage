@@ -4,17 +4,7 @@ description: Keynotes, invited lectures and public talks by Anna Rotkirch, with 
 I give keynotes, invited lectures and policy briefings on fertility decline, family relations and
 population policy. Invitations: [anna.rotkirch@vaestoliitto.fi](mailto:anna.rotkirch@vaestoliitto.fi).
 
-## Upcoming
-
-Doctoral defence of Maria Lyster, University of Oslo, 27 October 2026.
-
-Personal profile in *Die Zeit*, forthcoming.
-
-Research leave for the book, from November 2026.
-
-## Past talks
-
-### 2026
+## 2026
 
 Launch of the Parent Fund Initiative (Vauvasampo parent fund proposal: research and modelling,
 with Venla Berg), in Finnish.
@@ -35,7 +25,7 @@ the "yes" side, which eventually won the vote narrowly: "A future with children"
 [Event page](https://iussp.org/en/iussp-debate-when-populations-shrink-should-states-encourage-births-or-adapt)
 · [Recording](https://www.youtube.com/watch?v=37HYhQpTaAI)
 
-### 2025
+## 2025
 
 TikTok baby bust? How screens accelerated fertility decline. Invited talk, fertility seminar,
 University of Chicago.
@@ -50,7 +40,7 @@ Nordic fertility decline: drivers and policy challenges. Plenary talk, Nordic We
 Nordic Welfare Centre, plenary "Reproductive agency and social trust in the Nordics", Helsinki.
 [Event page](https://nordicwelfare.org/en/evenemang/nordic-welfare-forum-2025-nordic-trust-in-a-changing-world/)
 
-### 2024
+## 2024
 
 Fertility resilience during crises. Seminar talk, LSHTM, MARCH Centre and Population Studies Group
 seminar series, London.
@@ -81,7 +71,7 @@ Do social networks reflect population ageing in Europe? Invited talk, Bocconi Un
 Social networks and wellbeing in Europe. Evolutionary Anthropology seminar, invited talk,
 University College London.
 
-### 2023
+## 2023
 
 Low fertility: what policy interventions might work (better)? Tuesday Dialogue series of the
 Einstein Center Population Diversity, Population Europe.
