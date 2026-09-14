@@ -10,11 +10,11 @@ attribution to Anna Rotkirch and a link to the page it came from.
 
 ## Pages
 - [About](https://annarotkirch.com/)
-- [Research](https://annarotkirch.com/research.html)
 - [Publications](https://annarotkirch.com/publications.html)
-- [Books and reports](https://annarotkirch.com/books.html)
-- [Talks](https://annarotkirch.com/talks.html)
 - [Media](https://annarotkirch.com/media.html)
+- [Talks](https://annarotkirch.com/talks.html)
+- [Research projects](https://annarotkirch.com/research.html)
+- [Books and reports](https://annarotkirch.com/books.html)
 - [CV](https://annarotkirch.com/cv.html)
 
 ## Identifiers

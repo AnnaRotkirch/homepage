@@ -25,20 +25,22 @@ IMAGES = os.path.join(HERE, "images") # photo sources, copied to docs/img/ at bu
 
 SITE_TITLE = "Anna Rotkirch"
 TAGLINE = "Demographer. Research Professor, Population Research Institute, Väestöliitto"
-NAV = [("index.html", "About"), ("research.html", "Research"),
-       ("publications.html", "Publications"), ("books.html", "Books and reports"),
-       ("talks.html", "Talks"), ("media.html", "Media"), ("cv.html", "CV")]
+NAV = [("index.html", "About"), ("publications.html", "Publications"),
+       ("media.html", "Media"), ("talks.html", "Talks"),
+       ("research.html", "Research projects"),
+       ("books.html", "Books and reports"), ("cv.html", "CV")]
 MONTHS = ["January","February","March","April","May","June","July","August",
           "September","October","November","December"]
 # One photo per page: slug -> (file in images/, credit line, shape).
 # Shape "round" masks the image to a circle. An empty credit prints no caption.
 PHOTOS = {
-    "index.html":    ("rotkirch-avatar.jpg",      "",                                            "round"),
-    "research.html": ("rotkirch-outdoor.jpg",     "",                                            ""),
-    "talks.html":    ("rotkirch-talks-round.jpg", "",                                            "round"),
-    "books.html":    ("rotkirch-talks.jpg",       "",                                            ""),
-    "cv.html":       ("rotkirch-research.jpg",    "© Mika Pollari",                              ""),
-    "media.html":    ("rotkirch-portrait.jpg",    "© Charlie Bibby for the Financial Times",     ""),
+    "index.html":    ("rotkirch-portrait-tall.jpg", "© Charlie Bibby for the Financial Times", "left"),
+    "publications.html": (None,                     "",                                        ""),
+    "media.html":    ("rotkirch-avatar.jpg",        "",                                        "round"),
+    "talks.html":    ("rotkirch-talks-round.jpg",   "",                                        "round"),
+    "research.html": ("rotkirch-outdoor.jpg",       "",                                        ""),
+    "books.html":    ("rotkirch-talks.jpg",         "",                                        ""),
+    "cv.html":       ("rotkirch-research.jpg",      "© Mika Pollari",                          ""),
 }
 OG_IMAGE = "rotkirch-avatar.jpg"      # link-preview image used on every page
 
@@ -68,10 +70,12 @@ def figure(slug):
     if slug not in PHOTOS:
         return ""
     f, credit, shape = PHOTOS[slug]
+    if not f:
+        return ""
     if not os.path.exists(os.path.join(IMAGES, f)):
         print(f"  (warning: {f} listed in PHOTOS but not found in images/)")
         return ""
-    cls = "portrait round" if shape == "round" else "portrait"
+    cls = "portrait" + (f" {shape}" if shape else "")
     cap = f'<figcaption>{esc(credit)}</figcaption>' if credit else ""
     return (f'\n<figure class="{cls}">'
             f'<img src="img/{f}" alt="Anna Rotkirch" loading="lazy" decoding="async">'
@@ -155,7 +159,7 @@ h2 { font-size: 1.22rem; margin: 2.3rem 0 0.7rem; letter-spacing: -0.005em; }
 h3 { font-size: 1.02rem; margin: 1.7rem 0 0.5rem; color: var(--muted);
   font-family: "IBM Plex Sans", system-ui, -apple-system, sans-serif; font-weight: 500;
   text-transform: uppercase; letter-spacing: 0.05em; }
-p, li { margin: 0 0 0.85rem; }
+p, li { margin: 0 0 0.85rem; text-wrap: pretty; hyphens: none; }
 a { color: var(--link); text-decoration-thickness: 1px; text-underline-offset: 2px; }
 a:focus-visible, nav a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 ul { padding-left: 1.15rem; }
@@ -167,9 +171,10 @@ footer { border-top: 1px solid var(--rule); padding: 1.2rem 1.25rem 3rem;
   color: var(--muted); font-size: 0.88rem; }
 footer p { margin: 0 0 0.3rem; }
 .built { font-size: 0.8rem; }
-figure.portrait { float: right; width: 232px; margin: 0.15rem 0 1.1rem 1.6rem; }
+figure.portrait { float: right; width: 232px; margin: 0.35rem 0 1.2rem 1.7rem; }
 figure.portrait img { display: block; width: 100%; height: auto; border-radius: 2px; }
 figure.portrait.round img { border-radius: 50%; }
+figure.portrait.left { float: left; margin: 0.35rem 1.7rem 1.2rem 0; }
 figure.portrait figcaption { margin-top: 0.4rem; color: var(--muted);
   font-family: "IBM Plex Sans", system-ui, -apple-system, sans-serif; font-size: 0.72rem;
   letter-spacing: 0.01em; }

@@ -1,4 +1,4 @@
-# Research
+# Research projects
 description: Ongoing research projects, research infrastructures and earlier research themes of Anna Rotkirch.
 
 ## Ongoing projects
