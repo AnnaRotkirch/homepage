@@ -56,11 +56,11 @@ University College London, 2024.
 ## Panels and policy events
 
 Launch of the Parent Fund Initiative (Vauvasampo parent fund proposal: research and modelling,
-with Venla Berg), in Finnish, 2026.
+with Venla Berg), Väestöliitto, 2026. In Finnish.
 [Event page](https://www.vaestoliitto.fi/ajankohtaista/vaestopaiva-2026/)
 
-When populations shrink — should states encourage births or adapt? IUSSP Debate, online. Argued
-the "yes" side, which eventually won the vote narrowly: "A future with children", 2026.
+When populations shrink — should states encourage births or adapt? IUSSP Debate, online, 2026. Argued
+the "yes" side, which eventually won the vote narrowly: "A future with children".
 [Event page](https://iussp.org/en/iussp-debate-when-populations-shrink-should-states-encourage-births-or-adapt)
 · [Recording](https://www.youtube.com/watch?v=37HYhQpTaAI)
 
