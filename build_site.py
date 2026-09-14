@@ -244,7 +244,7 @@ a.totop:hover { color: var(--accent); }
 @media (max-width: 480px) { body { font-size: 16px; } h1 { font-size: 1.6rem; } }
 """
 
-JUMP_MIN = 6   # pages with at least this many h2 sections get a jump bar
+JUMP_MIN = 3   # pages with at least this many h2 sections get a jump bar
 
 def slugify(t):
     t = re.sub(r"<[^>]+>", "", t)
@@ -323,6 +323,16 @@ def media_html():
         kind = f" {esc(r.get('kind',''))}." if r.get("kind") else ""
         items[sec].append((r.get("date", ""), f"<p>{head}. {link}{kind}</p>"))
 
+    # the same item can sit in both CSVs (e.g. a Yle interview): keep the first by URL
+    seen = set()
+    for sec in MEDIA_SECTIONS:
+        kept = []
+        for d, h in sorted(items[sec], key=lambda x: x[0], reverse=True):
+            m = re.search(r'href="([^"]+)"', h)
+            key = m.group(1).rstrip("/") if m else h
+            if key in seen: continue
+            seen.add(key); kept.append((d, h))
+        items[sec] = kept
     for sec in MEDIA_SECTIONS:
         if not items[sec]: continue
         out.append(f"<h2>{esc(sec)}</h2>")
