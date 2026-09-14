@@ -88,4 +88,4 @@ has published over 200 research articles and 20 books.
 Photographs for programmes and announcements:
 
 - [Colour, outdoors (JPEG, 957 × 597 px)](img/rotkirch-talks.jpg). No credit required.
-- [Black and white portrait (JPEG, 2400 × 3600 px)](img/rotkirch-ft-bibby-print.jpg). Credit: © Charlie Bibby for the FT.
+- [Black and white portrait (JPEG, 2400 × 3596 px)](img/rotkirch-ft-bibby-print.jpg). Credit: © Charlie Bibby for the FT.
