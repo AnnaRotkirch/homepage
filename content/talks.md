@@ -4,7 +4,7 @@ description: Keynotes, invited lectures and public talks by Anna Rotkirch, with 
 I give keynotes, invited lectures and policy briefings on fertility decline, family relations and
 population policy. Invitations: [anna.rotkirch@vaestoliitto.fi](mailto:anna.rotkirch@vaestoliitto.fi).
 
-## Keynotes
+## Invited keynotes and talks
 
 Did smartphones accelerate fertility decline? Plenary keynote, EHBEA 2026 Annual Conference,
 European Human Behaviour and Evolution Association, Pesthuis, Leiden University, Leiden,
@@ -13,25 +13,23 @@ Netherlands. [Event page](https://www.ehbea2026.com/)
 Family-friendly policies for the 21st century. Keynote, Annual Conference of the Population
 Association of Taiwan, 2026.
 
+Fertility desires in the digital era. Invited lecture, National Yang Ming Chiao Tung University,
+School of Medicine, International Health Program, 2026.
+
 Nordic fertility decline: drivers and policy challenges. Plenary talk, Nordic Welfare Forum 2025,
 Nordic Welfare Centre, plenary "Reproductive agency and social trust in the Nordics", Helsinki.
 [Event page](https://nordicwelfare.org/en/evenemang/nordic-welfare-forum-2025-nordic-trust-in-a-changing-world/)
-
-"I think about it all the time": childbearing cues in low fertility societies. Keynote,
-Wittgenstein Centre Conference 2024, Vienna.
-[Event page](https://www.oeaw.ac.at/fileadmin/subsites/Institute/VID/PDF/Conferences/2024_Delayed_Reproduction/WIC2024_agenda.pdf)
-· [Recording](https://www.youtube.com/watch?v=83bO6BmS22M)
-
-## Invited talks
-
-Fertility desires in the digital era. Invited lecture, National Yang Ming Chiao Tung University,
-School of Medicine, International Health Program, 2026.
 
 TikTok baby bust? How screens accelerated fertility decline. Invited talk, fertility seminar,
 University of Chicago, 2025.
 
 Childbearing cues in low fertility settings. Invited talk, Family well-being and life course
 events, San Giobbe Economics Campus, Venice, 2025.
+
+"I think about it all the time": childbearing cues in low fertility societies. Keynote,
+Wittgenstein Centre Conference 2024, Vienna.
+[Event page](https://www.oeaw.ac.at/fileadmin/subsites/Institute/VID/PDF/Conferences/2024_Delayed_Reproduction/WIC2024_agenda.pdf)
+· [Recording](https://www.youtube.com/watch?v=83bO6BmS22M)
 
 Fertility resilience during crises. Seminar talk, LSHTM, MARCH Centre and Population Studies Group
 seminar series, London, 2024.
@@ -56,10 +54,10 @@ University College London, 2024.
 ## Panels and policy events
 
 Launch of the Parent Fund Initiative (Vauvasampo parent fund proposal: research and modelling,
-with Venla Berg), Väestöliitto, 2026. In Finnish.
+with Venla Berg), Väestöliitto. In Finnish.
 [Event page](https://www.vaestoliitto.fi/ajankohtaista/vaestopaiva-2026/)
 
-When populations shrink — should states encourage births or adapt? IUSSP Debate, online, 2026. Argued
+When populations shrink — should states encourage births or adapt? IUSSP Debate, online. Argued
 the "yes" side, which eventually won the vote narrowly: "A future with children".
 [Event page](https://iussp.org/en/iussp-debate-when-populations-shrink-should-states-encourage-births-or-adapt)
 · [Recording](https://www.youtube.com/watch?v=37HYhQpTaAI)
