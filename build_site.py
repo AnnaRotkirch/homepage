@@ -124,6 +124,7 @@ def page(slug, title, body, description, long_page=False):
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{esc(title)} — {SITE_TITLE}</title>
 <meta name="description" content="{esc(description)}">
+<meta name="msvalidate.01" content="639CA839857F15DA52DF8A9FC6440956">
 <meta name="robots" content="{'noindex, nofollow' if slug in HIDDEN_PAGES else 'index, follow, max-snippet:-1, max-image-preview:large'}">
 <link rel="canonical" href="https://{domain()}/{'' if slug == 'index.html' else slug}">
 <link rel="preconnect" href="https://fonts.googleapis.com">
