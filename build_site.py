@@ -83,7 +83,7 @@ def figure(slug):
             f'{cap}</figure>\n')
 
 
-def page(slug, title, body, description):
+def page(slug, title, body, description, long_page=False):
     def nav_item(h, t):
         cls = ' class="here"' if h == slug else ''
         return f'      <a href="{h}"{cls}>{esc(t)}</a>'
@@ -110,7 +110,7 @@ def page(slug, title, body, description):
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header>
+<header id="top">
   <div class="wrap">
     <p class="sitename"><a href="index.html">{esc(SITE_TITLE)}</a></p>
     <p class="tagline">{esc(TAGLINE)}</p>
@@ -128,8 +128,18 @@ def page(slug, title, body, description):
      <a href="https://orcid.org/0000-0002-9429-1499">ORCID 0000-0002-9429-1499</a></p>
   <p class="built">Page generated {datetime.date.today().isoformat()}.</p>
 </footer>
-</body>
+{TOTOP if long_page else ""}</body>
 </html>
+"""
+
+TOTOP = """<a class="totop" href="#top" aria-label="Back to top">&uarr; Top</a>
+<script>
+(function () {
+  var b = document.querySelector("a.totop");
+  function f() { b.classList.toggle("show", window.scrollY > 700); }
+  window.addEventListener("scroll", f, { passive: true }); f();
+})();
+</script>
 """
 
 STYLE = """:root {
@@ -145,27 +155,28 @@ body { margin: 0; background: var(--bg); color: var(--ink);
   font: 17px/1.62 "Source Serif 4", Charter, Georgia, "Iowan Old Style", serif; }
 .wrap { max-width: 46rem; margin: 0 auto; padding: 0 1.25rem; }
 header { border-bottom: 1px solid var(--rule); padding: 2.2rem 0 0.9rem; margin-bottom: 2.2rem; }
-.sitename { font-size: 1.55rem; font-weight: 600; margin: 0; letter-spacing: -0.01em; }
+.sitename { font-size: 2.1rem; font-weight: 600; margin: 0; letter-spacing: -0.015em; line-height: 1.15; }
 .sitename a { color: var(--ink); text-decoration: none; }
-.tagline { margin: 0.2rem 0 1.1rem; color: var(--muted); font-size: 0.95rem; }
-nav { display: flex; flex-wrap: wrap; gap: 0.3rem 1.15rem;
-  font-family: "IBM Plex Sans", system-ui, -apple-system, sans-serif; font-size: 0.93rem; }
-nav a { color: var(--muted); text-decoration: none; padding-bottom: 0.35rem;
+.tagline { margin: 0.35rem 0 1.35rem; color: var(--muted); font-size: 1.08rem; }
+header nav { display: flex; flex-wrap: wrap; gap: 0.3rem 1.35rem;
+  font-family: "IBM Plex Sans", system-ui, -apple-system, sans-serif; font-size: 1rem;
+  font-weight: 500; }
+header nav a { color: var(--ink); text-decoration: none; padding-bottom: 0.4rem;
   border-bottom: 2px solid transparent; }
-nav a:hover { color: var(--ink); }
-nav a.here { color: var(--ink); border-bottom-color: var(--accent); }
+header nav a:hover { color: var(--accent); }
+header nav a.here { color: var(--accent); border-bottom-color: var(--accent); }
 main { padding-bottom: 3rem; }
 h1 { font-size: 1.9rem; line-height: 1.2; margin: 0 0 1.1rem; letter-spacing: -0.015em; }
-h2 { font-size: 1.22rem; margin: 2.3rem 0 0.7rem; letter-spacing: -0.005em; }
+h2 { font-size: 1.22rem; margin: 2.3rem 0 0.7rem; letter-spacing: -0.005em; scroll-margin-top: 1rem; }
 h3 { font-size: 1.02rem; margin: 1.7rem 0 0.5rem; color: var(--muted);
   font-family: "IBM Plex Sans", system-ui, -apple-system, sans-serif; font-weight: 500;
   text-transform: uppercase; letter-spacing: 0.05em; }
-p, li { margin: 0 0 0.85rem; text-wrap: pretty; hyphens: none; }
+p, li { margin: 0 0 0.9rem; text-wrap: pretty; hyphens: none; }
 a { color: var(--link); text-decoration-thickness: 1px; text-underline-offset: 2px; }
 a:focus-visible, nav a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 ul { padding-left: 1.15rem; }
-.lead { font-size: 1.1rem; }
-.refs p { margin-bottom: 0.75rem; text-indent: -1.3rem; padding-left: 1.3rem; }
+.lead { font-size: 1.1rem; margin-bottom: 1.2rem; }
+.refs p { margin-bottom: 0.9rem; }
 .meta { color: var(--muted); font-size: 0.93rem; }
 hr { border: 0; border-top: 1px solid var(--rule); margin: 2.4rem 0; }
 footer { border-top: 1px solid var(--rule); padding: 1.2rem 1.25rem 3rem;
@@ -180,19 +191,56 @@ figure.portrait figcaption { margin-top: 0.4rem; color: var(--muted);
   font-family: "IBM Plex Sans", system-ui, -apple-system, sans-serif; font-size: 0.72rem;
   letter-spacing: 0.01em; }
 footer { clear: both; }
+/* the first block after a floated photo starts level with the photo's top edge */
+figure.portrait + * { margin-top: 0; }
+/* jump links to the sections of a long page */
+nav.jump { display: flex; flex-wrap: wrap; gap: 0.2rem 0.9rem; margin: 0.4rem 0 1.6rem;
+  padding: 0.6rem 0; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule);
+  font-family: "IBM Plex Sans", system-ui, -apple-system, sans-serif; font-size: 0.88rem; }
+nav.jump a { color: var(--muted); text-decoration: none; }
+nav.jump a:hover { color: var(--accent); text-decoration: underline; }
+a.totop { position: fixed; right: 1.1rem; bottom: 1.1rem; padding: 0.4rem 0.7rem;
+  font-family: "IBM Plex Sans", system-ui, -apple-system, sans-serif; font-size: 0.8rem;
+  color: var(--muted); background: var(--bg); border: 1px solid var(--rule); border-radius: 3px;
+  text-decoration: none; opacity: 0; pointer-events: none; transition: opacity 0.2s; }
+a.totop.show { opacity: 1; pointer-events: auto; }
+a.totop:hover { color: var(--accent); }
 @media (max-width: 560px) {
   figure.portrait { float: none; width: min(100%, 280px); margin: 0 0 1.3rem; }
 }
 @media (max-width: 480px) { body { font-size: 16px; } h1 { font-size: 1.6rem; } }
 """
 
+JUMP_MIN = 6   # pages with at least this many h2 sections get a jump bar
+
+def slugify(t):
+    t = re.sub(r"<[^>]+>", "", t)
+    t = re.sub(r"[^a-z0-9]+", "-", t.lower()).strip("-")
+    return t or "section"
+
+def add_ids_and_jump(body):
+    """Give every h2 an id; on long pages insert a jump bar before the first h2."""
+    heads = []
+    def fix(m):
+        text = m.group(1); i = slugify(text)
+        n = 2
+        while i in [h[0] for h in heads]:
+            i = f"{slugify(text)}-{n}"; n += 1
+        heads.append((i, text))
+        return f'<h2 id="{i}">{text}</h2>'
+    body = re.sub(r"<h2>(.*?)</h2>", fix, body)
+    long_page = len(heads) >= JUMP_MIN
+    if long_page:
+        links = " ".join(f'<a href="#{i}">{t}</a>' for i, t in heads)
+        body = body.replace("<h2 ", f'<nav class="jump" aria-label="Sections">{links}</nav>\n<h2 ', 1)
+    return body, long_page
+
 def media_html():
     rows = read(os.path.join(DATA, "media_2023_2026.csv"))
     fi = read(os.path.join(DATA, "media_fi_2022_2026.csv"))
     talks = read(os.path.join(DATA, "talks_2024_2026.csv"))
     out = ["<h1>Media</h1>",
-           '<p class="lead">Interviews, podcasts, recorded talks and press coverage. '
-           'The list is generated from a data file, so it can be kept current.</p>']
+           '<p class="lead">Interviews, podcasts, recorded talks and press coverage.</p>']
 
     rec = [t for t in talks if t.get("Recording link")]
     if rec:
@@ -254,13 +302,14 @@ def main():
             desc = desc_m.group(1).strip() if desc_m else f"{title} — Anna Rotkirch"
             text = re.sub(r"^description:.*$", "", text, flags=re.M)
             md.reset(); body = md.convert(text)
+        body, long_page = add_ids_and_jump(body)
         fig = figure(slug)
         if fig:
             # plain string replace: the figure HTML must not be read as a regex template
             body = (body.replace("</h1>", "</h1>" + fig, 1)
                     if "</h1>" in body else fig + body)
         open(os.path.join(DOCS, slug), "w", encoding="utf-8").write(
-            page(slug, title, body, desc))
+            page(slug, title, body, desc, long_page))
         written.append(slug)
 
     # photos: copy images/ into docs/img/ so docs/ is fully reproducible

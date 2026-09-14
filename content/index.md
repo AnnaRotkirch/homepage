@@ -24,6 +24,8 @@ in 2021 presented guidelines for Finnish population policies in the 2020s, and w
 ["20 steps to support fertility"](https://stm.fi/en/-/rapporteur-proposes-ways-to-stop-declining-birth-rate)
 for the Petteri Orpo government in 2024.
 
+I speak regularly at conferences and for policymakers; see [Talks](talks.html).
+
 ## Baby fever
 
 I aim to bridge social and biological approaches in the study of human behaviour, resulting in
