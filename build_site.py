@@ -245,13 +245,14 @@ a.totop:hover { color: var(--accent); }
 """
 
 JUMP_MIN = 3   # pages with at least this many h2 sections get a jump bar
+JUMP_ALWAYS = {"research.html"}   # pages that get the bar regardless of section count
 
 def slugify(t):
     t = re.sub(r"<[^>]+>", "", t)
     t = re.sub(r"[^a-z0-9]+", "-", t.lower()).strip("-")
     return t or "section"
 
-def add_ids_and_jump(body):
+def add_ids_and_jump(body, slug=None):
     """Give every h2 an id; on long pages insert a jump bar before the first h2."""
     heads = []
     def fix(m):
@@ -262,7 +263,7 @@ def add_ids_and_jump(body):
         heads.append((i, text))
         return f'<h2 id="{i}">{text}</h2>'
     body = re.sub(r"<h2>(.*?)</h2>", fix, body)
-    long_page = len(heads) >= JUMP_MIN
+    long_page = len(heads) >= JUMP_MIN or (slug in JUMP_ALWAYS and len(heads) >= 2)
     if long_page:
         links = " ".join(f'<a href="#{i}">{t}</a>' for i, t in heads)
         body = body.replace("<h2 ", f'<nav class="jump" aria-label="Sections">{links}</nav>\n<h2 ', 1)
@@ -360,7 +361,7 @@ def main():
             desc = desc_m.group(1).strip() if desc_m else f"{title} — Anna Rotkirch"
             text = re.sub(r"^description:.*$", "", text, flags=re.M)
             md.reset(); body = md.convert(text)
-        body, long_page = add_ids_and_jump(body)
+        body, long_page = add_ids_and_jump(body, slug)
         fig = figure(slug)
         if fig:
             # plain string replace: the figure HTML must not be read as a regex template
