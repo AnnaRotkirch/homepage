@@ -1,7 +1,7 @@
 # Publications
 description: Journal articles, chapters and working papers by Anna Rotkirch, grouped by theme, with links to the published versions.
 
-Articles, chapters and working papers by theme, most recent first within each theme. Books and reports have [their own page](books.html); earlier work on sexuality and on Russia is on the [archive page](archive.html).
+Articles, chapters and working papers by theme, most recent first within each theme. Books and reports have [their own page](books.html); publications from before 2000 are on the [archive page](archive.html).
 
 ## Fertility
 
@@ -57,17 +57,11 @@ Rotkirch, A. (2013). Baby fever and longing for children. In A. Buchanan & A. Ro
 
 Liu, J., Rotkirch, A., & Lummaa, V. (2012). [Maternal risk of breeding failure remained low throughout the demographic transitions in fertility and age at first reproduction in Finland](https://doi.org/10.1371/journal.pone.0034898). *PLOS ONE*, 7(4), e34898.
 
-Rotkirch, A., & Kesseli, K. (2012). ["Two children puts you in the zone of social misery": childbearing and risk perception among Russian women](files/4-Rotkirch-Childbearing-and-risk-perception.pdf). In H. Carlbäck, Y. Gradskova, & Z. Kravchenko (Eds.), *And they lived happily ever after* (pp. 145–164). Central European University Press.
-
 Rotkirch, A., Basten, S., Väisänen, H., & Jokela, M. (2011). [Baby longing and men's reproductive motivation](http://hw.oeaw.ac.at/?arp=0x002a70ff). *Vienna Yearbook of Population Research*, 9, 283–306.
 
 Miettinen, A., Basten, S., & Rotkirch, A. (2011). [Gender equality and fertility intentions revisited: evidence from Finland](http://www.demographic-research.org/volumes/vol24/20/). *Demographic Research*, 24(20), 469–496.
 
-Rotkirch, A., & Kesseli, K. (2010). ["The first child is the fruit of love": on the Russian tradition of early first births](files/Rotkirch_Kesseli-first-child-in-russia.pdf). In T. Huttunen & M. Kangaspuro (Eds.), *Witnessing change in contemporary Russia* (pp. 201–220). Kikimora.
-
 Rotkirch, A. (2008). [What is "baby fever"? Contrasting evolutionary explanations of proceptive behavior](files/What-is-Baby-Fever_Rotkirch-Evolutionary-social-science.pdf). In T. Meleghy, P. Meyer, & H.-J. Niedenzu (Eds.), *The new evolutionary social science*. Boulder: Paradigm.
-
-Rotkirch, A., & Kesseli, K. (2008). Chislo detej i ih mesto v zhiznennom tsikle. In E. Zdravomyslova, A. Rotkirch, & A. Temkina (Eds.), *Novyj byt*. European University of St Petersburg.
 
 Rotkirch, A. (2007). ["All that she wants is another baby?" Longing for children as a fertility incentive of growing importance](files/paper-6-rotkirch-2007.pdf). *Journal of Evolutionary Psychology*, 5(1–4), 89–104.
 
@@ -129,13 +123,21 @@ Haavio-Mannila, E., & Rotkirch, A. (2010). [Sexuality and family formation](file
 
 Haavio-Mannila, E., Majamaa, K., Tanskanen, A., Hämäläinen, H., Karisto, A., Rotkirch, A., & Roos, J. P. (2009). *Sukupolvien ketju. Suuret ikäluokat ja sukupolvien välinen vuorovaikutus Suomessa.* Helsinki: Kela, Sosiaali- ja terveysturvan tutkimuksia 107.
 
+Hiidenheimo, S., Ritamäki, T., Lång, F., & Rotkirch, A. (Eds.) (2009). *Me muut*. Helsinki: Teos. Swedish edition: *De andra. En bok om klass.* Helsingfors: Söderströms.
+
 Rotkirch, A. (2008). Yksin kotona. In K. Janhunen & M. Oulasmaa (Eds.), *Äidin kielletyt tunteet* (pp. 72–85). Helsinki: Väestöliitto.
+
+Haavio-Mannila, E., Rotkirch, A., & Kontula, O. (2005). Contradictory trends in sexual life in St Petersburg, Estonia and Finland. In A. Štulhofer & T. Sandfort (Eds.), *Sexuality and gender in postcommunist Eastern Europe and Russia* (pp. 317–363). Haworth Press.
 
 Haavio-Mannila, E., & Rotkirch, A. (2004). Ydin- ja versoperheet Suomessa ja Pietarissa. In I. Arminen & R. Alapuro (Eds.), *Vertailevan tutkimuksen ulottuvuuksista*. Helsinki: WSOY.
 
+Haavio-Mannila, E., Kontula, O., & Rotkirch, A. (2003). Sexuelle Lebensstile in drei Generationen. *Zeitschrift für Sexualforschung*, 16, 1–17.
+
 Rotkirch, A. (2000). Pirstoutunut vanhemmuus. In J. P. Roos & T. Hoikkala (Eds.), *2000-luvun elämä* (pp. 187–200). Helsinki: Gaudeamus.
 
-## Population policy and public health
+Rotkirch, A., & Haavio-Mannila, E. (2000). Gender polarisation and liberalisation: comparing sexuality in St Petersburg, Finland and Sweden. *Idäntutkimus*, 3–4/2000, 4–26.
+
+## Population policies
 
 Rotkirch, A. (2024). *20 ehdotusta lapsitoiveiden tukemiseksi. Selvitys syntyvyyden laskusta Suomessa.* Valtioneuvoston julkaisuja 2025:22.
 
@@ -148,12 +150,6 @@ Rotkirch, A. (2021). [*Population policy guidelines for the 2020s. Executive sum
 De Kai, Morgunov, A., Goldstein, G.-P., Nanglia, V., & Rotkirch, A. (2020). [Universal masking is urgent in the COVID-19 pandemic: SEIR and agent-based models, empirical validation, policy recommendations](https://arxiv.org/abs/2004.13553). arXiv preprint. ([Popularised version, pdf](files/universalmasking.pdf))
 
 Rotkirch, A. (2020). [Declining birth rate and changing childbearing landscape](https://www.vaestoliitto.fi/en/webpublications/sustainable-population-development-in-finland/). In T. Sorsa (Ed.), *Sustainable Population Development in Finland: the 2020 population policy report by Väestöliitto*. Väestöliitto.
-
-Borozdina, E., Rotkirch, A., Temkina, A., & Zdravomyslova, E. (2014). [How to use the maternity capital: citizen distrust of Russian family policy](http://ejw.sagepub.com/content/early/2014/07/21/1350506814543838.abstract). *European Journal of Women's Studies*.
-
-Rotkirch, A., Temkina, A., & Zdravomyslova, E. (2007). [Who helps the degraded housewife? Comments on Vladimir Putin's demographic speech](files/rotkirch-temkina-zdravomyslova-putin.pdf). *European Journal of Women's Studies*, 14(4), 349–357.
-
-Liborakina, M., & Rotkirch, A. (1999). Social consequences of the 1998 crisis in Russia. *Idäntutkimus*, 2/1999, 24–48.
 
 ## Grandparents
 
@@ -226,3 +222,53 @@ Rotkirch, A. (2005). Miten sosiologinen tieto kohtaa evoluutioteorian? In A. Meu
 Roos, J. P., & Rotkirch, A. (2005). ¿Habitus, naturaleza o educación? Hacia un paradigma de la sociología evolutiva. In J. Monreal, C. Díaz, & J. J. G. Escribano (Eds.), *Viejas sociedades, nueva sociología* (pp. 87–100). Madrid: CIS.
 
 Rotkirch, A. (2003). Naturligtvis? Moderskap, essentialism och evolutionsteori. *Naistutkimus*, 3/03, 33–47.
+
+## Russia
+
+Borozdina, E., Rotkirch, A., Temkina, A., & Zdravomyslova, E. (2014). [How to use the maternity capital: citizen distrust of Russian family policy](http://ejw.sagepub.com/content/early/2014/07/21/1350506814543838.abstract). *European Journal of Women's Studies*.
+
+Rotkirch, A. (2014). [Vallankumouksen uusi nainen, Aleksandra Kollontai](files/Rotkirch_Kollontai_Vallankumouksen_uusi_nainen_prefinal.pdf). In A. Rosenholm, S. Suviniemi, & M. Sorvari (Eds.), *Naisia Venäjän kulttuurihistoriassa* (pp. 187–208). Helsinki: Gaudeamus.
+
+Temkina, A., Rotkirch, A., & Haavio-Mannila, E. (2013). [Sexual therapists in Russia: pleasure and gender in a new professional field](files/sexual-therapy-in-russia-prefinal2.pdf). In K. Hall & C. Graham (Eds.), *The cultural context of sexual pleasure and problems* (pp. 220–248). Routledge.
+
+Rotkirch, A., & Kesseli, K. (2012). ["Two children puts you in the zone of social misery": childbearing and risk perception among Russian women](files/4-Rotkirch-Childbearing-and-risk-perception.pdf). In H. Carlbäck, Y. Gradskova, & Z. Kravchenko (Eds.), *And they lived happily ever after* (pp. 145–164). Central European University Press.
+
+Temkina, A., & Rotkirch, A. (2012). Здоровье, удовольствие и гендер в практиках сексологов. In A. Temkina & E. Zdravomyslova (Eds.), [*Zdorove i intimnaia zhizn*](http://www.eupress.ru/books/index/item/id/119). European University of St Petersburg Press.
+
+Rotkirch, A., Tkach, O., & Zdravomyslova, E. (2012). [Making and managing class: employment of paid domestic workers in Russia](files/Making-and-managing-class.pdf). In S. Salmenniemi (Ed.), *Rethinking class in Russia* (pp. 129–148). Ashgate.
+
+Rotkirch, A., & Kesseli, K. (2010). ["The first child is the fruit of love": on the Russian tradition of early first births](files/Rotkirch_Kesseli-first-child-in-russia.pdf). In T. Huttunen & M. Kangaspuro (Eds.), *Witnessing change in contemporary Russia* (pp. 201–220). Kikimora.
+
+Rotkirch, A., & Kesseli, K. (2008). Chislo detej i ih mesto v zhiznennom tsikle. In E. Zdravomyslova, A. Rotkirch, & A. Temkina (Eds.), *Novyj byt*. European University of St Petersburg.
+
+Rotkirch, A. (2008). [Uusien venäläisten uudet palvelijat](files/Suhteiden_Ven%C3%A4j%C3%A4_Rotkirch1.pdf). In A. Rotkirch & S. Salmenniemi (Eds.), *Suhteiden Venäjä*. Helsinki: Gaudeamus.
+
+Rotkirch, A. (2008). [Rakare, friare, friskare: Kollontajs vision för kvinnokroppen](files/rotkirch-kollontajs-kroppssyn.doc). In Y. Sørbye (Ed.), *Revolusjon, kjærlighet, diplomati: Aleksandra Kollontaj og Norden* (pp. 83–104). Oslo: Unipub.
+
+Rotkirch, A., Temkina, A., & Zdravomyslova, E. (2007). [Who helps the degraded housewife? Comments on Vladimir Putin's demographic speech](files/rotkirch-temkina-zdravomyslova-putin.pdf). *European Journal of Women's Studies*, 14(4), 349–357.
+
+Temkina, A., & Rotkirch, A. (2007). Sovetskie gendernye kontrakty i ih izmenenia v sovremennoj Rossii. In A. Temkina & E. Zdravomyslova (Eds.), *Gendernyj poriadok Rossii*. European University of St Petersburg.
+
+Rotkirch, A. (2005). ["Sauver ses fils": migrations trans-européennes comme stratégies maternelles](files/Migrations-societe_Rotkirch.pdf). *Migrations Société*, 17(99–100), 161–172.
+
+Rotkirch, A. (2004). [New woman with old feelings? Contrasting Kollontay's and Colette's writings on love](files/kollontay-and-colette.pdf). In E. Witt-Brattström (Ed.), *The new woman and the aesthetic opening* (pp. 137–154). Södertörn Academic Studies.
+
+Rotkirch, A. (2004). "Besputnaia zhizn'": seks, sem'ia i sotsial'naia mobil'nost' v muzhskih avtobiografiah. In S. Oushakine (Ed.), *Semia. Model dlia sborki* (pp. 548–575). Moscow: NLO.
+
+Rotkirch, A. (2003). ["What kind of sex can you talk about?" Acquiring sexual knowledge in three Soviet generations](files/rotkirch-making-of-a-soviet-working-woman-2003.pdf) and "Coming to stand on firm ground": the making of a Soviet working mother. In D. Bertaux, P. Thompson, & A. Rotkirch, *Living through Soviet Russia* (pp. 93–119, 146–175). Routledge.
+
+Rotkirch, A. (2003). Vem är rädd för städerskan? Globalisering och kvinnors autonoma migration. *Sociologisk forskning*, 2/2003, 11–18.
+
+Rotkirch, A. (2003). Hva er tradisjonalisme? Utvidet moderskap og ekteskap i Aleksandra Chistyakovas livshistorie. *Kvinneforskning*, 2/2003, 31–46.
+
+Rotkirch, A. (2002). Sovetskie kul'tury seksual'nosti. In E. Zdravomyslova & A. Temkina (Eds.), *V poiskakh seksual'nosti* (pp. 128–171). St Petersburg: Dmitrii Bulanin.
+
+Temkina, A., & Rotkirch, A. (2002). Sovetskie gendernye kontrakty i ih transformatsiia v sovremennoi Rossii. *Sotsiologicheskie issledovaniia*, 11, 4–15.
+
+Rotkirch, A. (2002). Shame, promiscuity and social mobility in Russian autobiographies from poor milieus. In R. Humphrey & E. Zdravomyslova (Eds.), *Biographical perspectives on Eastern European societies*. Ashgate.
+
+Rotkirch, A. (2002). "Nyt en aio lähteä minnekään…" Valittajan vahvuudet Aleksandra Tshistjakovan omaelämäkerrassa. In S. Apo, A. Koivunen, L.-M. Rossi, & K. Saarikangas (Eds.), *Itkua ikä kaikki?* (pp. 58–77). Helsinki: SKS.
+
+Rotkirch, A. (2001). Emma Goldman. In M. Jolly (Ed.), *Encyclopedia of life writing* (pp. 385–386). Fitzroy Dearborn. Also five entries in C. Nechemias & N. Noonan (Eds.), *Dictionary of the women's movement in Russia* (2001).
+
+Rotkirch, A. (2000). Loving with and without words: same-sex experiences in Russian women's autobiographies during late socialism. In M. Liljeström, A. Rosenholm, & I. Savkina (Eds.), *Models of self: Russian women's autobiographical texts* (pp. 229–245). Helsinki: Kikimora.
