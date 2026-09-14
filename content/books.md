@@ -13,9 +13,9 @@ Rotkirch, A. (2018). [Evolutionary family sociology](https://doi.org/10.1093/oxf
 
 ## International books
 
-Buchanan, A., & Rotkirch, A. (Eds.). [*Grandfathers: global perspectives*](https://www.palgrave.com/gb/book/9781137563378). London: Palgrave.
-
 Buchanan, A., & Rotkirch, A. (Eds.) (2020). [*Brothers and sisters: sibling relationships across the life course*](https://doi.org/10.1007/978-3-030-55985-4). Palgrave Macmillan.
+
+Buchanan, A., & Rotkirch, A. (Eds.) (2016). [*Grandfathers: global perspectives*](https://www.palgrave.com/gb/book/9781137563378). London: Palgrave.
 
 Buchanan, A., & Rotkirch, A. (Eds.) (2013). [*Fertility rates and population decline: no time for children?*](http://www.palgrave.com/products/title.aspx?pid=594841) Palgrave Macmillan.
 
