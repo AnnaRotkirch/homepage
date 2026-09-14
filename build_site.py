@@ -48,7 +48,7 @@ PHOTOS = {
     "talks.html":    ("rotkirch-podium.jpg",        "",                            "left xl clearh2"),
     "research.html": ("rotkirch-netresilience.jpg", "NetResilience project members", "wide"),
     "books.html":    (None,                         "",                            ""),
-    "cv.html":       ("rotkirch-research.jpg",      "",                            "left"),
+    "cv.html":       ("rotkirch-research.jpg",      "",                            "left large"),
 }
 OG_IMAGE = "rotkirch-portrait.jpg"      # link-preview image used on every page
 # Profiles listed as schema.org sameAs in every page head (read by search engines and crawlers).
