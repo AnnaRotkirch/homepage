@@ -120,5 +120,5 @@ Chair of the organising committee, European Human Behaviour and Evolution Associ
 2001. Referee for journals including *Journal of Marriage and Family*, *European Sociological
 Review*, *Acta Sociologica*, *PLOS ONE*, *Evolution and Human Behavior*, *Demographic Research*,
 *Population Studies*, *Emotion*, *Sociology* and *European Societies*. Expert for funding bodies
-including the European Research Council (Advanced Grants, 2021), Riksbankens Jubileumsfond (2021),
-the US National Science Foundation (2015) and NORFACE (2014).
+including the European Research Council (Advanced Grants), Riksbankens Jubileumsfond,
+the US National Science Foundation and NORFACE.
