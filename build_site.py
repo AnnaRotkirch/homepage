@@ -48,6 +48,30 @@ PHOTOS = {
     "cv.html":       ("rotkirch-research.jpg",      "",                            "left"),
 }
 OG_IMAGE = "rotkirch-portrait.jpg"      # link-preview image used on every page
+# Profiles listed as schema.org sameAs in every page head (read by search engines and crawlers).
+# Only addresses Anna has confirmed or that were verified to be hers.
+SAME_AS = [
+    "https://orcid.org/0000-0002-9429-1499",
+    "https://www.wikidata.org/wiki/Q11851609",
+    "https://fi.wikipedia.org/wiki/Anna_Rotkirch",
+    "https://sv.wikipedia.org/wiki/Anna_Rotkirch",
+    "https://scholar.google.com/citations?user=H9_DJN8AAAAJ",
+    "https://www.linkedin.com/in/anna-rotkirch-b6808550/",
+    "https://www.researchgate.net/profile/Anna-Rotkirch",
+    "https://www.vaestoliitto.fi/henkilosto/anna-rotkirch/",
+]
+
+def person_jsonld():
+    import json
+    d = {"@context": "https://schema.org", "@type": "Person",
+         "name": "Anna Rotkirch", "givenName": "Anna", "familyName": "Rotkirch",
+         "url": f"https://{domain()}/", "image": f"https://{domain()}/img/{OG_IMAGE}",
+         "jobTitle": "Research Professor and Research Director",
+         "worksFor": {"@type": "Organization", "name": "Population Research Institute, Väestöliitto",
+                      "url": "https://www.vaestoliitto.fi/en/research/"},
+         "email": "mailto:anna.rotkirch@vaestoliitto.fi",
+         "sameAs": SAME_AS}
+    return '<script type="application/ld+json">' + json.dumps(d, ensure_ascii=False) + "</script>"
 
 MEDIA_ORDER = ["Interviews and profiles", "Podcasts and broadcast", "Essays and columns",
                "Press mentions", "German, French and other European", "Czech", "Finnish"]
@@ -112,6 +136,7 @@ def page(slug, title, body, description, long_page=False):
 <meta name="twitter:card" content="summary">
 <link rel="icon" href="img/{OG_IMAGE}">
 <link rel="stylesheet" href="style.css">
+{person_jsonld()}
 </head>
 <body>
 <header id="top">
