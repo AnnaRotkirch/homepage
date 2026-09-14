@@ -41,7 +41,7 @@ MONTHS = ["January","February","March","April","May","June","July","August",
 PHOTOS = {
     "index.html":    ("rotkirch-portrait-tall.jpg", "",                            "left"),
     "publications.html": (None,                     "",                            ""),
-    "media.html":    ("rotkirch-ft-bibby.jpg",      "© Charlie Bibby for the FT",  "left"),
+    "media.html":    ("rotkirch-ft-bibby.jpg",      "© Charlie Bibby for the FT",  "left large"),
     "talks.html":    ("rotkirch-talks.jpg",         "",                            "left"),
     "research.html": ("rotkirch-netresilience.jpg", "NetResilience project members", "wide"),
     "books.html":    (None,                         "",                            ""),
@@ -192,6 +192,7 @@ figure.portrait img { display: block; width: 100%; height: auto; border-radius: 
 figure.portrait.round img { border-radius: 50%; }
 figure.portrait.left { float: left; margin: 0.35rem 1.7rem 1.2rem 0; }
 figure.portrait.wide { float: none; width: 100%; margin: 0.2rem 0 1.5rem; }
+figure.portrait.large { width: 320px; }
 figure.portrait figcaption { margin-top: 0.4rem; color: var(--muted);
   font-family: "IBM Plex Sans", system-ui, -apple-system, sans-serif; font-size: 0.72rem;
   letter-spacing: 0.01em; }
@@ -211,7 +212,7 @@ a.totop { position: fixed; right: 1.1rem; bottom: 1.1rem; padding: 0.4rem 0.7rem
 a.totop.show { opacity: 1; pointer-events: auto; }
 a.totop:hover { color: var(--accent); }
 @media (max-width: 560px) {
-  figure.portrait { float: none; width: min(100%, 280px); margin: 0 0 1.3rem; }
+  figure.portrait, figure.portrait.large { float: none; width: min(100%, 320px); margin: 0 0 1.3rem; }
 }
 @media (max-width: 480px) { body { font-size: 16px; } h1 { font-size: 1.6rem; } }
 """
