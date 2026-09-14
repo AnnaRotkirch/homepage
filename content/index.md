@@ -30,7 +30,7 @@ I speak regularly at conferences and for policymakers; see [Talks](talks.html).
 
 I aim to bridge social and biological approaches in the study of human behaviour, resulting in
 the study of "baby fever", or the strong longing to have a child of one's own. Articles include
-["All that she wants is another baby?" Longing for children as a fertility incentive of growing importance](https://blogs.helsinki.fi/rotkirch/files/2009/03/paper-6-rotkirch-2007.pdf)
+["All that she wants is another baby?" Longing for children as a fertility incentive of growing importance](files/paper-6-rotkirch-2007.pdf)
 and [Baby longing and men's reproductive motivation](http://hw.oeaw.ac.at/?arp=0x002a70ff).
 Stephanie Murray wrote a good post on this in
 [The End of Baby Fever: what a strange emerging trend in Finland can teach us about the baby bust](https://stephaniehmurray.substack.com/p/the-end-of-baby-fever).

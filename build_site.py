@@ -6,6 +6,8 @@ Reads (all paths resolved from this script's own location):
   ../media_fi_2022_2026.csv - Finnish and Finland-Swedish media
   ../talks_2024_2026.csv  - talks, used only for recording links on the media page
 
+  files/                  - PDFs and other documents, copied to docs/files/ (links in content/ use files/<name>)
+
 Writes:
   docs/                   - the whole site, ready for GitHub Pages ("Deploy from branch", /docs)
                             *.html, style.css, robots.txt, llms.txt, sitemap.xml, CNAME
@@ -325,6 +327,15 @@ def main():
         for f in os.listdir(dest):            # drop images removed from images/
             if f not in keep:
                 os.remove(os.path.join(dest, f))
+
+    # documents (PDFs etc. formerly hosted on blogs.helsinki.fi): files/ -> docs/files/
+    FILES = os.path.join(HERE, "files")
+    if os.path.isdir(FILES):
+        dest = os.path.join(DOCS, "files")
+        os.makedirs(dest, exist_ok=True)
+        for f in sorted(os.listdir(FILES)):
+            if not f.startswith("."):
+                shutil.copyfile(os.path.join(FILES, f), os.path.join(dest, f))
 
     open(os.path.join(DOCS, "style.css"), "w", encoding="utf-8").write(STYLE)
     # no trailing newline: GitHub Pages rewrites this file itself when the custom domain

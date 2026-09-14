@@ -90,7 +90,7 @@ Tanskanen, A. O., Danielsbacka, M., & Rotkirch, A. (2020). [Grandparental invest
 
 Rotkirch, A., & Berg, V. (2020). Ystävät. In M. Danielsbacka, H. Hämäläinen, & A. O. Tanskanen (Eds.), *Suomalainen auttaminen. Tukiverkostot suurten ikäluokkien ja heidän lastensa elämässä* (pp. 167–181). Helsinki: Gaudeamus.
 
-De Kai, Morgunov, A., Goldstein, G.-P., Nanglia, V., & Rotkirch, A. (2020). [Universal masking is urgent in the COVID-19 pandemic: SEIR and agent-based models, empirical validation, policy recommendations](https://arxiv.org/abs/2004.13553). arXiv preprint. ([Popularised version, pdf](https://blogs.helsinki.fi/rotkirch/files/2020/04/universalmasking.pdf))
+De Kai, Morgunov, A., Goldstein, G.-P., Nanglia, V., & Rotkirch, A. (2020). [Universal masking is urgent in the COVID-19 pandemic: SEIR and agent-based models, empirical validation, policy recommendations](https://arxiv.org/abs/2004.13553). arXiv preprint. ([Popularised version, pdf](files/universalmasking.pdf))
 
 ## 2019
 
@@ -146,7 +146,7 @@ Pearce, E., Launay, J., van Duijn, M., Rotkirch, A., Dávid-Barrett, T., & Dunba
 
 Söderström-Anttila, V., Miettinen, A., Rotkirch, A., Nuojua-Huttunen, S., Poranen, A. K., Sälevaara, M., & Suikkari, A. M. (2016). [Short- and long-term health consequences and current satisfaction levels for altruistic anonymous, identity-release and known oocyte donors](https://academic.oup.com/humrep/article/31/3/597/2384626). *Human Reproduction*, 31(3), 597–606.
 
-Rotkirch, A. (2016). [Sukupuolet evoluutioteoriassa](https://blogs.helsinki.fi/rotkirch/files/2009/03/Rotkirch_Sukupuolet_evoluutioteoriassa_2016_SPK.pdf). In M. Husso & R. Heiskala (Eds.), *Sukupuolikysymys*. Helsinki: Gaudeamus.
+Rotkirch, A. (2016). [Sukupuolet evoluutioteoriassa](files/Rotkirch_Sukupuolet_evoluutioteoriassa_2016_SPK.pdf). In M. Husso & R. Heiskala (Eds.), *Sukupuolikysymys*. Helsinki: Gaudeamus.
 
 Laakasuo, M., Berg, V., Jokela, M., & Rotkirch, A. (2016). Mistä on ystävyydet tehty? In M. Ylikangas (Ed.), *Mielen salat*. Helsinki: Gaudeamus.
 
@@ -158,7 +158,7 @@ Dávid-Barrett, T., Rotkirch, A., Carney, J., & Behncke Izquierdo, I. (2015). Ma
 
 Miettinen, A., Lainiala, L., & Rotkirch, A. (2015). [Does domestic gender equality predict childbearing? Evidence from the time use study among Finnish couples](http://asj.sagepub.com/content/early/2015/02/23/0001699315572028.abstract). *Acta Sociologica*.
 
-Rotkirch, A. (2015). [Jollei minulla olisi sinua. Parinvalinta ja rakkaus](https://blogs.helsinki.fi/rotkirch/files/2009/03/Jollei-minulla-olisi-sinua-Rotkirch-Parinvalinta.pdf). In I. Hetemäki, P. Raento, H. Sariola, & T. Seppä (Eds.), *Kaikkea sattuu* (pp. 83–95). Helsinki: Gaudeamus & TSV.
+Rotkirch, A. (2015). [Jollei minulla olisi sinua. Parinvalinta ja rakkaus](files/Jollei-minulla-olisi-sinua-Rotkirch-Parinvalinta.pdf). In I. Hetemäki, P. Raento, H. Sariola, & T. Seppä (Eds.), *Kaikkea sattuu* (pp. 83–95). Helsinki: Gaudeamus & TSV.
 
 Tanskanen, A. O., Danielsbacka, M., & Rotkirch, A. (2015). [More unintended injuries in half-sibling than full-sibling households in the UK](https://doi.org/10.1027/1614-0001/a000171). *Journal of Individual Differences*, 36(3), 177–182.
 
@@ -170,7 +170,7 @@ Berg, V., & Rotkirch, A. (2014). [Faster transition to the second child in late 
 
 Rotkirch, A., Lyons, M., Dávid-Barrett, T., & Jokela, M. (2014). [Gratitude for help among adult friends and siblings](http://www.epjournal.net/articles/gratitude-for-help-among-adult-friends-and-siblings/). *Evolutionary Psychology*, 12(4), 673–686.
 
-Rotkirch, A. (2014). [Vallankumouksen uusi nainen, Aleksandra Kollontai](https://blogs.helsinki.fi/rotkirch/files/2009/03/Rotkirch_Kollontai_Vallankumouksen_uusi_nainen_prefinal.pdf). In A. Rosenholm, S. Suviniemi, & M. Sorvari (Eds.), *Naisia Venäjän kulttuurihistoriassa* (pp. 187–208). Helsinki: Gaudeamus.
+Rotkirch, A. (2014). [Vallankumouksen uusi nainen, Aleksandra Kollontai](files/Rotkirch_Kollontai_Vallankumouksen_uusi_nainen_prefinal.pdf). In A. Rosenholm, S. Suviniemi, & M. Sorvari (Eds.), *Naisia Venäjän kulttuurihistoriassa* (pp. 187–208). Helsinki: Gaudeamus.
 
 Tanskanen, A. O., Jokela, M., Danielsbacka, M., & Rotkirch, A. (2014). [Grandparental effects on fertility vary by lineage in the United Kingdom](http://link.springer.com/article/10.1007/s12110-014-9200-9). *Human Nature*, 25(2), 269–284.
 
@@ -180,9 +180,9 @@ Tanskanen, A. O., & Rotkirch, A. (2014). [The impact of grandparental investment
 
 Tanskanen, A. O., Danielsbacka, M., & Rotkirch, A. (2014). [Multipartner fertility is associated with lower grandparental investment from in-laws in Finland](http://www.sciencedirect.com/science/article/pii/S1040260814000148). *Advances in Life Course Research*, 20.
 
-Rotkirch, A. (2014). [Ihmisperhe evoluutiopsykologiassa ja -ekologiassa](https://blogs.helsinki.fi/rotkirch/files/2009/03/Evoluutiopsykologia-ja-perhetutkimus-Rotkirch_oikoluku.pdf). In R. Jallinoja, H. Helve, & K. Jokinen (Eds.), *Perhetutkimuksen suuntauksia*. Helsinki: Gaudeamus.
+Rotkirch, A. (2014). [Ihmisperhe evoluutiopsykologiassa ja -ekologiassa](files/Evoluutiopsykologia-ja-perhetutkimus-Rotkirch_oikoluku.pdf). In R. Jallinoja, H. Helve, & K. Jokinen (Eds.), *Perhetutkimuksen suuntauksia*. Helsinki: Gaudeamus.
 
-Regushevskaya, E., Hemminki, E., Klemetti, R., Rotkirch, A., Karro, H., Haavio-Mannila, E., & Miettinen, A. (2014). [Postponing births: comparing reasons among women in St Petersburg, Estonia and Finland](https://blogs.helsinki.fi/rotkirch/files/2009/03/Regushevskaya+et+al._Yearbook+2013_pp.+127%13145.pdf). *Finnish Yearbook of Population Research*, 127–145.
+Regushevskaya, E., Hemminki, E., Klemetti, R., Rotkirch, A., Karro, H., Haavio-Mannila, E., & Miettinen, A. (2014). [Postponing births: comparing reasons among women in St Petersburg, Estonia and Finland](https://journal.fi/nypr/article/view/40932). *Finnish Yearbook of Population Research*, 127–145.
 
 Borozdina, E., Rotkirch, A., Temkina, A., & Zdravomyslova, E. (2014). [How to use the maternity capital: citizen distrust of Russian family policy](http://ejw.sagepub.com/content/early/2014/07/21/1350506814543838.abstract). *European Journal of Women's Studies*.
 
@@ -194,17 +194,17 @@ Pettay, J. E., Rotkirch, A., Courtiol, A., Jokela, M., & Lummaa, V. (2013). [Eff
 
 Rotkirch, A. (2013). Baby fever and longing for children. In A. Buchanan & A. Rotkirch (Eds.), *Fertility rates and population decline: no time for children?* (pp. 249–266). Palgrave Macmillan.
 
-Temkina, A., Rotkirch, A., & Haavio-Mannila, E. (2013). [Sexual therapists in Russia: pleasure and gender in a new professional field](https://blogs.helsinki.fi/rotkirch/files/2009/03/sexual-therapy-in-russia-prefinal2.pdf). In K. Hall & C. Graham (Eds.), *The cultural context of sexual pleasure and problems* (pp. 220–248). Routledge.
+Temkina, A., Rotkirch, A., & Haavio-Mannila, E. (2013). [Sexual therapists in Russia: pleasure and gender in a new professional field](files/sexual-therapy-in-russia-prefinal2.pdf). In K. Hall & C. Graham (Eds.), *The cultural context of sexual pleasure and problems* (pp. 220–248). Routledge.
 
 ## 2012
 
-Rotkirch, A., Tkach, O., & Zdravomyslova, E. (2012). [Making and managing class: employment of paid domestic workers in Russia](https://blogs.helsinki.fi/rotkirch/files/2009/03/Making-and-managing-class.pdf). In S. Salmenniemi (Ed.), *Rethinking class in Russia* (pp. 129–148). Ashgate.
+Rotkirch, A., Tkach, O., & Zdravomyslova, E. (2012). [Making and managing class: employment of paid domestic workers in Russia](files/Making-and-managing-class.pdf). In S. Salmenniemi (Ed.), *Rethinking class in Russia* (pp. 129–148). Ashgate.
 
 Courtiol, A., Pettay, J., Jokela, M., Rotkirch, A., & Lummaa, V. (2012). [Natural and sexual selection in a monogamous historical human population](https://doi.org/10.1073/pnas.1118174109). *Proceedings of the National Academy of Sciences*.
 
 Liu, J., Rotkirch, A., & Lummaa, V. (2012). [Maternal risk of breeding failure remained low throughout the demographic transitions in fertility and age at first reproduction in Finland](https://doi.org/10.1371/journal.pone.0034898). *PLOS ONE*, 7(4), e34898.
 
-Rotkirch, A., & Kesseli, K. (2012). ["Two children puts you in the zone of social misery": childbearing and risk perception among Russian women](https://blogs.helsinki.fi/rotkirch/files/2009/03/4-Rotkirch-Childbearing-and-risk-perception.pdf). In H. Carlbäck, Y. Gradskova, & Z. Kravchenko (Eds.), *And they lived happily ever after* (pp. 145–164). Central European University Press.
+Rotkirch, A., & Kesseli, K. (2012). ["Two children puts you in the zone of social misery": childbearing and risk perception among Russian women](files/4-Rotkirch-Childbearing-and-risk-perception.pdf). In H. Carlbäck, Y. Gradskova, & Z. Kravchenko (Eds.), *And they lived happily ever after* (pp. 145–164). Central European University Press.
 
 Temkina, A., & Rotkirch, A. (2012). Здоровье, удовольствие и гендер в практиках сексологов. In A. Temkina & E. Zdravomyslova (Eds.), [*Zdorove i intimnaia zhizn*](http://www.eupress.ru/books/index/item/id/119). European University of St Petersburg Press.
 
@@ -212,7 +212,7 @@ Temkina, A., & Rotkirch, A. (2012). Здоровье, удовольствие �
 
 Rotkirch, A., Basten, S., Väisänen, H., & Jokela, M. (2011). [Baby longing and men's reproductive motivation](http://hw.oeaw.ac.at/?arp=0x002a70ff). *Vienna Yearbook of Population Research*, 9, 283–306.
 
-Tanskanen, A. O., Danielsbacka, M., & Rotkirch, A. (2011). [Do grandparents favor granddaughters? Biased grandparental investment in UK](https://blogs.helsinki.fi/rotkirch/files/2009/03/do-grandparents-favor-granddaughters-EHB-tanskanen-et-al1.pdf). *Evolution and Human Behavior*, 32, 407–415.
+Tanskanen, A. O., Danielsbacka, M., & Rotkirch, A. (2011). [Do grandparents favor granddaughters? Biased grandparental investment in UK](files/do-grandparents-favor-granddaughters-EHB-tanskanen-et-al1.pdf). *Evolution and Human Behavior*, 32, 407–415.
 
 Danielsbacka, M., Tanskanen, A. O., Jokela, M., & Rotkirch, A. (2011). [Grandparental child care in Europe: evidence for preferential investment in more certain kin](http://www.epjournal.net/filestore/EP090324.pdf). *Evolutionary Psychology*, 9(1), 3–24.
 
@@ -224,9 +224,9 @@ Jokela, M., Rotkirch, A., Rickard, I. J., Pettay, J., & Lummaa, V. (2010). [Seri
 
 Rotkirch, A., & Janhunen, K. (2010). [Maternal guilt](http://www.epjournal.net/filestore/EP0890106.pdf). *Evolutionary Psychology*.
 
-Haavio-Mannila, E., & Rotkirch, A. (2010). [Sexuality and family formation](https://blogs.helsinki.fi/rotkirch/files/2010/09/family-formation-and-sexuality-HES-2010-152473_1_En_16_Chapter_OnlinePDF1.pdf). In S. Immerfall & G. Therborn (Eds.), *Handbook of European societies* (pp. 465–498). Springer.
+Haavio-Mannila, E., & Rotkirch, A. (2010). [Sexuality and family formation](files/family-formation-and-sexuality-HES-2010-152473_1_En_16_Chapter_OnlinePDF1.pdf). In S. Immerfall & G. Therborn (Eds.), *Handbook of European societies* (pp. 465–498). Springer.
 
-Rotkirch, A., & Kesseli, K. (2010). ["The first child is the fruit of love": on the Russian tradition of early first births](https://blogs.helsinki.fi/rotkirch/files/2009/03/Rotkirch_Kesseli-first-child-in-russia.pdf). In T. Huttunen & M. Kangaspuro (Eds.), *Witnessing change in contemporary Russia* (pp. 201–220). Kikimora.
+Rotkirch, A., & Kesseli, K. (2010). ["The first child is the fruit of love": on the Russian tradition of early first births](files/Rotkirch_Kesseli-first-child-in-russia.pdf). In T. Huttunen & M. Kangaspuro (Eds.), *Witnessing change in contemporary Russia* (pp. 201–220). Kikimora.
 
 ## 2009
 
@@ -236,21 +236,21 @@ Hiidenheimo, S., Ritamäki, T., Lång, F., & Rotkirch, A. (Eds.) (2009). *Me muu
 
 ## 2008
 
-Rotkirch, A. (2008). [What is "baby fever"? Contrasting evolutionary explanations of proceptive behavior](https://blogs.helsinki.fi/rotkirch/files/2009/03/What-is-Baby-Fever_Rotkirch-Evolutionary-social-science.pdf). In T. Meleghy, P. Meyer, & H.-J. Niedenzu (Eds.), *The new evolutionary social science*. Boulder: Paradigm.
+Rotkirch, A. (2008). [What is "baby fever"? Contrasting evolutionary explanations of proceptive behavior](files/What-is-Baby-Fever_Rotkirch-Evolutionary-social-science.pdf). In T. Meleghy, P. Meyer, & H.-J. Niedenzu (Eds.), *The new evolutionary social science*. Boulder: Paradigm.
 
-Rotkirch, A. (2008). [Uusien venäläisten uudet palvelijat](https://blogs.helsinki.fi/rotkirch/files/2009/03/Suhteiden_Ven%C3%A4j%C3%A4_Rotkirch1.pdf). In A. Rotkirch & S. Salmenniemi (Eds.), *Suhteiden Venäjä*. Helsinki: Gaudeamus.
+Rotkirch, A. (2008). [Uusien venäläisten uudet palvelijat](files/Suhteiden_Ven%C3%A4j%C3%A4_Rotkirch1.pdf). In A. Rotkirch & S. Salmenniemi (Eds.), *Suhteiden Venäjä*. Helsinki: Gaudeamus.
 
 Rotkirch, A., & Kesseli, K. (2008). Chislo detej i ih mesto v zhiznennom tsikle. In E. Zdravomyslova, A. Rotkirch, & A. Temkina (Eds.), *Novyj byt*. European University of St Petersburg.
 
 Rotkirch, A. (2008). Yksin kotona. In K. Janhunen & M. Oulasmaa (Eds.), *Äidin kielletyt tunteet* (pp. 72–85). Helsinki: Väestöliitto.
 
-Rotkirch, A. (2008). [Rakare, friare, friskare: Kollontajs vision för kvinnokroppen](https://blogs.helsinki.fi/rotkirch/files/2010/09/rotkirch-kollontajs-kroppssyn.doc). In Y. Sørbye (Ed.), *Revolusjon, kjærlighet, diplomati: Aleksandra Kollontaj og Norden* (pp. 83–104). Oslo: Unipub.
+Rotkirch, A. (2008). [Rakare, friare, friskare: Kollontajs vision för kvinnokroppen](files/rotkirch-kollontajs-kroppssyn.doc). In Y. Sørbye (Ed.), *Revolusjon, kjærlighet, diplomati: Aleksandra Kollontaj og Norden* (pp. 83–104). Oslo: Unipub.
 
 ## 2007
 
-Rotkirch, A. (2007). ["All that she wants is another baby?" Longing for children as a fertility incentive of growing importance](https://blogs.helsinki.fi/rotkirch/files/2009/03/paper-6-rotkirch-2007.pdf). *Journal of Evolutionary Psychology*, 5(1–4), 89–104.
+Rotkirch, A. (2007). ["All that she wants is another baby?" Longing for children as a fertility incentive of growing importance](files/paper-6-rotkirch-2007.pdf). *Journal of Evolutionary Psychology*, 5(1–4), 89–104.
 
-Rotkirch, A., Temkina, A., & Zdravomyslova, E. (2007). [Who helps the degraded housewife? Comments on Vladimir Putin's demographic speech](https://blogs.helsinki.fi/rotkirch/files/2009/03/rotkirch-temkina-zdravomyslova-putin.pdf). *European Journal of Women's Studies*, 14(4), 349–357.
+Rotkirch, A., Temkina, A., & Zdravomyslova, E. (2007). [Who helps the degraded housewife? Comments on Vladimir Putin's demographic speech](files/rotkirch-temkina-zdravomyslova-putin.pdf). *European Journal of Women's Studies*, 14(4), 349–357.
 
 Temkina, A., & Rotkirch, A. (2007). Sovetskie gendernye kontrakty i ih izmenenia v sovremennoj Rossii. In A. Temkina & E. Zdravomyslova (Eds.), *Gendernyj poriadok Rossii*. European University of St Petersburg.
 
@@ -258,19 +258,19 @@ Temkina, A., & Rotkirch, A. (2007). Sovetskie gendernye kontrakty i ih izmenenia
 
 Rotkirch, A. (2005). Miten sosiologinen tieto kohtaa evoluutioteorian? In A. Meurman-Solin & I. Pyysiäinen (Eds.), *Ihmistieteet tänään* (pp. 62–90). Helsinki: Gaudeamus.
 
-Rotkirch, A. (2005). ["Sauver ses fils": migrations trans-européennes comme stratégies maternelles](https://blogs.helsinki.fi/rotkirch/files/2009/03/Migrations-societe_Rotkirch.pdf). *Migrations Société*, 17(99–100), 161–172.
+Rotkirch, A. (2005). ["Sauver ses fils": migrations trans-européennes comme stratégies maternelles](files/Migrations-societe_Rotkirch.pdf). *Migrations Société*, 17(99–100), 161–172.
 
 Haavio-Mannila, E., Rotkirch, A., & Kontula, O. (2005). Contradictory trends in sexual life in St Petersburg, Estonia and Finland. In A. Štulhofer & T. Sandfort (Eds.), *Sexuality and gender in postcommunist Eastern Europe and Russia* (pp. 317–363). Haworth Press.
 
 Roos, J. P., & Rotkirch, A. (2005). ¿Habitus, naturaleza o educación? Hacia un paradigma de la sociología evolutiva. In J. Monreal, C. Díaz, & J. J. G. Escribano (Eds.), *Viejas sociedades, nueva sociología* (pp. 87–100). Madrid: CIS.
 
-Rotkirch, A. (2004). [New woman with old feelings? Contrasting Kollontay's and Colette's writings on love](https://blogs.helsinki.fi/rotkirch/files/2018/12/kollontay-and-colette.pdf). In E. Witt-Brattström (Ed.), *The new woman and the aesthetic opening* (pp. 137–154). Södertörn Academic Studies.
+Rotkirch, A. (2004). [New woman with old feelings? Contrasting Kollontay's and Colette's writings on love](files/kollontay-and-colette.pdf). In E. Witt-Brattström (Ed.), *The new woman and the aesthetic opening* (pp. 137–154). Södertörn Academic Studies.
 
 Rotkirch, A. (2004). "Besputnaia zhizn'": seks, sem'ia i sotsial'naia mobil'nost' v muzhskih avtobiografiah. In S. Oushakine (Ed.), *Semia. Model dlia sborki* (pp. 548–575). Moscow: NLO.
 
 Haavio-Mannila, E., & Rotkirch, A. (2004). Ydin- ja versoperheet Suomessa ja Pietarissa. In I. Arminen & R. Alapuro (Eds.), *Vertailevan tutkimuksen ulottuvuuksista*. Helsinki: WSOY.
 
-Rotkirch, A. (2003). ["What kind of sex can you talk about?" Acquiring sexual knowledge in three Soviet generations](https://blogs.helsinki.fi/rotkirch/files/2009/03/rotkirch-making-of-a-soviet-working-woman-2003.pdf) and "Coming to stand on firm ground": the making of a Soviet working mother. In D. Bertaux, P. Thompson, & A. Rotkirch, *Living through Soviet Russia* (pp. 93–119, 146–175). Routledge.
+Rotkirch, A. (2003). ["What kind of sex can you talk about?" Acquiring sexual knowledge in three Soviet generations](files/rotkirch-making-of-a-soviet-working-woman-2003.pdf) and "Coming to stand on firm ground": the making of a Soviet working mother. In D. Bertaux, P. Thompson, & A. Rotkirch, *Living through Soviet Russia* (pp. 93–119, 146–175). Routledge.
 
 Rotkirch, A. (2003). Naturligtvis? Moderskap, essentialism och evolutionsteori. *Naistutkimus*, 3/03, 33–47.
 
@@ -312,4 +312,4 @@ Rotkirch, A. (1997). "Hökkelit suuren joen rannalla": äidit ja tyttäret Venä
 
 Temkina, A., & Rotkirch, A. (1996). What does the (Russian) woman want? Women psychoanalysts talk. In A. Rotkirch & E. Haavio-Mannila (Eds.), *Women's voices in Russia today* (pp. 49–70). Dartmouth.
 
-Rotkirch, A. (1996). [The playing '80s: Russian activity games](https://blogs.helsinki.fi/rotkirch/files/2009/03/Rotkirch_Playing-80s.pdf). In D. Saunders, F. Percival, & M. Vartiainen (Eds.), *The simulation and gaming yearbook*, vol. 4. London: Kogan Page.
+Rotkirch, A. (1996). [The playing '80s: Russian activity games](files/Rotkirch_Playing-80s.pdf). In D. Saunders, F. Percival, & M. Vartiainen (Eds.), *The simulation and gaming yearbook*, vol. 4. London: Kogan Page.

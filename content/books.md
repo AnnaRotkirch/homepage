@@ -19,7 +19,7 @@ Buchanan, A., & Rotkirch, A. (Eds.) (2020). [*Brothers and sisters: sibling rela
 
 Buchanan, A., & Rotkirch, A. (Eds.) (2013). [*Fertility rates and population decline: no time for children?*](http://www.palgrave.com/products/title.aspx?pid=594841) Palgrave Macmillan.
 
-Zdravomyslova, E., Rotkirch, A., & Temkina, A. (Eds.) (2008). [*Novyj byt*](https://blogs.helsinki.fi/rotkirch/files/2009/03/novyj-byt.doc). St Petersburg: European University of St Petersburg.
+Zdravomyslova, E., Rotkirch, A., & Temkina, A. (Eds.) (2008). [*Novyj byt*](files/novyj-byt.doc). St Petersburg: European University of St Petersburg.
 
 Bertaux, D., Rotkirch, A., & Thompson, P. (Eds.) (2003). *Living through Soviet Russia*. London: Routledge (paperback 2005).
 
