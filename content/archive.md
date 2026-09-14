@@ -1,7 +1,7 @@
 # Other and older publications
 description: Publications by Anna Rotkirch from before 2000.
 
-Publications from before 2000, most recent first. The main [Publications](publications.html) page holds work from 2000 onwards, by theme.
+Publications from before 2000, most recent first. This page is not linked from the site.
 
 ## Before 2000
 

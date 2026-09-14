@@ -1,7 +1,7 @@
 # Publications
 description: Journal articles, chapters and working papers by Anna Rotkirch, grouped by theme, with links to the published versions.
 
-Articles, chapters and working papers by theme, most recent first within each theme. Books and reports have [their own page](books.html); publications from before 2000 are on the [archive page](archive.html).
+Articles, chapters and working papers by theme, most recent first within each theme. Books and reports have [their own page](books.html).
 
 ## Fertility
 

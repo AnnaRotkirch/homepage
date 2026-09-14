@@ -31,8 +31,11 @@ NAV = [("index.html", "About"), ("publications.html", "Publications"),
        ("media.html", "Media"), ("talks.html", "Talks"),
        ("research.html", "Research projects"),
        ("books.html", "Books and reports"), ("cv.html", "CV")]
-# pages built and listed in the sitemap but not in the navigation (linked from other pages)
+# pages built but not in the navigation
 EXTRA_PAGES = [("archive.html", "Other and older publications")]
+# of those, pages kept private: no link anywhere, not in the sitemap or llms.txt, and marked
+# noindex so search engines do not list them. Reachable only by typing the address.
+HIDDEN_PAGES = {"archive.html"}
 MONTHS = ["January","February","March","April","May","June","July","August",
           "September","October","November","December"]
 # One photo per page: slug -> (file in images/, credit line, shape).
@@ -123,7 +126,7 @@ def page(slug, title, body, description, long_page=False):
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{esc(title)} — {SITE_TITLE}</title>
 <meta name="description" content="{esc(description)}">
-<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+<meta name="robots" content="{'noindex, nofollow' if slug in HIDDEN_PAGES else 'index, follow, max-snippet:-1, max-image-preview:large'}">
 <link rel="canonical" href="https://{domain()}/{'' if slug == 'index.html' else slug}">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -377,7 +380,7 @@ def main():
     today = datetime.date.today().isoformat()
     urls = "".join(
         f"  <url><loc>https://{domain()}/{'' if s == 'index.html' else s}</loc>"
-        f"<lastmod>{today}</lastmod></url>\n" for s in written)
+        f"<lastmod>{today}</lastmod></url>\n" for s in written if s not in HIDDEN_PAGES)
     open(os.path.join(DOCS, "sitemap.xml"), "w", encoding="utf-8").write(
         '<?xml version="1.0" encoding="UTF-8"?>\n'
         '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + urls + "</urlset>\n")
@@ -394,7 +397,7 @@ attribution to Anna Rotkirch and a link to the page it came from.
 
 ## Pages
 """ + "".join(f"- [{t}](https://{domain()}/{'' if s == 'index.html' else s})\n"
-              for s, t in NAV + EXTRA_PAGES if s in written) +
+              for s, t in NAV + EXTRA_PAGES if s in written and s not in HIDDEN_PAGES) +
         f"""
 ## Identifiers
 - ORCID: https://orcid.org/0000-0002-9429-1499
