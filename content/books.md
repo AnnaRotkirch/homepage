@@ -33,7 +33,7 @@ Rotkirch, A. (2024). *20 ehdotusta lapsitoiveiden tukemiseksi. Selvitys syntyvyy
 
 Rotkirch, A. (2021). [*Population policy guidelines for the 2020s. Executive summary of the Finnish population policy report*](https://vnk.fi/documents/10616/78382279/vaestoselvitys_avainkohdat_VNK_2021_2_EN.pdf). Prime Minister's Office, Finland 2021:2. ([Finnish version](http://urn.fi/URN:ISBN:978-952-383-073-8))
 
-## Family Barometers (in Finnish)
+## Finnish Family Barometers
 
 Sorsa, T., Lehtonen, N., Ahola, A., & Rotkirch, A. (2025). [*Sukua, ystäviä, yhteydenpitoa. Perhebarometri 2025*](https://www.vaestoliitto.fi/verkkojulkaisut/sukua-ystavia-yhteydenpitoa/#publication-content). Väestöliitto, Katsauksia E60/2025.
 
