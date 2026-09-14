@@ -277,7 +277,9 @@ def main():
                 os.remove(os.path.join(dest, f))
 
     open(os.path.join(DOCS, "style.css"), "w", encoding="utf-8").write(STYLE)
-    open(os.path.join(DOCS, "CNAME"), "w", encoding="utf-8").write(domain() + "\n")
+    # no trailing newline: GitHub Pages rewrites this file itself when the custom domain
+    # is saved, and it writes it without one. Matching avoids a needless remote commit.
+    open(os.path.join(DOCS, "CNAME"), "w", encoding="utf-8").write(domain())
     open(os.path.join(DOCS, ".nojekyll"), "w", encoding="utf-8").write("")
     open(os.path.join(DOCS, "robots.txt"), "w", encoding="utf-8").write(
         "# Every crawler, including AI crawlers, is welcome on this site.\n"
