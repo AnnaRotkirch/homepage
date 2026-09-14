@@ -31,6 +31,8 @@ NAV = [("index.html", "About"), ("publications.html", "Publications"),
        ("media.html", "Media"), ("talks.html", "Talks"),
        ("research.html", "Research projects"),
        ("books.html", "Books and reports"), ("cv.html", "CV")]
+# pages built and listed in the sitemap but not in the navigation (linked from other pages)
+EXTRA_PAGES = [("archive.html", "Other and older publications")]
 MONTHS = ["January","February","March","April","May","June","July","August",
           "September","October","November","December"]
 # One photo per page: slug -> (file in images/, credit line, shape).
@@ -290,7 +292,7 @@ def main():
     os.makedirs(DOCS, exist_ok=True)
     md = markdown.Markdown(extensions=["extra", "sane_lists", "attr_list"])
     written = []
-    for slug, _ in NAV:
+    for slug, _ in NAV + EXTRA_PAGES:
         if slug == "media.html":
             body, title = media_html(), "Media"
             desc = "Interviews, podcasts, recorded talks and press coverage of Anna Rotkirch."
@@ -366,7 +368,7 @@ attribution to Anna Rotkirch and a link to the page it came from.
 
 ## Pages
 """ + "".join(f"- [{t}](https://{domain()}/{'' if s == 'index.html' else s})\n"
-              for s, t in NAV if s in written) +
+              for s, t in NAV + EXTRA_PAGES if s in written) +
         f"""
 ## Identifiers
 - ORCID: https://orcid.org/0000-0002-9429-1499

@@ -85,4 +85,7 @@ Väestöliitto, the Family Federation of Finland. She studies fertility decline,
 social networks, served as demographic rapporteur to the Finnish Government in 2020–21 and 2024, and
 has published over 200 research articles and 20 books.
 
-Photograph for programmes and announcements: [download (JPEG, 957 × 597 px)](img/rotkirch-talks.jpg).
+Photographs for programmes and announcements:
+
+- [Colour, outdoors (JPEG, 957 × 597 px)](img/rotkirch-talks.jpg). No credit required.
+- [Black and white portrait (JPEG, 2400 × 3600 px)](img/rotkirch-ft-bibby-print.jpg). Credit: © Charlie Bibby for the FT.
