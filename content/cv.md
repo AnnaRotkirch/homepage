@@ -49,19 +49,19 @@ Social Science Data Archive (May 2026).
 
 2025–28 — Population projections for migration scenarios, human capital development and sustainable
 integration (MigScene), SKILLS programme, Strategic Research Council, Research Council of Finland.
-€1 470 000 for PRI; PI Wolfgang Lutz, WP4 PI Rotkirch. Second period 2028–31, €1.1 M for PRI.
+€1 470 000 for the Population Research Institute; PI Wolfgang Lutz, WP4 PI Rotkirch. Second period 2028–31, €1.1 M for the Population Research Institute.
 
 2025–28 — Sociala nätverk i en åldrande befolkning (FINNÄT), Svenska litteratursällskapet,
 €600 000.
 
 2023–25 — Towards a Resilient Future of Europe (FutuRes), consortium member, EU Horizon CL2,
-€180 000 for PRI.
+€180 000 for the Population Research Institute.
 
 2021–27 — Social Networks, Fertility and Wellbeing in Ageing Populations: Building Demographic
 Resilience in Finland (NetResilience), consortium co-PI and WP1 leader, Demography programme,
-Strategic Research Council, €864 659 for PRI.
+Strategic Research Council, €864 659 for the Population Research Institute.
 
-2020–24 — The Network Dynamics of Ethnic Integration, consortium member, NordForsk, €110 100 for PRI.
+2020–24 — The Network Dynamics of Ethnic Integration, consortium member, NordForsk, €110 100 for the Population Research Institute.
 
 2016–25 — Country leader for SHARE, a European Research Infrastructure Consortium, waves 7–10.
 

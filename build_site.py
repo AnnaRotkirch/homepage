@@ -32,14 +32,14 @@ NAV = [("index.html", "About"), ("publications.html", "Publications"),
 MONTHS = ["January","February","March","April","May","June","July","August",
           "September","October","November","December"]
 # One photo per page: slug -> (file in images/, credit line, shape).
-# Shape "round" masks the image to a circle. An empty credit prints no caption.
+# Shape "wide" spans the full column under the heading (group photos); "left" floats left. An empty credit prints no caption.
 # Credits: only where Anna has named the photographer. Never infer one.
 PHOTOS = {
     "index.html":    ("rotkirch-portrait-tall.jpg", "",                            "left"),
     "publications.html": (None,                     "",                            ""),
     "media.html":    ("rotkirch-ft-bibby.jpg",      "© Charlie Bibby for the FT",  "left"),
     "talks.html":    ("rotkirch-talks.jpg",         "",                            "left"),
-    "research.html": ("rotkirch-outdoor.jpg",       "",                            "left"),
+    "research.html": ("rotkirch-netresilience.jpg", "NetResilience project members", "wide"),
     "books.html":    (None,                         "",                            ""),
     "cv.html":       ("rotkirch-research.jpg",      "",                            "left"),
 }
@@ -79,7 +79,7 @@ def figure(slug):
     cls = "portrait" + (f" {shape}" if shape else "")
     cap = f'<figcaption>{esc(credit)}</figcaption>' if credit else ""
     return (f'\n<figure class="{cls}">'
-            f'<img src="img/{f}" alt="Anna Rotkirch" loading="lazy" decoding="async">'
+            f'<img src="img/{f}" alt="{esc(credit) if shape == "wide" and credit else "Anna Rotkirch"}" loading="lazy" decoding="async">'
             f'{cap}</figure>\n')
 
 
@@ -187,6 +187,7 @@ figure.portrait { float: right; width: 232px; margin: 0.35rem 0 1.2rem 1.7rem; }
 figure.portrait img { display: block; width: 100%; height: auto; border-radius: 2px; }
 figure.portrait.round img { border-radius: 50%; }
 figure.portrait.left { float: left; margin: 0.35rem 1.7rem 1.2rem 0; }
+figure.portrait.wide { float: none; width: 100%; margin: 0.2rem 0 1.5rem; }
 figure.portrait figcaption { margin-top: 0.4rem; color: var(--muted);
   font-family: "IBM Plex Sans", system-ui, -apple-system, sans-serif; font-size: 0.72rem;
   letter-spacing: 0.01em; }
