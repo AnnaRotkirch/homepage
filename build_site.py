@@ -270,7 +270,12 @@ def add_ids_and_jump(body, slug=None):
     body = re.sub(r"<h2>(.*?)</h2>", fix, body)
     long_page = len(heads) >= JUMP_MIN or (slug in JUMP_ALWAYS and len(heads) >= 2)
     if long_page:
-        links = " ".join(f'<a href="#{i}">{t}</a>' for i, t in heads)
+        # the bar drops a heading's trailing qualifier — "Research funding (last five years)"
+        # appears as "Research funding" — so the row stays scannable; the heading keeps it
+        def label(t):
+            short = re.sub(r"\s*\([^()]*\)\s*$", "", t).strip()
+            return short or t
+        links = " ".join(f'<a href="#{i}">{label(t)}</a>' for i, t in heads)
         bar = f'<nav class="jump" aria-label="Sections">{links}</nav>'
         # the bar goes directly under the h1, spanning the full column: beside a floated
         # photo it would be squeezed into two or three lines
