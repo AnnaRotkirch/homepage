@@ -49,11 +49,7 @@ Miettinen, A., & Rotkirch, A. (2012). *Yhteistä aikaa etsimässä. Lapsiperheid
 
 Miettinen, A., & Rotkirch, A. (2008). *Milloin on lapsen aika? Lastenhankinnan toiveet ja esteet.* Väestöliitto.
 
-## Doctoral thesis
-
-Rotkirch, A. (2000). [*The Man Question: loves and lives in late 20th century Russia*](http://hdl.handle.net/10138/26431). Department of Social Policy, Research Reports 1/2000, University of Helsinki. A revised Russian version, *Мужской вопрос: любовь и секс трех поколений в автобиографиях петербуржцев*, is available from the [European University of St Petersburg Press](http://eupress.ru/books/index/item/id/95).
-
-## Other books in Finnish and Swedish
+## Other books
 
 Rotkirch, A. (2018). [*Känslornas svall. Året då det politiska blev personligt*](https://www.forlaget.com/bocker/kanslornas-svall/). Helsingfors: Förlaget M.
 
@@ -67,8 +63,10 @@ Korhonen, E. (Ed.) (2007). *Venäläiset perheet ja seksuaalisuus murroksessa*. 
 
 Roos, J. P., & Rotkirch, A. (Eds.) (1997). *Vanhemmat ja lapset*. Helsinki: Gaudeamus.
 
-## Research reports
+## Reports and thesis
 
 Aarnio, K., Kallinen, K., Kylmä, J., Solantaus, T., & Rotkirch, A. (2018). *Sateenkaariperheiden vanhemmat. Kokemuksia lasten hyvinvoinnista, perhesuhteista ja tuen saannista.* Väestöntutkimuslaitoksen julkaisusarja D63. Helsinki: Väestöliitto.
 
 Aarnio, K., Kylmä, J., Solantaus, T., & Rotkirch, A. (2017). *Sateenkaariperheiden lasten ja nuorten hyvinvointi ja kokemukset.* Väestöntutkimuslaitoksen julkaisusarja D62. Helsinki: Väestöliitto.
+
+Rotkirch, A. (2000). [*The Man Question: loves and lives in late 20th century Russia*](http://hdl.handle.net/10138/26431). Department of Social Policy, Research Reports 1/2000, University of Helsinki. A revised Russian version, *Мужской вопрос: любовь и секс трех поколений в автобиографиях петербуржцев*, is available from the [European University of St Petersburg Press](http://eupress.ru/books/index/item/id/95).
