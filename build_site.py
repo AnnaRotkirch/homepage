@@ -34,9 +34,9 @@ MONTHS = ["January","February","March","April","May","June","July","August",
 # One photo per page: slug -> (file in images/, credit line, shape).
 # Shape "round" masks the image to a circle. An empty credit prints no caption.
 PHOTOS = {
-    "index.html":    ("rotkirch-portrait-tall.jpg", "© Charlie Bibby for the Financial Times", "left"),
+    "index.html":    ("rotkirch-avatar.jpg",        "",                                        "left round"),
     "publications.html": (None,                     "",                                        ""),
-    "media.html":    ("rotkirch-avatar.jpg",        "",                                        "round"),
+    "media.html":    ("rotkirch-portrait-tall.jpg", "© Charlie Bibby for the Financial Times", "left"),
     "talks.html":    ("rotkirch-talks-round.jpg",   "",                                        "round"),
     "research.html": ("rotkirch-outdoor.jpg",       "",                                        ""),
     "books.html":    ("rotkirch-talks.jpg",         "",                                        ""),
