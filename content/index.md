@@ -34,7 +34,7 @@ Stephanie Murray wrote a good post on this in
 
 ## Contact
 
-Population Research Institute, Väestöliitto, Helsinki, Finland
-[anna.rotkirch@vaestoliitto.fi](mailto:anna.rotkirch@vaestoliitto.fi)
-[+358 40 776 3086](tel:+358407763086)
+Population Research Institute, Väestöliitto, Helsinki, Finland  
+[anna.rotkirch@vaestoliitto.fi](mailto:anna.rotkirch@vaestoliitto.fi)  
+[+358 40 776 3086](tel:+358407763086)  
 [ORCID 0000-0002-9429-1499](https://orcid.org/0000-0002-9429-1499)

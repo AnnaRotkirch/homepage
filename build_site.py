@@ -14,13 +14,14 @@ Usage:  python3 build_site.py [--domain annarotkirch.com]
 Requires: markdown (pip install markdown).
 """
 
-import csv, os, re, sys, datetime
+import csv, os, re, shutil, sys, datetime
 import markdown
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 CONTENT = os.path.join(HERE, "content")
 DOCS = os.path.join(HERE, "docs")
 DATA = os.path.dirname(HERE)          # the Homepage folder, where the CSVs live
+IMAGES = os.path.join(HERE, "images") # photo sources, copied to docs/img/ at build time
 
 SITE_TITLE = "Anna Rotkirch"
 TAGLINE = "Demographer. Research Professor, Population Research Institute, Väestöliitto"
@@ -29,6 +30,18 @@ NAV = [("index.html", "About"), ("research.html", "Research"),
        ("talks.html", "Talks"), ("media.html", "Media"), ("cv.html", "CV")]
 MONTHS = ["January","February","March","April","May","June","July","August",
           "September","October","November","December"]
+# One photo per page: slug -> (file in images/, credit line, shape).
+# Shape "round" masks the image to a circle. An empty credit prints no caption.
+PHOTOS = {
+    "index.html":    ("rotkirch-avatar.jpg",      "",                                            "round"),
+    "research.html": ("rotkirch-outdoor.jpg",     "",                                            ""),
+    "talks.html":    ("rotkirch-talks-round.jpg", "",                                            "round"),
+    "books.html":    ("rotkirch-talks.jpg",       "",                                            ""),
+    "cv.html":       ("rotkirch-research.jpg",    "© Mika Pollari",                              ""),
+    "media.html":    ("rotkirch-portrait.jpg",    "© Charlie Bibby for the Financial Times",     ""),
+}
+OG_IMAGE = "rotkirch-avatar.jpg"      # link-preview image used on every page
+
 MEDIA_ORDER = ["Interviews and profiles", "Podcasts and broadcast", "Essays and columns",
                "Press mentions", "German, French and other European", "Czech", "Finnish"]
 
@@ -50,6 +63,21 @@ def fmt_date(d):
 def esc(s):
     return (s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;"))
 
+def figure(slug):
+    """The <figure> for a page, or empty string when the page has no photo."""
+    if slug not in PHOTOS:
+        return ""
+    f, credit, shape = PHOTOS[slug]
+    if not os.path.exists(os.path.join(IMAGES, f)):
+        print(f"  (warning: {f} listed in PHOTOS but not found in images/)")
+        return ""
+    cls = "portrait round" if shape == "round" else "portrait"
+    cap = f'<figcaption>{esc(credit)}</figcaption>' if credit else ""
+    return (f'\n<figure class="{cls}">'
+            f'<img src="img/{f}" alt="Anna Rotkirch" loading="lazy" decoding="async">'
+            f'{cap}</figure>\n')
+
+
 def page(slug, title, body, description):
     def nav_item(h, t):
         cls = ' class="here"' if h == slug else ''
@@ -67,6 +95,13 @@ def page(slug, title, body, description):
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=IBM+Plex+Sans:wght@400;500&display=swap">
+<meta property="og:type" content="profile">
+<meta property="og:title" content="{esc(title)} — {SITE_TITLE}">
+<meta property="og:description" content="{esc(description)}">
+<meta property="og:url" content="https://{domain()}/{'' if slug == 'index.html' else slug}">
+<meta property="og:image" content="https://{domain()}/img/{OG_IMAGE}">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="img/{OG_IMAGE}">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -132,6 +167,16 @@ footer { border-top: 1px solid var(--rule); padding: 1.2rem 1.25rem 3rem;
   color: var(--muted); font-size: 0.88rem; }
 footer p { margin: 0 0 0.3rem; }
 .built { font-size: 0.8rem; }
+figure.portrait { float: right; width: 232px; margin: 0.15rem 0 1.1rem 1.6rem; }
+figure.portrait img { display: block; width: 100%; height: auto; border-radius: 2px; }
+figure.portrait.round img { border-radius: 50%; }
+figure.portrait figcaption { margin-top: 0.4rem; color: var(--muted);
+  font-family: "IBM Plex Sans", system-ui, -apple-system, sans-serif; font-size: 0.72rem;
+  letter-spacing: 0.01em; }
+footer { clear: both; }
+@media (max-width: 560px) {
+  figure.portrait { float: none; width: min(100%, 280px); margin: 0 0 1.3rem; }
+}
 @media (max-width: 480px) { body { font-size: 16px; } h1 { font-size: 1.6rem; } }
 """
 
@@ -203,9 +248,22 @@ def main():
             desc = desc_m.group(1).strip() if desc_m else f"{title} — Anna Rotkirch"
             text = re.sub(r"^description:.*$", "", text, flags=re.M)
             md.reset(); body = md.convert(text)
+        fig = figure(slug)
+        if fig:
+            # plain string replace: the figure HTML must not be read as a regex template
+            body = (body.replace("</h1>", "</h1>" + fig, 1)
+                    if "</h1>" in body else fig + body)
         open(os.path.join(DOCS, slug), "w", encoding="utf-8").write(
             page(slug, title, body, desc))
         written.append(slug)
+
+    # photos: copy images/ into docs/img/ so docs/ is fully reproducible
+    if os.path.isdir(IMAGES):
+        dest = os.path.join(DOCS, "img")
+        os.makedirs(dest, exist_ok=True)
+        for f in sorted(os.listdir(IMAGES)):
+            if f.lower().endswith((".jpg", ".jpeg", ".png", ".webp", ".svg")):
+                shutil.copyfile(os.path.join(IMAGES, f), os.path.join(dest, f))
 
     open(os.path.join(DOCS, "style.css"), "w", encoding="utf-8").write(STYLE)
     open(os.path.join(DOCS, "CNAME"), "w", encoding="utf-8").write(domain() + "\n")
