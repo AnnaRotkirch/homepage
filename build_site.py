@@ -226,11 +226,12 @@ footer { clear: both; }
 /* the first block after a floated photo starts level with the photo's top edge */
 figure.portrait + * { margin-top: 0; }
 /* jump links to the sections of a long page */
-nav.jump { display: flex; flex-wrap: wrap; gap: 0.2rem 0.9rem; margin: 0.4rem 0 1.6rem;
-  padding: 0.6rem 0; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule);
-  font-family: "IBM Plex Sans", system-ui, -apple-system, sans-serif; font-size: 0.88rem; }
-nav.jump a { color: var(--muted); text-decoration: none; }
-nav.jump a:hover { color: var(--accent); text-decoration: underline; }
+nav.jump { display: flex; flex-wrap: wrap; gap: 0.3rem 1.2rem; margin: 0.4rem 0 1.8rem;
+  padding: 0.7rem 0; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule);
+  font-family: "IBM Plex Sans", system-ui, -apple-system, sans-serif; font-size: 1rem;
+  font-weight: 500; }
+nav.jump a { color: var(--accent); text-decoration: none; }
+nav.jump a:hover { text-decoration: underline; text-underline-offset: 3px; }
 a.totop { position: fixed; right: 1.1rem; bottom: 1.1rem; padding: 0.4rem 0.7rem;
   font-family: "IBM Plex Sans", system-ui, -apple-system, sans-serif; font-size: 0.8rem;
   color: var(--muted); background: var(--bg); border: 1px solid var(--rule); border-radius: 3px;
