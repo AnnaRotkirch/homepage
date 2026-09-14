@@ -76,8 +76,6 @@ def person_jsonld():
          "sameAs": SAME_AS}
     return '<script type="application/ld+json">' + json.dumps(d, ensure_ascii=False) + "</script>"
 
-MEDIA_ORDER = ["Interviews and profiles", "Podcasts and broadcast", "Essays and columns",
-               "Press mentions", "German, French and other European", "Czech", "Finnish"]
 
 def domain():
     return sys.argv[sys.argv.index("--domain")+1] if "--domain" in sys.argv else "annarotkirch.com"
@@ -269,6 +267,23 @@ def add_ids_and_jump(body):
         body = body.replace("<h2 ", f'<nav class="jump" aria-label="Sections">{links}</nav>\n<h2 ', 1)
     return body, long_page
 
+MEDIA_SECTIONS = ["Interviews", "Talks and podcasts", "Press mentions"]
+# Anna's decision (2026-09-14): three sections only, no language subsections; essays and columns
+# by her are left out of the Media page (they belong on Publications).
+def media_section(category, kind):
+    """Map a CSV row to one of the three sections, or None to leave it out."""
+    k = (kind or "").lower(); c = (category or "").lower()
+    if "essay" in k or "kolumn" in k or "column" in c:
+        return None
+    if c == "podcasts and broadcast" or "podcast" in k or "video" in k:
+        return "Talks and podcasts"
+    if c == "press mentions" or any(w in k for w in
+            ("quoted", "cited", "recommended", "replik", "kommentar", "uutinen")):
+        if "interview / quoted" in k and c != "press mentions":
+            return "Interviews"
+        return "Press mentions"
+    return "Interviews"   # Interview, Profile, Haastattelu, Intervju, Henkilöjuttu, Contributor ...
+
 def media_html():
     rows = read(os.path.join(DATA, "media_2023_2026.csv"))
     fi = read(os.path.join(DATA, "media_fi_2022_2026.csv"))
@@ -276,44 +291,42 @@ def media_html():
     out = ["<h1>Media</h1>",
            '<p class="lead">Interviews, podcasts, recorded talks and press coverage.</p>']
 
-    rec = [t for t in talks if t.get("Recording link")]
-    if rec:
-        out.append("<h2>Recorded talks</h2>")
-        out.append('<div class="refs">')
-        for t in sorted(rec, key=lambda r: r["Date"], reverse=True):
-            venue = esc(t["Event / Venue"].split(",")[0])
-            title = esc(t["Title / Topic"])
-            out.append(f'<p>{venue}, {fmt_date(t["Date"])}. '
-                       f'<a href="{t["Recording link"]}">{title}</a>. {esc(t["Type"])}.</p>')
-        out.append("</div>")
+    items = {sec: [] for sec in MEDIA_SECTIONS}   # sec -> [(sort date, html)]
+    for t in talks:
+        if not t.get("Recording link"): continue
+        venue = esc(t["Event / Venue"].split(",")[0])
+        title = esc(t["Title / Topic"])
+        items["Talks and podcasts"].append((t["Date"],
+            f'<p>{venue}, {fmt_date(t["Date"])}. '
+            f'<a href="{t["Recording link"]}">{title}</a>. {esc(t["Type"])}.</p>'))
+    for r in rows:
+        if not r["title"]: continue
+        sec = media_section(r["category"], r["kind"])
+        if not sec: continue
+        head = esc(r["outlet"]) + (f", {fmt_date(r['date'])}" if r["date"] else "")
+        title = esc(r["title"])
+        title = title if title.endswith(("?", ".", "!")) else title + "."
+        link = f'<a href="{r["url"]}">{title}</a>' if r["url"] else title
+        tail = f" {esc(r['kind'])}." if r["kind"] else ""
+        lang = f" In {esc(r['language'])}." if r["language"] and r["language"] != "English" else ""
+        items[sec].append((r["date"], f"<p>{head}. {link}{tail}{lang}</p>"))
+    for r in fi:
+        t = esc(r.get("title", ""))
+        if not t: continue
+        sec = media_section(r.get("category", ""), r.get("kind", ""))
+        if not sec: continue
+        t = t if t.endswith(("?", ".", "!")) else t + "."
+        link = f'<a href="{r["url"]}">{t}</a>' if r.get("url") else t
+        head = esc(r.get("outlet", ""))
+        if r.get("date"): head += f", {fmt_date(r['date'])}"
+        kind = f" {esc(r.get('kind',''))}." if r.get("kind") else ""
+        items[sec].append((r.get("date", ""), f"<p>{head}. {link}{kind}</p>"))
 
-    for cat in MEDIA_ORDER:
-        sel = [r for r in rows if r["category"] == cat and r["title"]]
-        if not sel: continue
-        out.append(f"<h2>{esc(cat)}</h2>")
+    for sec in MEDIA_SECTIONS:
+        if not items[sec]: continue
+        out.append(f"<h2>{esc(sec)}</h2>")
         out.append('<div class="refs">')
-        for r in sorted(sel, key=lambda r: r["date"], reverse=True):
-            head = esc(r["outlet"]) + (f", {fmt_date(r['date'])}" if r["date"] else "")
-            title = esc(r["title"])
-            title = title if title.endswith(("?", ".", "!")) else title + "."
-            link = f'<a href="{r["url"]}">{title}</a>' if r["url"] else title
-            tail = f" {esc(r['kind'])}." if r["kind"] else ""
-            lang = f" In {esc(r['language'])}." if r["language"] and r["language"] != "English" else ""
-            out.append(f"<p>{head}. {link}{tail}{lang}</p>")
-        out.append("</div>")
-
-    if fi:
-        out.append("<h2>Finnish and Finland-Swedish media</h2>")
-        out.append('<div class="refs">')
-        for r in sorted(fi, key=lambda r: r.get("date", ""), reverse=True):
-            t = esc(r.get("title", ""))
-            if not t: continue
-            t = t if t.endswith(("?", ".", "!")) else t + "."
-            link = f'<a href="{r["url"]}">{t}</a>' if r.get("url") else t
-            head = esc(r.get("outlet", ""))
-            if r.get("date"): head += f", {fmt_date(r['date'])}"
-            kind = f" {esc(r.get('kind',''))}." if r.get("kind") else ""
-            out.append(f"<p>{head}. {link}{kind}</p>")
+        out += [h for _, h in sorted(items[sec], key=lambda x: x[0], reverse=True)]
         out.append("</div>")
     return "\n".join(out)
 
