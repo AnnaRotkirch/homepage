@@ -299,8 +299,7 @@ def media_html():
     rows = read(os.path.join(DATA, "media_2023_2026.csv"))
     fi = read(os.path.join(DATA, "media_fi_2022_2026.csv"))
     talks = read(os.path.join(DATA, "talks_2024_2026.csv"))
-    out = ["<h1>Media</h1>",
-           '<p class="lead">Interviews, podcasts, recorded talks and press coverage.</p>']
+    out = ["<h1>Media</h1>"]
 
     items = {sec: [] for sec in MEDIA_SECTIONS}   # sec -> [(sort date, html)]
     for t in talks:
