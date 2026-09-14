@@ -42,7 +42,7 @@ PHOTOS = {
     "index.html":    ("rotkirch-portrait-tall.jpg", "",                            "left"),
     "publications.html": (None,                     "",                            ""),
     "media.html":    ("rotkirch-ft-bibby.jpg",      "© Charlie Bibby for the FT",  "left large"),
-    "talks.html":    ("rotkirch-talks.jpg",         "",                            "left"),
+    "talks.html":    ("rotkirch-talks.jpg",         "",                            "left large"),
     "research.html": ("rotkirch-netresilience.jpg", "NetResilience project members", "wide"),
     "books.html":    (None,                         "",                            ""),
     "cv.html":       ("rotkirch-research.jpg",      "",                            "left"),
