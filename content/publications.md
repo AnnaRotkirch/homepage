@@ -21,8 +21,6 @@ Artamonova, A., Sorsa, T., Berg, V., Hägglund, A. E., & Rotkirch, A. (2024). [S
 
 Artamonova, A., Sorsa, T., Berg, V., Hägglund, A. E., & Rotkirch, A. (2024). [Counting on parents or others? The role of social support for fertility intentions in Finland](https://doi.org/10.23979/fypr.131297). *Finnish Yearbook of Population Research*, 57, 165–190.
 
-Salonen, M., Lahdenperä, M., Rotkirch, A., & Lummaa, V. (2024). [Fertility resilience varies by socioeconomic status and sex: historical trends in childlessness across 150 years](https://www.cell.com/iscience/fulltext/S2589-0042(24)01452-4). *iScience*, 27(7).
-
 Hägglund, A. E., Sorsa, T., Berg, V., & Rotkirch, A. (2024). [The first Generations and Gender Survey in Finland: data collection and data quality](https://journal.fi/fypr/article/view/142715). *Finnish Yearbook of Population Research*, 107–126.
 
 Golovina, K., Nitsche, N., Berg, V., Miettinen, A., Rotkirch, A., & Jokela, M. (2024). [Birth cohort changes in fertility ideals: evidence from repeated cross-sectional surveys in Finland](https://doi.org/10.1093/esr/jcad048). *European Sociological Review*, 40(2).
@@ -55,8 +53,6 @@ Miettinen, A., Rotkirch, A., Szalma, I., Donno, A., & Tanturri, M.-L. (2014). In
 
 Rotkirch, A. (2013). Baby fever and longing for children. In A. Buchanan & A. Rotkirch (Eds.), *Fertility rates and population decline: no time for children?* (pp. 249–266). Palgrave Macmillan.
 
-Liu, J., Rotkirch, A., & Lummaa, V. (2012). [Maternal risk of breeding failure remained low throughout the demographic transitions in fertility and age at first reproduction in Finland](https://doi.org/10.1371/journal.pone.0034898). *PLOS ONE*, 7(4), e34898.
-
 Rotkirch, A., Basten, S., Väisänen, H., & Jokela, M. (2011). [Baby longing and men's reproductive motivation](http://hw.oeaw.ac.at/?arp=0x002a70ff). *Vienna Yearbook of Population Research*, 9, 283–306.
 
 Miettinen, A., Basten, S., & Rotkirch, A. (2011). [Gender equality and fertility intentions revisited: evidence from Finland](http://www.demographic-research.org/volumes/vol24/20/). *Demographic Research*, 24(20), 469–496.
@@ -74,8 +70,6 @@ Dávid-Barrett, T., Diaz, S., Rodriguez-Sickert, C., Behncke, I., Rotkirch, A., 
 Tambellini, E., Danielsbacka, M., & Rotkirch, A. (2025). [Changes in subjective wellbeing during widowhood: gender differences and the buffering effect of the close social network](https://doi.org/10.20377/jfr-1155). *Journal of Family Research*, 37, 141–162.
 
 Mäki, M., Hägglund, A. E., Rotkirch, A., Kulathinal, S., & Myrskylä, M. (2025). [Stable marital histories predict happiness and health across educational groups](https://doi.org/10.1007/s10680-025-09733-x). *European Journal of Population*, 41(1), 12.
-
-Temkina, A., Shpakovskaya, L., Lavie-Ajayi, M., & Rotkirch, A. (2025). [Changes in ageing women's sexual subjectivity as seen from a life course perspective: security, caring, and desire](https://doi.org/10.1080/13691058.2024.2382879). *Culture, Health & Sexuality*, 27(4), 479–494.
 
 Tambellini, E., Danielsbacka, M., & Rotkirch, A. (2025). [Both partnership history and current relationship quality are associated with life satisfaction in old age](https://doi.org/10.1177/01640275241309255). *Research on Aging*, 47(3–4), 193–209.
 
@@ -112,10 +106,6 @@ Rotkirch, A. (2015). [Jollei minulla olisi sinua. Parinvalinta ja rakkaus](files
 Tanskanen, A. O., Danielsbacka, M., & Rotkirch, A. (2015). [More unintended injuries in half-sibling than full-sibling households in the UK](https://doi.org/10.1027/1614-0001/a000171). *Journal of Individual Differences*, 36(3), 177–182.
 
 Rotkirch, A., Lyons, M., Dávid-Barrett, T., & Jokela, M. (2014). [Gratitude for help among adult friends and siblings](http://www.epjournal.net/articles/gratitude-for-help-among-adult-friends-and-siblings/). *Evolutionary Psychology*, 12(4), 673–686.
-
-Jokela, M., Alvergne, A., Rotkirch, A., Rickard, I. J., & Lummaa, V. (2014). [Associations between family size and offspring education depend on aspects of parental personality](http://www.sciencedirect.com/science/article/pii/S0191886913013226). *Personality and Individual Differences*, 58, 95–100.
-
-Pettay, J. E., Rotkirch, A., Courtiol, A., Jokela, M., & Lummaa, V. (2013). [Effects of remarriage after widowhood on long-term fitness in a monogamous historical human population](https://doi.org/10.1007/s00265-013-1630-6). *Behavioral Ecology and Sociobiology*.
 
 Rotkirch, A., & Janhunen, K. (2010). [Maternal guilt](http://www.epjournal.net/filestore/EP0890106.pdf). *Evolutionary Psychology*.
 
@@ -193,6 +183,8 @@ Dávid-Barrett, T., Rotkirch, A., Carney, J., Behncke Izquierdo, I., Krems, J., 
 
 Rotkirch, A. (2026). ["Think about it all the time": reproductive cues in a late and low fertility setting](https://doi.org/10.1553/p-m272-kafe). *Vienna Yearbook of Population Research*, 24(1), 1–13.
 
+Salonen, M., Lahdenperä, M., Rotkirch, A., & Lummaa, V. (2024). [Fertility resilience varies by socioeconomic status and sex: historical trends in childlessness across 150 years](https://www.cell.com/iscience/fulltext/S2589-0042(24)01452-4). *iScience*, 27(7).
+
 Lynch, R., Lummaa, V., Panchanathan, K., Middleton, K., Rotkirch, A., Danielsbacka, M., O'Brien, D., & Loehr, J. (2019). [Integration involves a trade-off between fertility and status for World War II evacuees](https://www.nature.com/articles/s41562-019-0542-5). *Nature Human Behaviour*.
 
 Pettay, J. E., Lahdenperä, M., Rotkirch, A., & Lummaa, V. (2018). [Effects of female reproductive competition on birth rate and reproductive scheduling in a historical human population](https://doi.org/10.1093/beheco/arx168). *Behavioral Ecology*, 29(2), 333–341.
@@ -207,7 +199,13 @@ Dávid-Barrett, T., Rotkirch, A., Carney, J., & Behncke Izquierdo, I. (2015). Ma
 
 Rotkirch, A. (2014). [Ihmisperhe evoluutiopsykologiassa ja -ekologiassa](files/Evoluutiopsykologia-ja-perhetutkimus-Rotkirch_oikoluku.pdf). In R. Jallinoja, H. Helve, & K. Jokinen (Eds.), *Perhetutkimuksen suuntauksia*. Helsinki: Gaudeamus.
 
+Jokela, M., Alvergne, A., Rotkirch, A., Rickard, I. J., & Lummaa, V. (2014). [Associations between family size and offspring education depend on aspects of parental personality](http://www.sciencedirect.com/science/article/pii/S0191886913013226). *Personality and Individual Differences*, 58, 95–100.
+
+Pettay, J. E., Rotkirch, A., Courtiol, A., Jokela, M., & Lummaa, V. (2013). [Effects of remarriage after widowhood on long-term fitness in a monogamous historical human population](https://doi.org/10.1007/s00265-013-1630-6). *Behavioral Ecology and Sociobiology*.
+
 Courtiol, A., Pettay, J., Jokela, M., Rotkirch, A., & Lummaa, V. (2012). [Natural and sexual selection in a monogamous historical human population](https://doi.org/10.1073/pnas.1118174109). *Proceedings of the National Academy of Sciences*.
+
+Liu, J., Rotkirch, A., & Lummaa, V. (2012). [Maternal risk of breeding failure remained low throughout the demographic transitions in fertility and age at first reproduction in Finland](https://doi.org/10.1371/journal.pone.0034898). *PLOS ONE*, 7(4), e34898.
 
 Jokela, M., Rotkirch, A., Rickard, I. J., Pettay, J., & Lummaa, V. (2010). [Serial monogamy increases reproductive success in men but not in women](http://beheco.oxfordjournals.org/cgi/content/abstract/arq078). *Behavioral Ecology*, 21, 906–912.
 
@@ -218,6 +216,8 @@ Roos, J. P., & Rotkirch, A. (2005). ¿Habitus, naturaleza o educación? Hacia un
 Rotkirch, A. (2003). Naturligtvis? Moderskap, essentialism och evolutionsteori. *Naistutkimus*, 3/03, 33–47.
 
 ## Russia
+
+Temkina, A., Shpakovskaya, L., Lavie-Ajayi, M., & Rotkirch, A. (2025). [Changes in ageing women's sexual subjectivity as seen from a life course perspective: security, caring, and desire](https://doi.org/10.1080/13691058.2024.2382879). *Culture, Health & Sexuality*, 27(4), 479–494.
 
 Borozdina, E., Rotkirch, A., Temkina, A., & Zdravomyslova, E. (2014). [How to use the maternity capital: citizen distrust of Russian family policy](http://ejw.sagepub.com/content/early/2014/07/21/1350506814543838.abstract). *European Journal of Women's Studies*.
 
