@@ -24,7 +24,7 @@ DATA = os.path.dirname(HERE)          # the Homepage folder, where the CSVs live
 IMAGES = os.path.join(HERE, "images") # photo sources, copied to docs/img/ at build time
 
 SITE_TITLE = "Anna Rotkirch"
-TAGLINE = "Demographer. Research Professor, Population Research Institute, Väestöliitto"
+TAGLINE = "Research on families, fertility and population change"
 NAV = [("index.html", "About"), ("publications.html", "Publications"),
        ("media.html", "Media"), ("talks.html", "Talks"),
        ("research.html", "Research projects"),
