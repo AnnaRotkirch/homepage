@@ -33,16 +33,18 @@ MONTHS = ["January","February","March","April","May","June","July","August",
           "September","October","November","December"]
 # One photo per page: slug -> (file in images/, credit line, shape).
 # Shape "round" masks the image to a circle. An empty credit prints no caption.
+# Credits: none of these photographs has a confirmed photographer on record.
+# Leave the credit field EMPTY until Anna names one. Do not guess.
 PHOTOS = {
-    "index.html":    ("rotkirch-avatar.jpg",        "",                                        "left round"),
-    "publications.html": (None,                     "",                                        ""),
-    "media.html":    ("rotkirch-portrait-tall.jpg", "© Charlie Bibby for the Financial Times", "left"),
-    "talks.html":    ("rotkirch-talks-round.jpg",   "",                                        "round"),
-    "research.html": ("rotkirch-outdoor.jpg",       "",                                        ""),
-    "books.html":    ("rotkirch-talks.jpg",         "",                                        ""),
-    "cv.html":       ("rotkirch-research.jpg",      "© Mika Pollari",                          ""),
+    "index.html":    ("rotkirch-portrait-tall.jpg", "", "left"),
+    "publications.html": (None,                     "", ""),
+    "media.html":    ("rotkirch-talks.jpg",         "", "left"),
+    "talks.html":    ("rotkirch-outdoor-wide.jpg",  "", "left"),
+    "research.html": ("rotkirch-outdoor.jpg",       "", "left"),
+    "books.html":    (None,                         "", ""),
+    "cv.html":       ("rotkirch-research.jpg",      "", "left"),
 }
-OG_IMAGE = "rotkirch-avatar.jpg"      # link-preview image used on every page
+OG_IMAGE = "rotkirch-portrait.jpg"      # link-preview image used on every page
 
 MEDIA_ORDER = ["Interviews and profiles", "Podcasts and broadcast", "Essays and columns",
                "Press mentions", "German, French and other European", "Czech", "Finnish"]
@@ -266,9 +268,14 @@ def main():
     if os.path.isdir(IMAGES):
         dest = os.path.join(DOCS, "img")
         os.makedirs(dest, exist_ok=True)
+        keep = set()
         for f in sorted(os.listdir(IMAGES)):
             if f.lower().endswith((".jpg", ".jpeg", ".png", ".webp", ".svg")):
                 shutil.copyfile(os.path.join(IMAGES, f), os.path.join(dest, f))
+                keep.add(f)
+        for f in os.listdir(dest):            # drop images removed from images/
+            if f not in keep:
+                os.remove(os.path.join(dest, f))
 
     open(os.path.join(DOCS, "style.css"), "w", encoding="utf-8").write(STYLE)
     open(os.path.join(DOCS, "CNAME"), "w", encoding="utf-8").write(domain() + "\n")
