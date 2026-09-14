@@ -3,15 +3,13 @@ description: Journal articles, chapters and working papers by Anna Rotkirch, gro
 
 Articles, chapters and working papers by theme, most recent first within each theme. Books and reports have [their own page](books.html); earlier work on sexuality and on Russia is on the [archive page](archive.html).
 
-## Current favourites
+## Fertility
 
 Rotkirch, A., & Berg, V. (2026). Fertility desires in the digital era. In K. Tammisalo, M. Danielsbacka, & A. Tanskanen (Eds.), [*Family Relationships in the Digital Era*](https://www.routledge.com/Family-Relationships-in-the-Digital-Era-How-Information-and-Communication-Technology-Connects-and-Disconnects-Us/Tammisalo-Danielsbacka-Tanskanen/p/book/9781041100997). Routledge.
 
 Rotkirch, A. (2026). ["Think about it all the time": reproductive cues in a late and low fertility setting](https://doi.org/10.1553/p-m272-kafe). *Vienna Yearbook of Population Research*, 24(1), 1–13.
 
 Rotkirch, A. (2025). [The TikTok Baby Bust](https://blnreview.de/en/ausgaben/2025-04/anna-rotkirch-tiktok-baby-bust-fertility). Essay. *Berlin Review*, April 2025.
-
-## Fertility
 
 Estévez, J. L., & Rotkirch, A. (2026). [Fertility trends across migrant generations reexamined: insights from Finnish register data](https://doi.org/10.1093/esr/jcag009). *European Sociological Review*, advance article.
 
@@ -202,6 +200,8 @@ Laakasuo, M., Berg, V., Jokela, M., & Rotkirch, A. (2016). Mistä on ystävyydet
 Dávid-Barrett, T., Rotkirch, A., Carney, J., Behncke Izquierdo, I., Krems, J., Townley, D., McDaniell, E., Byrne-Smith, A., & Dunbar, R. I. M. (2015). [Women favour dyadic relationships, but men prefer clubs](https://doi.org/10.1371/journal.pone.0118329). *PLOS ONE*.
 
 ## Evolutionary approaches
+
+Rotkirch, A. (2026). ["Think about it all the time": reproductive cues in a late and low fertility setting](https://doi.org/10.1553/p-m272-kafe). *Vienna Yearbook of Population Research*, 24(1), 1–13.
 
 Lynch, R., Lummaa, V., Panchanathan, K., Middleton, K., Rotkirch, A., Danielsbacka, M., O'Brien, D., & Loehr, J. (2019). [Integration involves a trade-off between fertility and status for World War II evacuees](https://www.nature.com/articles/s41562-019-0542-5). *Nature Human Behaviour*.
 
