@@ -59,4 +59,6 @@ Aarnio, K., Kallinen, K., Kylmä, J., Solantaus, T., & Rotkirch, A. (2018). [*Sa
 
 Aarnio, K., Kylmä, J., Solantaus, T., & Rotkirch, A. (2017). [*Sateenkaariperheiden lasten ja nuorten hyvinvointi ja kokemukset.*](https://www.vaestoliitto.fi/uploads/2020/11/fa6803ca-sateenkaariperheiden-lapset-ja-nuoret.pdf) Väestöntutkimuslaitoksen julkaisusarja D62. Helsinki: Väestöliitto.
 
+Haavio-Mannila, E., Majamaa, K., Tanskanen, A., Hämäläinen, H., Karisto, A., Rotkirch, A., & Roos, J. P. (2009). [*Sukupolvien ketju. Suuret ikäluokat ja sukupolvien välinen vuorovaikutus Suomessa.*](http://hdl.handle.net/10138/14965) Helsinki: Kela, Sosiaali- ja terveysturvan tutkimuksia 107.
+
 Rotkirch, A. (2000). [*The Man Question: loves and lives in late 20th century Russia*](http://hdl.handle.net/10138/26431). Department of Social Policy, Research Reports 1/2000, University of Helsinki. A revised Russian version, *Мужской вопрос: любовь и секс трех поколений в автобиографиях петербуржцев*, is available from the [European University of St Petersburg Press](http://eupress.ru/books/index/item/id/95).

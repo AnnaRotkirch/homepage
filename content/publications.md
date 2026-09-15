@@ -115,8 +115,6 @@ Rotkirch, A., & Janhunen, K. (2010). [Maternal guilt](https://doi.org/10.1177/14
 
 Haavio-Mannila, E., & Rotkirch, A. (2010). [Sexuality and family formation](files/family-formation-and-sexuality-HES-2010-152473_1_En_16_Chapter_OnlinePDF1.pdf). In S. Immerfall & G. Therborn (Eds.), *Handbook of European societies* (pp. 465–498). Springer.
 
-Haavio-Mannila, E., Majamaa, K., Tanskanen, A., Hämäläinen, H., Karisto, A., Rotkirch, A., & Roos, J. P. (2009). *Sukupolvien ketju. Suuret ikäluokat ja sukupolvien välinen vuorovaikutus Suomessa.* Helsinki: Kela, Sosiaali- ja terveysturvan tutkimuksia 107.
-
 Hiidenheimo, S., Ritamäki, T., Lång, F., & Rotkirch, A. (Eds.) (2009). *Me muut*. Helsinki: Teos. Swedish edition: *De andra. En bok om klass.* Helsingfors: Söderströms.
 
 Rotkirch, A. (2008). Yksin kotona. In K. Janhunen & M. Oulasmaa (Eds.), *Äidin kielletyt tunteet* (pp. 72–85). Helsinki: Väestöliitto.
