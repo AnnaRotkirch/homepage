@@ -1,35 +1,25 @@
 # Books and reports
-description: Books, edited volumes, book chapters, demographic reports for the Finnish Government and Family Barometers by Anna Rotkirch.
-
-## Book chapters
-
-Rotkirch, A. (2024). [What are couples made of? Union formation in high-income societies](https://doi.org/10.11647/obp.0251.24). In O. Burger, R. Lee, & R. Sear (Eds.), *Human Evolutionary Demography*. Open Book Publishers.
-
-Hägglund, A. E., & Rotkirch, A. (2021). [The family situation across the life course](https://www.vaestoliitto.fi/en/webpublications/life-histories-in-finland/#3-5-the-family-situation-across-the-life-course-hagglund-rotkirch). In K. Komp-Leukkunen (Ed.), *Life Histories in Finland* (pp. 63–76). Väestöliitto.
-
-Rotkirch, A. (2020). [Declining birth rate and changing childbearing landscape](https://www.vaestoliitto.fi/en/webpublications/sustainable-population-development-in-finland/). In T. Sorsa (Ed.), *Sustainable Population Development in Finland: the 2020 population policy report by Väestöliitto*. Väestöliitto.
-
-Rotkirch, A. (2018). [Evolutionary family sociology](https://doi.org/10.1093/oxfordhb/9780190299323.013.3). In R. Hopcroft (Ed.), *Oxford Handbook of Evolution, Biology and Society* (pp. 1–33). Oxford University Press.
+description: Books, edited volumes, demographic reports for the Finnish Government and Family Barometers by Anna Rotkirch.
 
 ## International books
 
 Buchanan, A., & Rotkirch, A. (Eds.) (2020). [*Brothers and sisters: sibling relationships across the life course*](https://doi.org/10.1007/978-3-030-55985-4). Palgrave Macmillan.
 
-Buchanan, A., & Rotkirch, A. (Eds.) (2016). [*Grandfathers: global perspectives*](https://www.palgrave.com/gb/book/9781137563378). London: Palgrave.
+Buchanan, A., & Rotkirch, A. (Eds.) (2016). [*Grandfathers: global perspectives*](https://doi.org/10.1057/978-1-137-56338-5). London: Palgrave.
 
-Buchanan, A., & Rotkirch, A. (Eds.) (2013). [*Fertility rates and population decline: no time for children?*](http://www.palgrave.com/products/title.aspx?pid=594841) Palgrave Macmillan.
+Buchanan, A., & Rotkirch, A. (Eds.) (2013). [*Fertility rates and population decline: no time for children?*](https://doi.org/10.1057/9781137030399) Palgrave Macmillan.
 
 Zdravomyslova, E., Rotkirch, A., & Temkina, A. (Eds.) (2008). [*Novyj byt*](files/novyj-byt.doc). St Petersburg: European University of St Petersburg.
 
-Bertaux, D., Rotkirch, A., & Thompson, P. (Eds.) (2003). *Living through Soviet Russia*. London: Routledge (paperback 2005).
+Bertaux, D., Rotkirch, A., & Thompson, P. (Eds.) (2004). [*On living through Soviet Russia*](https://doi.org/10.4324/9780203410790). London: Routledge (paperback 2005).
 
-Haavio-Mannila, E., Kontula, O., & Rotkirch, A. (2002). *Sexual lifestyles in the twentieth century: a research study*. London: Palgrave.
+Haavio-Mannila, E., Kontula, O., & Rotkirch, A. (2001). [*Sexual lifestyles in the twentieth century: a research study*](https://doi.org/10.1057/9780230502697). London: Palgrave.
 
 Rotkirch, A., & Haavio-Mannila, E. (Eds.) (1996). *Women's voices in Russia today*. Aldershot: Dartmouth.
 
 ## Demographic reports for the Finnish Government
 
-Rotkirch, A. (2024). *20 ehdotusta lapsitoiveiden tukemiseksi. Selvitys syntyvyyden laskusta Suomessa.* Valtioneuvoston julkaisuja 2025:22.
+Rotkirch, A. (2024). [*20 ehdotusta lapsitoiveiden tukemiseksi. Selvitys syntyvyyden laskusta Suomessa.*](https://urn.fi/URN:ISBN:978-952-383-977-9) Valtioneuvoston julkaisuja 2025:22.
 
 Rotkirch, A. (2021). [*Population policy guidelines for the 2020s. Executive summary of the Finnish population policy report*](https://vnk.fi/documents/10616/78382279/vaestoselvitys_avainkohdat_VNK_2021_2_EN.pdf). Prime Minister's Office, Finland 2021:2. ([Finnish version](http://urn.fi/URN:ISBN:978-952-383-073-8))
 
@@ -41,13 +31,13 @@ Lehtonen, N., Sorsa, T., & Rotkirch, A. (2023). [*Kaikki tykkää perheistä: su
 
 Sorsa, T., Lehtonen, N., & Rotkirch, A. (2023). [*Kuka haluaa lapsia 2020-luvulla? Perhebarometri 2022*](https://www.vaestoliitto.fi/verkkojulkaisut/kuka-haluaa-lapsia-2020-luvulla/#publication-content). Väestöliitto.
 
-Hägglund, A. E., Sorsa, T., Danielsbacka, M., Tanskanen, A., & Rotkirch, A. (2021). *Vanhenee kuin hyvä viini. Yli 50-vuotiaiden parisuhteet Suomessa. Perhebarometri 2021*. Väestöliitto, Katsauksia E56.
+Hägglund, A. E., Sorsa, T., Danielsbacka, M., Tanskanen, A., & Rotkirch, A. (2021). [*Vanhenee kuin hyvä viini. Yli 50-vuotiaiden parisuhteet Suomessa. Perhebarometri 2021*](https://www.vaestoliitto.fi/verkkojulkaisut/vanhenee-kuin-hyva-viini/). Väestöliitto, Katsauksia E56.
 
 Rotkirch, A., Tammisalo, K., Miettinen, A., & Berg, V. (2017). [*Miksi vanhemmuutta lykätään? Perhebarometri 2017*](https://www.vaestoliitto.fi/verkkojulkaisut/miksi-vanhemmuutta-lykataan/#publication-content). Väestöliitto.
 
-Miettinen, A., & Rotkirch, A. (2012). *Yhteistä aikaa etsimässä. Lapsiperheiden ajankäyttö 2000-luvulla. Perhebarometri 2011*. Väestöliitto.
+Miettinen, A., & Rotkirch, A. (2012). [*Yhteistä aikaa etsimässä. Lapsiperheiden ajankäyttö 2000-luvulla. Perhebarometri 2011*](https://www.vaestoliitto.fi/verkkojulkaisut/yhteista-aikaa-etsimassa/). Väestöliitto.
 
-Miettinen, A., & Rotkirch, A. (2008). *Milloin on lapsen aika? Lastenhankinnan toiveet ja esteet.* Väestöliitto.
+Miettinen, A., & Rotkirch, A. (2008). [*Milloin on lapsen aika? Lastenhankinnan toiveet ja esteet.*](https://www.vaestoliitto.fi/verkkojulkaisut/milloin-on-lapsen-aika/) Väestöliitto.
 
 ## Other books
 
@@ -65,8 +55,8 @@ Roos, J. P., & Rotkirch, A. (Eds.) (1997). *Vanhemmat ja lapset*. Helsinki: Gaud
 
 ## Reports and thesis
 
-Aarnio, K., Kallinen, K., Kylmä, J., Solantaus, T., & Rotkirch, A. (2018). *Sateenkaariperheiden vanhemmat. Kokemuksia lasten hyvinvoinnista, perhesuhteista ja tuen saannista.* Väestöntutkimuslaitoksen julkaisusarja D63. Helsinki: Väestöliitto.
+Aarnio, K., Kallinen, K., Kylmä, J., Solantaus, T., & Rotkirch, A. (2018). [*Sateenkaariperheiden vanhemmat. Kokemuksia lasten hyvinvoinnista, perhesuhteista ja tuen saannista.*](https://www.vaestoliitto.fi/uploads/2020/11/f263f1ff-sateenkaariperheiden-vanhemmat.pdf) Väestöntutkimuslaitoksen julkaisusarja D63. Helsinki: Väestöliitto.
 
-Aarnio, K., Kylmä, J., Solantaus, T., & Rotkirch, A. (2017). *Sateenkaariperheiden lasten ja nuorten hyvinvointi ja kokemukset.* Väestöntutkimuslaitoksen julkaisusarja D62. Helsinki: Väestöliitto.
+Aarnio, K., Kylmä, J., Solantaus, T., & Rotkirch, A. (2017). [*Sateenkaariperheiden lasten ja nuorten hyvinvointi ja kokemukset.*](https://www.vaestoliitto.fi/uploads/2020/11/fa6803ca-sateenkaariperheiden-lapset-ja-nuoret.pdf) Väestöntutkimuslaitoksen julkaisusarja D62. Helsinki: Väestöliitto.
 
 Rotkirch, A. (2000). [*The Man Question: loves and lives in late 20th century Russia*](http://hdl.handle.net/10138/26431). Department of Social Policy, Research Reports 1/2000, University of Helsinki. A revised Russian version, *Мужской вопрос: любовь и секс трех поколений в автобиографиях петербуржцев*, is available from the [European University of St Petersburg Press](http://eupress.ru/books/index/item/id/95).

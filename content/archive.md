@@ -11,9 +11,9 @@ Rotkirch, A. (1999). Traveling maidens and men with parallel lives: journeys as 
 
 Roos, J. P., & Rotkirch, A. (1999). Skuggfält: sensocialismens dubbelliv. In D. Broady (Ed.), *Kulturens fält* (pp. 453–467). Göteborg: Daidalos.
 
-Haavio-Mannila, E., & Rotkirch, A. (1998). Generational and gender differences in sexual life in St Petersburg and urban Finland. *Yearbook of Population Research in Finland*, 34.
-
 Rotkirch, A. (1998). Toiminta, reflektiivisyys, sukupuoli. In J. P. Roos & T. Hoikkala (Eds.), *Elämänpolitiikka* (pp. 169–188). Helsinki: Gaudeamus.
+
+Haavio-Mannila, E., & Rotkirch, A. (1997). [Generational and gender differences in sexual life in St Petersburg and urban Finland](https://doi.org/10.23979/fypr.44927). *Yearbook of Population Research in Finland*, 34.
 
 Temkina, A., & Rotkirch, A. (1997). Soviet gender contracts and their shifts in contemporary Russia. *Idäntutkimus*, 2/1997, 6–24.
 
