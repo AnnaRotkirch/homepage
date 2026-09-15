@@ -205,8 +205,6 @@ Jokela, M., Rotkirch, A., Rickard, I. J., Pettay, J., & Lummaa, V. (2010). [Seri
 
 Rotkirch, A. (2005). Miten sosiologinen tieto kohtaa evoluutioteorian? In A. Meurman-Solin & I. Pyysiäinen (Eds.), *Ihmistieteet tänään* (pp. 62–90). Helsinki: Gaudeamus.
 
-Roos, J. P., & Rotkirch, A. (2005). ¿Habitus, naturaleza o educación? Hacia un paradigma de la sociología evolutiva. In J. Monreal, C. Díaz, & J. J. G. Escribano (Eds.), *Viejas sociedades, nueva sociología* (pp. 87–100). Madrid: CIS.
-
 Rotkirch, A. (2003). Naturligtvis? Moderskap, essentialism och evolutionsteori. *Naistutkimus*, 3/03, 33–47.
 
 ## Russia
