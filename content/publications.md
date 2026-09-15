@@ -155,7 +155,7 @@ Jokela, M., Soini, E., Laakasuo, M., Parikka, S., Rotkirch, A., & Hämäläinen,
 
 Jokela, M., Laakasuo, M., Parikka, S., Rotkirch, A., & Hämäläinen, H. (2024). [Psychological and social wellbeing associated with regional population change in Finland](https://doi.org/10.1002/casp.2851). *Journal of Community & Applied Social Psychology*, 34(4), e2851.
 
-Rotkirch, A., & Berg, V. (2020). Ystävät. In M. Danielsbacka, H. Hämäläinen, & A. O. Tanskanen (Eds.), *Suomalainen auttaminen. Tukiverkostot suurten ikäluokkien ja heidän lastensa elämässä* (pp. 167–181). Helsinki: Gaudeamus.
+Rotkirch, A., & Berg, V. (2020). Ystävät. In M. Danielsbacka, H. Hämäläinen, & A. O. Tanskanen (Eds.), [*Suomalainen auttaminen. Tukiverkostot suurten ikäluokkien ja heidän lastensa elämässä*](https://kauppa.gaudeamus.fi/sivu/tuote/suomalainen-auttaminen/2667716) (pp. 167–181). Helsinki: Gaudeamus.
 
 Dávid-Barrett, T., Carney, J., Rotkirch, A., & Behncke Izquierdo, I. (2019). [Social network complexity in Mozart's *Marriage of Figaro*](https://doi.org/10.1163/9789004391161_007). In *Evolution and Popular Narrative* (pp. 106–118). Brill Rodopi.
 
