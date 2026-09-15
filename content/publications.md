@@ -63,8 +63,6 @@ Rotkirch, A. (2007). ["All that she wants is another baby?" Longing for children
 
 ## Families
 
-Tambellini, E., Danielsbacka, M., Tanskanen, A. O., Hämäläinen, H., & Rotkirch, A. (2026). [Widowhood and grandchild care: a longitudinal study of European grandmothers and grandfathers](https://doi.org/10.1007/s10433-026-00908-x). *European Journal of Ageing*.
-
 Diaz, S., Dávid-Barrett, T., Rodriguez-Sickert, C., Behncke, I., Rotkirch, A., Bravo, L., & Kertész, J. (2026). [In a society of strangers, kin is still key: identified family relations in large-scale mobile phone data](https://doi.org/10.53941/jsp.2026.100005). *Journal of Social Physics*, 1(1), 5.
 
 Tambellini, E., Danielsbacka, M., & Rotkirch, A. (2025). [Changes in subjective wellbeing during widowhood: gender differences and the buffering effect of the close social network](https://doi.org/10.20377/jfr-1155). *Journal of Family Research*, 37, 141–162.
@@ -130,6 +128,8 @@ De Kai, Morgunov, A., Goldstein, G.-P., Nanglia, V., & Rotkirch, A. (2020). [Uni
 Rotkirch, A. (2020). [Declining birth rate and changing childbearing landscape](https://www.vaestoliitto.fi/en/webpublications/sustainable-population-development-in-finland/). In T. Sorsa (Ed.), *Sustainable Population Development in Finland: the 2020 population policy report by Väestöliitto*. Väestöliitto.
 
 ## Grandparents
+
+Tambellini, E., Danielsbacka, M., Tanskanen, A. O., Hämäläinen, H., & Rotkirch, A. (2026). [Widowhood and grandchild care: a longitudinal study of European grandmothers and grandfathers](https://doi.org/10.1007/s10433-026-00908-x). *European Journal of Ageing*.
 
 Rotkirch, A., Hägglund, A. E., Tanskanen, A. O., & Danielsbacka, M. (2024). [Partnership histories shape the grandparenting happiness bonus](https://doi.org/10.1007/s11577-024-00971-1). *KZfSS Kölner Zeitschrift für Soziologie und Sozialpsychologie*, 76(3), 443–466.
 
