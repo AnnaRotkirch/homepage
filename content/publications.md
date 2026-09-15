@@ -111,20 +111,6 @@ Rotkirch, A., & Janhunen, K. (2010). [Maternal guilt](https://doi.org/10.1177/14
 
 Haavio-Mannila, E., & Rotkirch, A. (2010). [Sexuality and family formation](files/family-formation-and-sexuality-HES-2010-152473_1_En_16_Chapter_OnlinePDF1.pdf). In S. Immerfall & G. Therborn (Eds.), *Handbook of European societies* (pp. 465–498). Springer.
 
-## Population policies
-
-Rotkirch, A. (2024). [*20 ehdotusta lapsitoiveiden tukemiseksi. Selvitys syntyvyyden laskusta Suomessa.*](https://urn.fi/URN:ISBN:978-952-383-977-9) Valtioneuvoston julkaisuja 2025:22.
-
-Marois, G., Rotkirch, A., & Lutz, W. (2022). [Future population ageing and productivity in Finland under different education and fertility scenarios](https://doi.org/10.23979/fypr.119666). *Finnish Yearbook of Population Research*, 56, 137–160.
-
-Ollila, H. M., Partinen, M., Koskela, J., Borghi, J., Savolainen, R., Rotkirch, A., & Laine, L. T. (2022). [Face masks to prevent transmission of respiratory infections: systematic review and meta-analysis of randomized controlled trials on face mask use](https://doi.org/10.1371/journal.pone.0271517). *PLOS ONE*, 17(12), e0271517.
-
-Rotkirch, A. (2021). [*Population policy guidelines for the 2020s. Executive summary of the Finnish population policy report*](https://vnk.fi/documents/10616/78382279/vaestoselvitys_avainkohdat_VNK_2021_2_EN.pdf). Prime Minister's Office, Finland 2021:2. ([Finnish version](http://urn.fi/URN:ISBN:978-952-383-073-8))
-
-De Kai, Morgunov, A., Goldstein, G.-P., Nanglia, V., & Rotkirch, A. (2020). [Universal masking is urgent in the COVID-19 pandemic: SEIR and agent-based models, empirical validation, policy recommendations](https://arxiv.org/abs/2004.13553). arXiv preprint. ([Popularised version, pdf](files/universalmasking.pdf))
-
-Rotkirch, A. (2020). [Declining birth rate and changing childbearing landscape](https://www.vaestoliitto.fi/en/webpublications/sustainable-population-development-in-finland/). In T. Sorsa (Ed.), *Sustainable Population Development in Finland: the 2020 population policy report by Väestöliitto*. Väestöliitto.
-
 ## Grandparents
 
 Tambellini, E., Danielsbacka, M., Tanskanen, A. O., Hämäläinen, H., & Rotkirch, A. (2026). [Widowhood and grandchild care: a longitudinal study of European grandmothers and grandfathers](https://doi.org/10.1007/s10433-026-00908-x). *European Journal of Ageing*.
@@ -206,6 +192,20 @@ Jokela, M., Rotkirch, A., Rickard, I. J., Pettay, J., & Lummaa, V. (2010). [Seri
 Rotkirch, A. (2005). Miten sosiologinen tieto kohtaa evoluutioteorian? In A. Meurman-Solin & I. Pyysiäinen (Eds.), *Ihmistieteet tänään* (pp. 62–90). Helsinki: Gaudeamus.
 
 Rotkirch, A. (2003). Naturligtvis? Moderskap, essentialism och evolutionsteori. *Naistutkimus*, 3/03, 33–47.
+
+## Population policies
+
+Rotkirch, A. (2024). [*20 ehdotusta lapsitoiveiden tukemiseksi. Selvitys syntyvyyden laskusta Suomessa.*](https://urn.fi/URN:ISBN:978-952-383-977-9) Valtioneuvoston julkaisuja 2025:22.
+
+Marois, G., Rotkirch, A., & Lutz, W. (2022). [Future population ageing and productivity in Finland under different education and fertility scenarios](https://doi.org/10.23979/fypr.119666). *Finnish Yearbook of Population Research*, 56, 137–160.
+
+Ollila, H. M., Partinen, M., Koskela, J., Borghi, J., Savolainen, R., Rotkirch, A., & Laine, L. T. (2022). [Face masks to prevent transmission of respiratory infections: systematic review and meta-analysis of randomized controlled trials on face mask use](https://doi.org/10.1371/journal.pone.0271517). *PLOS ONE*, 17(12), e0271517.
+
+Rotkirch, A. (2021). [*Population policy guidelines for the 2020s. Executive summary of the Finnish population policy report*](https://vnk.fi/documents/10616/78382279/vaestoselvitys_avainkohdat_VNK_2021_2_EN.pdf). Prime Minister's Office, Finland 2021:2. ([Finnish version](http://urn.fi/URN:ISBN:978-952-383-073-8))
+
+De Kai, Morgunov, A., Goldstein, G.-P., Nanglia, V., & Rotkirch, A. (2020). [Universal masking is urgent in the COVID-19 pandemic: SEIR and agent-based models, empirical validation, policy recommendations](https://arxiv.org/abs/2004.13553). arXiv preprint. ([Popularised version, pdf](files/universalmasking.pdf))
+
+Rotkirch, A. (2020). [Declining birth rate and changing childbearing landscape](https://www.vaestoliitto.fi/en/webpublications/sustainable-population-development-in-finland/). In T. Sorsa (Ed.), *Sustainable Population Development in Finland: the 2020 population policy report by Väestöliitto*. Väestöliitto.
 
 ## Russia
 
