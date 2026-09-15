@@ -71,8 +71,6 @@ Mäki, M., Hägglund, A. E., Rotkirch, A., Kulathinal, S., & Myrskylä, M. (2025
 
 Tambellini, E., Danielsbacka, M., & Rotkirch, A. (2025). [Both partnership history and current relationship quality are associated with life satisfaction in old age](https://doi.org/10.1177/01640275241309255). *Research on Aging*, 47(3–4), 193–209.
 
-Rotkirch, A. (2024). [What are couples made of? Union formation in high-income societies](https://doi.org/10.11647/obp.0251.24). In O. Burger, R. Lee, & R. Sear (Eds.), *Human Evolutionary Demography*. Open Book Publishers.
-
 Tambellini, E., Danielsbacka, M., & Rotkirch, A. (2023). [Do working and parenting trajectories influence retirement timing? Evidence from Spain using a sequence analysis approach and focusing on women](https://doi.org/10.1093/workar/waad018). *Work, Aging and Retirement*.
 
 Tammisalo, K., & Rotkirch, A. (2022). [Effects of information and communication technology on the quality of family relationships: a systematic review](https://doi.org/10.1177/02654075221087942). *Journal of Social and Personal Relationships*, 39(9), 2724–2765.
@@ -176,6 +174,8 @@ Dávid-Barrett, T., Rotkirch, A., Carney, J., Behncke Izquierdo, I., Krems, J., 
 ## Evolutionary approaches
 
 Rotkirch, A. (2026). ["Think about it all the time": reproductive cues in a late and low fertility setting](https://doi.org/10.1553/p-m272-kafe). *Vienna Yearbook of Population Research*, 24(1), 1–13.
+
+Rotkirch, A. (2024). [What are couples made of? Union formation in high-income societies](https://doi.org/10.11647/obp.0251.24). In O. Burger, R. Lee, & R. Sear (Eds.), *Human Evolutionary Demography*. Open Book Publishers.
 
 Salonen, M., Lahdenperä, M., Rotkirch, A., & Lummaa, V. (2024). [Fertility resilience varies by socioeconomic status and sex: historical trends in childlessness across 150 years](https://doi.org/10.1016/j.isci.2024.110227). *iScience*, 27(7).
 
