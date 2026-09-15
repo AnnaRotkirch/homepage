@@ -169,7 +169,7 @@ Dávid-Barrett, T., Behncke Izquierdo, I., Carney, J., Nowak, K., Launay, J., & 
 
 Pearce, E., Launay, J., van Duijn, M., Rotkirch, A., Dávid-Barrett, T., & Dunbar, R. I. M. (2016). [Singing together or apart: the effect of competitive and cooperative singing on social bonding within and between sub-groups of a university fraternity](https://doi.org/10.1177/0305735616636208). *Psychology of Music*, 44(6), 1255–1273.
 
-Laakasuo, M., Berg, V., Jokela, M., & Rotkirch, A. (2016). Mistä on ystävyydet tehty? In M. Ylikangas (Ed.), *Mielen salat*. Helsinki: Gaudeamus.
+Laakasuo, M., Berg, V., Jokela, M., & Rotkirch, A. (2016). Mistä on ystävyydet tehty? In M. Ylikangas (Ed.), [*Mielen salat*](https://kauppa.gaudeamus.fi/sivu/tuote/mielen-salat/2493323). Helsinki: Gaudeamus.
 
 Dávid-Barrett, T., Rotkirch, A., Carney, J., Behncke Izquierdo, I., Krems, J., Townley, D., McDaniell, E., Byrne-Smith, A., & Dunbar, R. I. M. (2015). [Women favour dyadic relationships, but men prefer clubs](https://doi.org/10.1371/journal.pone.0118329). *PLOS ONE*.
 
