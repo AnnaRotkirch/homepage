@@ -47,6 +47,8 @@ Rotkirch, A. (2014). [*Yhdessä. Perhe-elämän ihanuus ja vaikeus*](http://www.
 
 Fågel, S., Söderling, I., & Rotkirch, A. (Eds.) (2010). *Farkkumummot ja pehmovaarit. Uusia ikkunoita isovanhemmuuteen.* Helsinki: Väestöliitto.
 
+Hiidenheimo, S., Ritamäki, T., Lång, F., & Rotkirch, A. (Eds.) (2009). *Me muut*. Helsinki: Teos. Swedish edition: *De andra. En bok om klass.* Helsingfors: Söderströms.
+
 Salmenniemi, S., & Rotkirch, A. (Eds.) (2008). [*Suhteiden Venäjä*](https://kauppa.gaudeamus.fi/sivu/tuote/suhteiden-venaja/2493194). Helsinki: Gaudeamus.
 
 Korhonen, E. (Ed.) (2007). *Venäläiset perheet ja seksuaalisuus murroksessa*. Väestöliitto. (Chapters on family formation and sexuality by A. Rotkirch.)
