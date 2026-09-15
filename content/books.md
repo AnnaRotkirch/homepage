@@ -15,7 +15,7 @@ Bertaux, D., Rotkirch, A., & Thompson, P. (Eds.) (2004). [*On living through Sov
 
 Haavio-Mannila, E., Kontula, O., & Rotkirch, A. (2001). [*Sexual lifestyles in the twentieth century: a research study*](https://doi.org/10.1057/9780230502697). London: Palgrave.
 
-Rotkirch, A., & Haavio-Mannila, E. (Eds.) (1996). *Women's voices in Russia today*. Aldershot: Dartmouth.
+Rotkirch, A., & Haavio-Mannila, E. (Eds.) (1996). [*Women's voices in Russia today*](https://www.amazon.com/Womens-Voices-Russia-Today-Rotkirch/dp/1855216795). Aldershot: Dartmouth.
 
 ## Demographic reports for the Finnish Government
 

@@ -49,7 +49,7 @@ Miettinen, A., Rotkirch, A., Szalma, I., Donno, A., & Tanturri, M.-L. (2015). [I
 
 Berg, V., & Rotkirch, A. (2014). [Faster transition to the second child in late 20th century Finland: a study of birth intervals](https://doi.org/10.23979/fypr.48424). *Finnish Yearbook of Population Research*, 49, 73–86.
 
-Regushevskaya, E., Hemminki, E., Klemetti, R., Rotkirch, A., Karro, H., Haavio-Mannila, E., & Miettinen, A. (2014). [Postponing births: comparing reasons among women in St Petersburg, Estonia and Finland](https://doi.org/10.23979/fypr.40932). *Finnish Yearbook of Population Research*, 127–145.
+Regushevskaya, E., Hemminki, E., Klemetti, R., Rotkirch, A., Karro, H., Haavio-Mannila, E., & Miettinen, A. (2013). [Postponing births: comparing reasons among women in St Petersburg, Estonia and Finland](https://doi.org/10.23979/fypr.40932). *Finnish Yearbook of Population Research*, 127–145.
 
 Rotkirch, A. (2013). [Baby fever and longing for children](https://doi.org/10.1057/9781137030399_15). In A. Buchanan & A. Rotkirch (Eds.), *Fertility rates and population decline: no time for children?* (pp. 249–266). Palgrave Macmillan.
 
@@ -65,7 +65,7 @@ Rotkirch, A. (2007). ["All that she wants is another baby?" Longing for children
 
 Tambellini, E., Danielsbacka, M., Tanskanen, A. O., Hämäläinen, H., & Rotkirch, A. (2026). [Widowhood and grandchild care: a longitudinal study of European grandmothers and grandfathers](https://doi.org/10.1007/s10433-026-00908-x). *European Journal of Ageing*.
 
-Dávid-Barrett, T., Diaz, S., Rodriguez-Sickert, C., Behncke, I., Rotkirch, A., Bravo, L., & Kertész, J. (2026). [In a society of strangers, kin is still key: identified family relations in large-scale mobile phone data](https://doi.org/10.53941/jsp.2026.100005). *Journal of Social Physics*, 1(1), 5.
+Diaz, S., Dávid-Barrett, T., Rodriguez-Sickert, C., Behncke, I., Rotkirch, A., Bravo, L., & Kertész, J. (2026). [In a society of strangers, kin is still key: identified family relations in large-scale mobile phone data](https://doi.org/10.53941/jsp.2026.100005). *Journal of Social Physics*, 1(1), 5.
 
 Tambellini, E., Danielsbacka, M., & Rotkirch, A. (2025). [Changes in subjective wellbeing during widowhood: gender differences and the buffering effect of the close social network](https://doi.org/10.20377/jfr-1155). *Journal of Family Research*, 37, 141–162.
 
@@ -223,7 +223,7 @@ Rotkirch, A. (2003). Naturligtvis? Moderskap, essentialism och evolutionsteori. 
 
 Temkina, A., Shpakovskaya, L., Lavie-Ajayi, M., & Rotkirch, A. (2025). [Changes in ageing women's sexual subjectivity as seen from a life course perspective: security, caring, and desire](https://doi.org/10.1080/13691058.2024.2382879). *Culture, Health & Sexuality*, 27(4), 479–494.
 
-Borozdina, E., Rotkirch, A., Temkina, A., & Zdravomyslova, E. (2014). [How to use the maternity capital: citizen distrust of Russian family policy](https://doi.org/10.1177/1350506814543838). *European Journal of Women's Studies*.
+Borozdina, E., Rotkirch, A., Temkina, A., & Zdravomyslova, E. (2014). [Using maternity capital: citizen distrust of Russian family policy](https://doi.org/10.1177/1350506814543838). *European Journal of Women's Studies*, 23(1), 60–75.
 
 Rotkirch, A. (2014). [Vallankumouksen uusi nainen, Aleksandra Kollontai](files/Rotkirch_Kollontai_Vallankumouksen_uusi_nainen_prefinal.pdf). In A. Rosenholm, S. Suviniemi, & M. Sorvari (Eds.), *Naisia Venäjän kulttuurihistoriassa* (pp. 187–208). Helsinki: Gaudeamus.
 
@@ -264,10 +264,6 @@ Rotkirch, A. (2003). Hva er tradisjonalisme? Utvidet moderskap og ekteskap i Ale
 Haavio-Mannila, E., Kontula, O., & Rotkirch, A. (2003). [Sexuelle Lebensstile in drei Generationen](https://doi.org/10.1055/s-2003-40684). *Zeitschrift für Sexualforschung*, 16(2), 143–159.
 
 Rotkirch, A. (2002). Sovetskie kul'tury seksual'nosti. In E. Zdravomyslova & A. Temkina (Eds.), *V poiskakh seksual'nosti* (pp. 128–171). St Petersburg: Dmitrii Bulanin.
-
-Temkina, A., & Rotkirch, A. (2002). Sovetskie gendernye kontrakty i ih transformatsiia v sovremennoi Rossii. *Sotsiologicheskie issledovaniia*, 11, 4–15.
-
-Rotkirch, A. (2002). Shame, promiscuity and social mobility in Russian autobiographies from poor milieus. In R. Humphrey & E. Zdravomyslova (Eds.), *Biographical perspectives on Eastern European societies*. Ashgate.
 
 Rotkirch, A. (2002). "Nyt en aio lähteä minnekään…" Valittajan vahvuudet Aleksandra Tshistjakovan omaelämäkerrassa. In S. Apo, A. Koivunen, L.-M. Rossi, & K. Saarikangas (Eds.), *Itkua ikä kaikki?* (pp. 58–77). Helsinki: SKS.
 
