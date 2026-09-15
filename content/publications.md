@@ -115,12 +115,6 @@ Rotkirch, A., & Janhunen, K. (2010). [Maternal guilt](https://doi.org/10.1177/14
 
 Haavio-Mannila, E., & Rotkirch, A. (2010). [Sexuality and family formation](files/family-formation-and-sexuality-HES-2010-152473_1_En_16_Chapter_OnlinePDF1.pdf). In S. Immerfall & G. Therborn (Eds.), *Handbook of European societies* (pp. 465–498). Springer.
 
-Rotkirch, A. (2008). Yksin kotona. In K. Janhunen & M. Oulasmaa (Eds.), *Äidin kielletyt tunteet* (pp. 72–85). Helsinki: Väestöliitto.
-
-Haavio-Mannila, E., & Rotkirch, A. (2004). Ydin- ja versoperheet Suomessa ja Pietarissa. In I. Arminen & R. Alapuro (Eds.), *Vertailevan tutkimuksen ulottuvuuksista*. Helsinki: WSOY.
-
-Rotkirch, A. (2000). Pirstoutunut vanhemmuus. In J. P. Roos & T. Hoikkala (Eds.), *2000-luvun elämä* (pp. 187–200). Helsinki: Gaudeamus.
-
 ## Population policies
 
 Rotkirch, A. (2024). [*20 ehdotusta lapsitoiveiden tukemiseksi. Selvitys syntyvyyden laskusta Suomessa.*](https://urn.fi/URN:ISBN:978-952-383-977-9) Valtioneuvoston julkaisuja 2025:22.
