@@ -1,7 +1,13 @@
 # Columns
-description: Columns and opinion pieces by Anna Rotkirch in Swedish and Finnish, 2009–2015.
+description: Selection of columns and essays by Anna Rotkirch in English, Swedish and Finnish.
 
-Columns and opinion pieces I wrote in Swedish and Finnish in 2009–2015, first collected on my earlier blog.
+Selection of columns and essays through the years.
+
+## In English
+
+<div class="refs">
+<p><a href="https://blnreview.de/en/ausgaben/2025-04/anna-rotkirch-tiktok-baby-bust-fertility">The TikTok Baby Bust</a> <span class="meta nowrap">Essay, <em>Berlin Review</em>, April 2025</span></p>
+</div>
 
 ## In Swedish
 
