@@ -2,6 +2,8 @@
 
 Reads (all paths resolved from this script's own location):
   content/*.md            - page text in Markdown, one file per page
+  content/columns/*.md    - one column each (header lines title/date/lang/source, then the text);
+                            listed on columns.html and built as column-<file name>.html
   ../media_2023_2026.csv  - international media (the media page is generated, not hand-written)
   ../media_fi_2022_2026.csv - Finnish and Finland-Swedish media
   ../talks_2024_2026.csv  - talks, used only for recording links on the media page
@@ -30,7 +32,7 @@ TAGLINE = "Research on families, fertility and population change"
 NAV = [("index.html", "About"), ("publications.html", "Publications"),
        ("media.html", "Media"), ("talks.html", "Talks"),
        ("research.html", "Research projects"),
-       ("books.html", "Books and reports"), ("cv.html", "CV")]
+       ("books.html", "Books and reports"), ("columns.html", "Columns"), ("cv.html", "CV")]
 # pages built but not in the navigation
 EXTRA_PAGES = [("archive.html", "Other and older publications")]
 # of those, pages kept private: no link anywhere, not in the sitemap or llms.txt, and marked
@@ -48,6 +50,7 @@ PHOTOS = {
     "talks.html":    ("rotkirch-podium.jpg",        "",                            "wide"),
     "research.html": ("rotkirch-netresilience.jpg", "NetResilience project members", "wide"),
     "books.html":    (None,                         "",                            ""),
+    "columns.html":  (None,                         "",                            ""),
     "cv.html":       ("rotkirch-research.jpg",      "",                            "left large"),
 }
 OG_IMAGE = "rotkirch-portrait.jpg"      # link-preview image used on every page
@@ -112,9 +115,9 @@ def figure(slug):
             f'{cap}</figure>\n')
 
 
-def page(slug, title, body, description, long_page=False):
+def page(slug, title, body, description, long_page=False, here=None):
     def nav_item(h, t):
-        cls = ' class="here"' if h == slug else ''
+        cls = ' class="here"' if h == (here or slug) else ''
         return f'      <a href="{h}"{cls}>{esc(t)}</a>'
     nav = "\n".join(nav_item(h, t) for h, t in NAV)
     return f"""<!DOCTYPE html>
@@ -189,7 +192,7 @@ header { border-bottom: 1px solid var(--rule); padding: 2.2rem 0 0.9rem; margin-
 .sitename { font-size: 2.1rem; font-weight: 600; margin: 0; letter-spacing: -0.015em; line-height: 1.15; }
 .sitename a { color: var(--ink); text-decoration: none; }
 .tagline { margin: 0.35rem 0 1.35rem; color: var(--muted); font-size: 1.08rem; }
-header nav { display: flex; flex-wrap: wrap; gap: 0.3rem 1.35rem;
+header nav { display: flex; flex-wrap: wrap; gap: 0.3rem 1.1rem;
   font-family: "IBM Plex Sans", system-ui, -apple-system, sans-serif; font-size: 1rem;
   font-weight: 500; }
 header nav a { color: var(--ink); text-decoration: none; padding-bottom: 0.4rem;
@@ -209,6 +212,7 @@ ul { padding-left: 1.15rem; }
 .lead { font-size: 1.1rem; margin-bottom: 1.2rem; }
 .refs p { margin-bottom: 0.9rem; }
 .meta { color: var(--muted); font-size: 0.93rem; }
+.nowrap { white-space: nowrap; }
 hr { border: 0; border-top: 1px solid var(--rule); margin: 2.4rem 0; }
 footer { border-top: 1px solid var(--rule); padding: 1.2rem 1.25rem 3rem;
   color: var(--muted); font-size: 0.88rem; }
@@ -250,7 +254,7 @@ a.totop:hover { color: var(--accent); }
 """
 
 JUMP_MIN = 3   # pages with at least this many h2 sections get a jump bar
-JUMP_ALWAYS = {"research.html"}   # pages that get the bar regardless of section count
+JUMP_ALWAYS = {"research.html", "columns.html"}   # pages that get the bar regardless of section count
 
 def slugify(t):
     t = re.sub(r"<[^>]+>", "", t)
@@ -282,6 +286,47 @@ def add_ids_and_jump(body, slug=None):
         body = (body.replace("</h1>", "</h1>\n" + bar, 1) if "</h1>" in body
                 else bar + "\n" + body)
     return body, long_page
+
+# ---------------------------------------------------------------------------
+# Columns (Swedish and Finnish, 2009-2015), copied from the Columns archive of the old blog
+# on 2026-09-17. Each content/columns/*.md starts with header lines, then a blank line, then text.
+COLUMNS = os.path.join(CONTENT, "columns")
+COLUMN_LANGS = {"sv": "Swedish", "fi": "Finnish"}
+
+def read_columns():
+    """All columns as dicts (title, date, lang, source, text, slug), newest first."""
+    out = []
+    if not os.path.isdir(COLUMNS):
+        return out
+    for f in sorted(os.listdir(COLUMNS)):
+        if not f.endswith(".md"): continue
+        head, _, text = open(os.path.join(COLUMNS, f), encoding="utf-8").read().partition("\n\n")
+        d = dict(line.split(": ", 1) for line in head.splitlines() if ": " in line)
+        if d.get("lang") not in COLUMN_LANGS:
+            raise SystemExit(f"{f}: lang must be one of {sorted(COLUMN_LANGS)}")
+        d.update(text=text.strip(), slug="column-" + f[:-3] + ".html")
+        out.append(d)
+    return sorted(out, key=lambda c: c["date"], reverse=True)
+
+def columns_list(body, cols):
+    """Replace each <!-- columns: xx --> marker in the Columns page with the list for language xx."""
+    def lst(m):
+        items = [c for c in cols if c["lang"] == m.group(1)]
+        return ('<div class="refs">\n' + "\n".join(
+            f'<p><a href="{c["slug"]}" hreflang="{c["lang"]}">{esc(c["title"])}</a> '
+            f'<span class="meta nowrap">{fmt_date(c["date"])}</span></p>' for c in items) + "\n</div>")
+    return re.sub(r"<!--\s*columns:\s*(\w+)\s*-->", lst, body)
+
+def column_page(c, md):
+    md.reset()
+    text = md.convert(c["text"])
+    plain = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", text)).strip()
+    desc = plain[:155].rsplit(" ", 1)[0] + " …" if len(plain) > 155 else plain
+    body = (f'<p class="meta"><a href="columns.html">Columns</a> · {COLUMN_LANGS[c["lang"]]}</p>\n'
+            f'<article lang="{c["lang"]}">\n<h1>{esc(c["title"])}</h1>\n'
+            f'<p class="meta">Anna Rotkirch · posted {fmt_date(c["date"])}</p>\n{text}\n</article>\n'
+            f'<p class="meta"><a href="columns.html">All columns</a></p>')
+    return page(c["slug"], c["title"], body, desc, here="columns.html")
 
 MEDIA_SECTIONS = ["Interviews", "Talks and podcasts", "Press mentions"]
 # Anna's decision (2026-09-14): three sections only, no language subsections; essays and columns
@@ -374,6 +419,8 @@ def main():
             desc = desc_m.group(1).strip() if desc_m else f"{title} — Anna Rotkirch"
             text = re.sub(r"^description:.*$", "", text, flags=re.M)
             md.reset(); body = md.convert(text)
+            if slug == "columns.html":
+                body = columns_list(body, read_columns())
         body, long_page = add_ids_and_jump(body, slug)
         fig = figure(slug)
         if fig:
@@ -385,6 +432,15 @@ def main():
         open(os.path.join(DOCS, slug), "w", encoding="utf-8").write(
             page(slug, title, body, desc, long_page))
         written.append(slug)
+
+    # one page per column; drop pages of columns removed from content/columns/
+    cols = read_columns()
+    for c in cols:
+        open(os.path.join(DOCS, c["slug"]), "w", encoding="utf-8").write(column_page(c, md))
+        written.append(c["slug"])
+    for f in os.listdir(DOCS):
+        if f.startswith("column-") and f.endswith(".html") and f not in written:
+            os.remove(os.path.join(DOCS, f))
 
     # photos: copy images/ into docs/img/ so docs/ is fully reproducible
     if os.path.isdir(IMAGES):
@@ -464,6 +520,8 @@ def preview():
                 continue
             text = re.sub(r"^description:.*$", "", open(src, encoding="utf-8").read(), flags=re.M)
             md.reset(); body = md.convert(text)
+            if slug == "columns.html":
+                body = columns_list(body, read_columns())
         anchor = slug.replace(".html", "")
         body = body.replace("<h1>", f'<h1 id="{anchor}">', 1)
         parts.append(body)

@@ -15,6 +15,7 @@ attribution to Anna Rotkirch and a link to the page it came from.
 - [Talks](https://annarotkirch.com/talks.html)
 - [Research projects](https://annarotkirch.com/research.html)
 - [Books and reports](https://annarotkirch.com/books.html)
+- [Columns](https://annarotkirch.com/columns.html)
 - [CV](https://annarotkirch.com/cv.html)
 
 ## Identifiers

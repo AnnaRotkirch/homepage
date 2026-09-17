@@ -1,0 +1,28 @@
+title: Det första vapnet
+date: 2009-03-23
+lang: sv
+source: https://blogs.helsinki.fi/rotkirch/2009/03/23/33/
+
+År 1950, när **Elizabeth Marshall Thomas** var nitton år, beslöt sig hennes föräldrar för att flytta ut på södra Afrikas savanner (dagens Namibien) och bli bekanta med de så kallade bushmännen. Följden är en rad legendariska antropologiska studier och filmer av samtliga familjemedlemmar. I en fantastiskt känslig och välskriven bok återvänder Thomas till grundfrågan: hur levde dessa mänskor, som själva kallar sig för ”det första folket”?  
+Genetisk forskning visar att just dessa stammar faktiskt verkar ha bott i Afrika så länge man kan tänka sig, åtminstone 150 000 år. Utan onödigt vilda spekulationer reflekterar *The First People*över vilka seder som ingår i det så kallade ”gamla sättet” att leva på, den livsstil människoarten först anpassade sig till.  Den första vattenbehållaren? Ett tomt strutsägg. Det är lätt, hållbart, enkelt att hitta och att slänga bort ifall det går sönder. Människorna föredrog dem ofta också efter att de fick metallflaskor. Men strutsskal efterlämnar förstås inga säkra arkeologiska bevis.Dito gäller för det Thomas anser vara det första vapnet: en lång sticka med spetsig ände. En dylik grävkäpp är lätt, enkel att tillverka, och mångsidig. Den används för att hitta mat djupt i jorden (bättre än en spade, som söndrar rötterna eller lökarna). Den stöder då du vandrar hem med tiotals kilo rötter eller nötter på ryggen och den går att hänga jaktbyte på. Den är också ett försvar mot anfallande djur.En spetsig stav är förstås inte det mest effektiva vapnet, och Ju/wa-folket som Thomas studerade använde giftpilar för att jaga villebråd. Men käpparna torde ha varit i bruk långt före giftet eller pilarna uppfanns. Andra stora apor använder käppar för att finna föda; en insikt som i tiden revolutionerade synen på deras kultur och verktyg.Jag tilltalas av tanken på det första vapnet som ett praktiskt, mångsidigt verktyg använt av kvinnor och män, barn och vuxna. Det utmanar den stereotypa bilden av urinvånare som attackerar med spjutet i högsta hugg. (På motsvarande sätt är världens äldsta yrke ju ingalunda är prostitution utan jagandet, samlandet och lite senare jordbrukarens yrke, som i sin tur möjliggör stora egendomar och handel med bland annat sexuella tjänster.)
+
+Thomas är involverad i en längre akademisk diskussion om hur våldsamma bushmännen egentligen var. Hon hävdar att de var ytterst medvetna om att våldsamma utbrott hotade deras små, starkt sammanhållna grupper. Ju/wa fruktar ensamheten mest av allt och sitter helst ”armbåge mot armbåge, vristerna över varandras vrister”.
+
+Våld kunde vara nödvändigt men det var inget att skryta med. Om någon blev så svartsjuk eller vansinnig att den tog eller hotade andras liv, dödades den. Men mera vardagliga aggressioner förbigicks med pinsam tystnad. Thomas jämför med västerlänningars sätt att (inte) reagera då någon pruttar högt i sällskap. Man utgår från att utövaren skäms och inte vill upprepa dådet.  
+Ursprungsbefolkningar dör överlag sällan av mänskligt våld. För män var det mycket vanligare att dö av olyckor och i jakt än i stridigheter sinsemellan. Detta ändras, även för Ju/wa-folket, genast då de ”civiliseras”.  
+Thomas jämför vidare Ju/wa-folkets med en annan afrikansk stam som hon studerade på 1970-talet. I detta jordbrukarsamhälle fanns mängder av spjut och knivar och de mest krigiska männen beundrades och belönades. En hövding undrar ifall Thomas någonsin mördat en människa. Då hon svarar nekande utbrister han nedlåtande: ”Du är alltså en kvinna!” Att hon håller med honom minskar inte hans ohöljda förakt.
+
+\* \* \*  
+Efter skolmassakern i Kauhajoki menar de flesta experter, psykologer, gallupresultat och politiker anser att det brister i vår finländska samhörighet. Detta presenteras som både orsak och botemedel till vissa unga mäns aggressivitet. ”Det behövs en nationell satsning på gemenskap”, sade senast finansminister och samlingspartiets ordförande **Jyrki Katainen**. Samtidigt betonas förebyggande hälsovård och utbyte mellan myndigheter.
+
+Vi vet ändå inget om hur pass sjuka gärningsmännen från Jokela och Kauhajoki var; vi vet att två tredjedelar av skolmassakrerna runtom i världen utförts av personer som inte är sinnessjuka. Inget tyder heller på att de finska massmördarna var särdeles ensamma. Kauhajokimördaren besökte familjen under veckoslutet och avrättade en nära manlig vän.  
+Varför skulle de nu föreslagna åtgärderna – två poliser förhör om vapentillstånd, ettårigt medlemskap i skytteklubb krävs före tillstånd – hindra någon som i åratal medvetet planerar att ta livet av sina skolkamrater?
+
+Till råga på allt rapporterade ”gemenskapen” om hans beteende, utan att myndigheterna fråntog vapnet.  
+Vilken gemenskap, förresten? Liksom forskaren **Mika Aaltola** påpekat, har de som utför skolmassakrer en stark internationell nätbaserad identitet. De kan, i likhet med muslimska självmordsbombare, räkna med uppskattning och glorifiering efter döden.
+
+Javisst, liksom *The First People* visar har det funnits samfund där man jämt är tillsammans, ingen lever ensam, alla gifter sig och alla får mat och vård. Men då ingår en helhjärtad satsning på ofarliga vapen (grävkäppar) och starkt kontrollerade vapen (giftpilar). Då ingår också konsekvent, anti-aggressiv uppfostran.  
+Med detta recept kanske Katainens nationella satsning faktiskt kunde leda till savannalik sammanhållning i dagens Finland, vem vet? Men även då, i den gemensammaste av alla gemenskaper, finns de som hotar andra. Personer vars första vapen aldrig borde vara farligare än en spetsig käpp.
+
+Anna Rotkirch  
+Publicerad i Ny Tid nån gång 2008
