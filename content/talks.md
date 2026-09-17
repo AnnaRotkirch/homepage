@@ -6,7 +6,7 @@ Invitations: [anna.rotkirch@vaestoliitto.fi](mailto:anna.rotkirch@vaestoliitto.f
 
 ## Upcoming
 
-Keynote, Future of Family Dynamics, University of Southern Denmark, 11 March 2027.
+Keynote, Future of Family Dynamics, University of Southern Denmark, Odense, 11 March 2027.
 
 ## Keynotes and talks
 
