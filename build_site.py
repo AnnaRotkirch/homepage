@@ -329,6 +329,11 @@ def column_page(c, md):
     return page(c["slug"], c["title"], body, desc, here="columns.html")
 
 MEDIA_SECTIONS = ["Interviews", "Talks and podcasts", "Press mentions"]
+# Anna's decision (2026-09-17): within each section, International first, then Finnish.
+# Finnish = every row of media_fi_2022_2026.csv (incl. Svenska Yle and Hufvudstadsbladet) and
+# Finnish-language rows of media_2023_2026.csv; everything else (incl. Dagens Nyheter) is
+# International. Talks recordings are Finnish only if held in Finland. The section bar (h2) is unchanged.
+MEDIA_GROUPS = ["International", "Finnish"]
 # Anna's decision (2026-09-14): three sections only, no language subsections; essays and columns
 # by her are left out of the Media page (they belong on Publications).
 def media_section(category, kind):
@@ -351,14 +356,15 @@ def media_html():
     talks = read(os.path.join(DATA, "talks_2024_2026.csv"))
     out = ["<h1>Media</h1>"]
 
-    items = {sec: [] for sec in MEDIA_SECTIONS}   # sec -> [(sort date, html)]
+    items = {sec: [] for sec in MEDIA_SECTIONS}   # sec -> [(sort date, html, group)]
     for t in talks:
         if not t.get("Recording link"): continue
         venue = esc(t["Event / Venue"].split(",")[0])
         title = esc(t["Title / Topic"])
+        grp = "Finnish" if "finland" in t.get("City / Country", "").lower() else "International"
         items["Talks and podcasts"].append((t["Date"],
             f'<p>{venue}, {fmt_date(t["Date"])}. '
-            f'<a href="{t["Recording link"]}">{title}</a>. {esc(t["Type"])}.</p>'))
+            f'<a href="{t["Recording link"]}">{title}</a>. {esc(t["Type"])}.</p>', grp))
     for r in rows:
         if not r["title"]: continue
         sec = media_section(r["category"], r["kind"])
@@ -369,7 +375,8 @@ def media_html():
         link = f'<a href="{r["url"]}">{title}</a>' if r["url"] else title
         tail = f" {esc(r['kind'])}." if r["kind"] else ""
         lang = f" In {esc(r['language'])}." if r["language"] and r["language"] != "English" else ""
-        items[sec].append((r["date"], f"<p>{head}. {link}{tail}{lang}</p>"))
+        grp = "Finnish" if r["language"] == "Finnish" else "International"
+        items[sec].append((r["date"], f"<p>{head}. {link}{tail}{lang}</p>", grp))
     for r in fi:
         t = esc(r.get("title", ""))
         if not t: continue
@@ -380,24 +387,28 @@ def media_html():
         head = esc(r.get("outlet", ""))
         if r.get("date"): head += f", {fmt_date(r['date'])}"
         kind = f" {esc(r.get('kind',''))}." if r.get("kind") else ""
-        items[sec].append((r.get("date", ""), f"<p>{head}. {link}{kind}</p>"))
+        items[sec].append((r.get("date", ""), f"<p>{head}. {link}{kind}</p>", "Finnish"))
 
     # the same item can sit in both CSVs (e.g. a Yle interview): keep the first by URL
     seen = set()
     for sec in MEDIA_SECTIONS:
         kept = []
-        for d, h in sorted(items[sec], key=lambda x: x[0], reverse=True):
+        for d, h, g in sorted(items[sec], key=lambda x: x[0], reverse=True):
             m = re.search(r'href="([^"]+)"', h)
             key = m.group(1).rstrip("/") if m else h
             if key in seen: continue
-            seen.add(key); kept.append((d, h))
+            seen.add(key); kept.append((d, h, g))
         items[sec] = kept
     for sec in MEDIA_SECTIONS:
         if not items[sec]: continue
         out.append(f"<h2>{esc(sec)}</h2>")
-        out.append('<div class="refs">')
-        out += [h for _, h in sorted(items[sec], key=lambda x: x[0], reverse=True)]
-        out.append("</div>")
+        for grp in MEDIA_GROUPS:
+            hs = [h for _, h, g in sorted(items[sec], key=lambda x: x[0], reverse=True) if g == grp]
+            if not hs: continue
+            out.append(f"<h3>{grp}</h3>")
+            out.append('<div class="refs">')
+            out += hs
+            out.append("</div>")
     return "\n".join(out)
 
 def main():
