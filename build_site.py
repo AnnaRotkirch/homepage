@@ -334,6 +334,9 @@ MEDIA_SECTIONS = ["Interviews", "Talks and podcasts", "Press mentions"]
 # Finnish-language rows of media_2023_2026.csv; everything else (incl. Dagens Nyheter) is
 # International. Talks recordings are Finnish only if held in Finland. The section bar (h2) is unchanged.
 MEDIA_GROUPS = ["International", "Finnish"]
+# Anna's decision (2026-09-17): academic keynotes and seminars are listed on Talks only,
+# not on Media. Public panels and debates with recordings stay on Media.
+ACADEMIC_TALK_TYPES = {"keynote", "invited seminar", "seminar"}
 # Anna's decision (2026-09-14): three sections only, no language subsections; essays and columns
 # by her are left out of the Media page (they belong on Publications).
 def media_section(category, kind):
@@ -359,6 +362,7 @@ def media_html():
     items = {sec: [] for sec in MEDIA_SECTIONS}   # sec -> [(sort date, html, group)]
     for t in talks:
         if not t.get("Recording link"): continue
+        if t.get("Type", "").strip().lower() in ACADEMIC_TALK_TYPES: continue
         venue = esc(t["Event / Venue"].split(",")[0])
         title = esc(t["Title / Topic"])
         grp = "Finnish" if "finland" in t.get("City / Country", "").lower() else "International"
