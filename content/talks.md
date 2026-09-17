@@ -4,6 +4,10 @@ description: Keynotes, invited lectures and public talks by Anna Rotkirch, with 
 I give lectures and policy briefings on fertility decline, family relations and population policy.
 Invitations: [anna.rotkirch@vaestoliitto.fi](mailto:anna.rotkirch@vaestoliitto.fi).
 
+## Upcoming
+
+Keynote, Future of Family Dynamics, University of Southern Denmark, 11 March 2027.
+
 ## Keynotes and talks
 
 Did smartphones accelerate fertility decline? Plenary keynote, EHBEA 2026 Annual Conference,
