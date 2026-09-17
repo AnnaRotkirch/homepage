@@ -328,7 +328,7 @@ def column_page(c, md):
             f'<p class="meta"><a href="columns.html">All columns</a></p>')
     return page(c["slug"], c["title"], body, desc, here="columns.html")
 
-MEDIA_SECTIONS = ["Interviews", "Talks and podcasts", "Press mentions"]
+MEDIA_SECTIONS = ["Interviews", "Podcasts and videos", "Press mentions"]
 # Anna's decision (2026-09-17): within each section, International first, then Finnish.
 # Finnish = every row of media_fi_2022_2026.csv (incl. Svenska Yle and Hufvudstadsbladet) and
 # Finnish-language rows of media_2023_2026.csv; everything else (incl. Dagens Nyheter) is
@@ -345,7 +345,7 @@ def media_section(category, kind):
     if "essay" in k or "kolumn" in k or "column" in c:
         return None
     if c == "podcasts and broadcast" or "podcast" in k or "video" in k:
-        return "Talks and podcasts"
+        return "Podcasts and videos"
     if c == "press mentions" or any(w in k for w in
             ("quoted", "cited", "recommended", "replik", "kommentar", "uutinen")):
         if "interview / quoted" in k and c != "press mentions":
@@ -366,7 +366,7 @@ def media_html():
         venue = esc(t["Event / Venue"].split(",")[0])
         title = esc(t["Title / Topic"])
         grp = "Finnish" if "finland" in t.get("City / Country", "").lower() else "International"
-        items["Talks and podcasts"].append((t["Date"],
+        items["Podcasts and videos"].append((t["Date"],
             f'<p>{venue}, {fmt_date(t["Date"])}. '
             f'<a href="{t["Recording link"]}">{title}</a>. {esc(t["Type"])}.</p>', grp))
     for r in rows:
@@ -422,7 +422,7 @@ def main():
     for slug, _ in NAV + EXTRA_PAGES:
         if slug == "media.html":
             body, title = media_html(), "Media"
-            desc = "Interviews, podcasts, recorded talks and press coverage of Anna Rotkirch."
+            desc = "Interviews, podcasts, videos and press coverage of Anna Rotkirch."
         else:
             src = os.path.join(CONTENT, slug.replace(".html", ".md"))
             if not os.path.exists(src):
