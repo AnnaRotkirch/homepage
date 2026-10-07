@@ -193,6 +193,8 @@ Rotkirch, A. (2005). Miten sosiologinen tieto kohtaa evoluutioteorian? In A. Meu
 
 Rotkirch, A. (2003). Naturligtvis? Moderskap, essentialism och evolutionsteori. *Naistutkimus*, 3/03, 33–47.
 
+Roos, J. P., Rotkirch, A., & Haavio-Mannila, E. (2003). Do rich men have most sex? Gender, capital and sexual activity in four countries. In A.-K. Kollind & A. Peterson (Eds.), *Thoughts on family, gender, generation and class* (Research Report No. 133). Department of Sociology, Göteborg University.
+
 ## Population policies
 
 Rotkirch, A. (2024). [*20 ehdotusta lapsitoiveiden tukemiseksi. Selvitys syntyvyyden laskusta Suomessa.*](https://urn.fi/URN:ISBN:978-952-383-977-9) Valtioneuvoston julkaisuja 2025:22.
@@ -201,7 +203,7 @@ Marois, G., Rotkirch, A., & Lutz, W. (2022). [Future population ageing and produ
 
 Ollila, H. M., Partinen, M., Koskela, J., Borghi, J., Savolainen, R., Rotkirch, A., & Laine, L. T. (2022). [Face masks to prevent transmission of respiratory infections: systematic review and meta-analysis of randomized controlled trials on face mask use](https://doi.org/10.1371/journal.pone.0271517). *PLOS ONE*, 17(12), e0271517.
 
-Rotkirch, A. (2021). [*Population policy guidelines for the 2020s. Executive summary of the Finnish population policy report*](https://vnk.fi/documents/10616/78382279/vaestoselvitys_avainkohdat_VNK_2021_2_EN.pdf). Prime Minister's Office, Finland 2021:2. ([Finnish version](http://urn.fi/URN:ISBN:978-952-383-073-8))
+Rotkirch, A. (2021). [*Population policy guidelines for the 2020s. Executive summary of the Finnish population policy report*](https://vnk.fi/documents/10616/78382279/vaestoselvitys_avainkohdat_VNK_2021_2_EN.pdf). Prime Minister's Office, Finland 2021:2. Finnish version: [*Syntyvyyden toipuminen ja pitenevä elinikä. Linjauksia 2020-luvun väestöpolitiikalle*](https://urn.fi/URN:ISBN:978-952-383-073-8). Valtioneuvoston kanslian julkaisuja 2021:2.
 
 De Kai, Morgunov, A., Goldstein, G.-P., Nanglia, V., & Rotkirch, A. (2020). [Universal masking is urgent in the COVID-19 pandemic: SEIR and agent-based models, empirical validation, policy recommendations](https://arxiv.org/abs/2004.13553). arXiv preprint. ([Popularised version, pdf](files/universalmasking.pdf))
 

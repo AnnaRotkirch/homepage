@@ -21,7 +21,7 @@ Rotkirch, A., & Haavio-Mannila, E. (Eds.) (1996). [*Women's voices in Russia tod
 
 Rotkirch, A. (2024). [*20 ehdotusta lapsitoiveiden tukemiseksi. Selvitys syntyvyyden laskusta Suomessa.*](https://urn.fi/URN:ISBN:978-952-383-977-9) Valtioneuvoston julkaisuja 2025:22.
 
-Rotkirch, A. (2021). [*Population policy guidelines for the 2020s. Executive summary of the Finnish population policy report*](https://vnk.fi/documents/10616/78382279/vaestoselvitys_avainkohdat_VNK_2021_2_EN.pdf). Prime Minister's Office, Finland 2021:2. ([Finnish version](http://urn.fi/URN:ISBN:978-952-383-073-8))
+Rotkirch, A. (2021). [*Population policy guidelines for the 2020s. Executive summary of the Finnish population policy report*](https://vnk.fi/documents/10616/78382279/vaestoselvitys_avainkohdat_VNK_2021_2_EN.pdf). Prime Minister's Office, Finland 2021:2. Finnish version: [*Syntyvyyden toipuminen ja pitenevä elinikä. Linjauksia 2020-luvun väestöpolitiikalle*](https://urn.fi/URN:ISBN:978-952-383-073-8). Valtioneuvoston kanslian julkaisuja 2021:2.
 
 ## Finnish Family Barometers
 
@@ -50,6 +50,8 @@ Fågel, S., Söderling, I., & Rotkirch, A. (Eds.) (2010). *Farkkumummot ja pehmo
 Hiidenheimo, S., Ritamäki, T., Lång, F., & Rotkirch, A. (Eds.) (2009). *Me muut*. Helsinki: Teos. Swedish edition: *De andra. En bok om klass.* Helsingfors: Söderströms.
 
 Salmenniemi, S., & Rotkirch, A. (Eds.) (2008). [*Suhteiden Venäjä*](https://kauppa.gaudeamus.fi/sivu/tuote/suhteiden-venaja/2493194). Helsinki: Gaudeamus.
+
+Söderling, T., & Rotkirch, A. (Eds.) (2008). *Moomintroll and the End of the World. Tove Jansson's first Moomin comic strip with essays on her life and work.* Helsingfors: Tigertext.
 
 Korhonen, E. (Ed.) (2007). *Venäläiset perheet ja seksuaalisuus murroksessa*. Väestöliitto. (Chapters on family formation and sexuality by A. Rotkirch.)
 
