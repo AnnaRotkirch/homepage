@@ -6,6 +6,8 @@ Invitations: [anna.rotkirch@vaestoliitto.fi](mailto:anna.rotkirch@vaestoliitto.f
 
 ## Upcoming
 
+Panel with Francesco Billari, Agnieszka Chłoń-Domińczak and Jennifer Dowd, "Demographic Ageing and What Lies Ahead of Us", 50 Years of the Vienna Institute of Demography symposium, Austrian Academy of Sciences, Vienna, 30 November 2026 (also livestreamed). [Event page](https://www.oeaw.ac.at/vid/50-years-of-vid)
+
 Keynote, Future of Family Dynamics, University of Southern Denmark, Odense, 11 March 2027.
 
 ## Keynotes and talks
