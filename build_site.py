@@ -405,8 +405,11 @@ def media_html():
     for o in FEATURED_OUTLETS:   # every name in the strip must match a row in the data
         if not any(x.startswith(o) for x in outlets):
             raise SystemExit(f"FEATURED_OUTLETS: no row in media_2023_2026.csv for {o!r}")
-    hl = sorted([r for r in rows if r.get("highlight", "").strip().lower() == "yes" and r["title"]],
-                key=lambda r: r["date"], reverse=True)
+    # highlight = "pin" puts an item first (Anna 2026-10-09: the FT 2024 interview, the most read);
+    # highlight = "yes" items follow, newest first
+    hl = [r for r in rows if r.get("highlight", "").strip().lower() in ("yes", "pin") and r["title"]]
+    hl = sorted(hl, key=lambda r: r["date"], reverse=True)
+    hl = sorted(hl, key=lambda r: r["highlight"].strip().lower() != "pin")
     if hl:
         out.append("<h2>Highlights</h2>")
         out.append('<p class="featured">Featured in ' + " · ".join(esc(o) for o in FEATURED_OUTLETS) + "</p>")
