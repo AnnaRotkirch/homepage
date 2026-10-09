@@ -26,10 +26,10 @@ for the Petteri Orpo government in 2024.
 
 I speak regularly at conferences and for policymakers; see [Talks](talks.html).
 
-## Baby fever
+## Reproductive cues
 
 I aim to bridge social and biological approaches in the study of human behaviour, resulting in
-the study of "baby fever", or the strong longing to have a child of one's own. Articles include
+the study of reproductive cues including "baby fever", or the strong longing to have a child of one's own. Articles include
 ["All that she wants is another baby?" Longing for children as a fertility incentive of growing importance](files/paper-6-rotkirch-2007.pdf)
 and [Baby longing and men's reproductive motivation](http://hw.oeaw.ac.at/?arp=0x002a70ff).
 Stephanie Murray wrote a good post on this in
