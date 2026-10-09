@@ -143,7 +143,7 @@ Rotkirch, A., & Berg, V. (2020). Ystävät. In M. Danielsbacka, H. Hämäläinen
 
 Dávid-Barrett, T., Carney, J., Rotkirch, A., & Behncke Izquierdo, I. (2019). [Social network complexity in Mozart's *Marriage of Figaro*](https://doi.org/10.1163/9789004391161_007). In *Evolution and Popular Narrative* (pp. 106–118). Brill Rodopi.
 
-Lehtonen, N., van der Plas, R., van Duijn, M., & Rotkirch, A. (2019). [Fraternity ties in later life](http://www.theffs.nl). Research report.
+Lehtonen, N., van der Plas, R., van Duijn, M., & Rotkirch, A. (2019). Fraternity ties in later life. Research report.
 
 Dávid-Barrett, T., Rotkirch, A., Ghosh, A., Bhattacharya, K., Monsivais, D., Behncke, I., Kertész, J., & Kaski, K. (2017). [Peer relations with mobile phone data: best friends and family formation](https://arxiv.org/abs/1708.07759). arXiv preprint.
 
@@ -169,7 +169,7 @@ Lynch, R., Lummaa, V., Panchanathan, K., Middleton, K., Rotkirch, A., Danielsbac
 
 Pettay, J. E., Lahdenperä, M., Rotkirch, A., & Lummaa, V. (2018). [Effects of female reproductive competition on birth rate and reproductive scheduling in a historical human population](https://doi.org/10.1093/beheco/arx168). *Behavioral Ecology*, 29(2), 333–341.
 
-Rotkirch, A. (2018). [Evolutionary family sociology](https://doi.org/10.1093/oxfordhb/9780190299323.013.3). In R. Hopcroft (Ed.), *Oxford Handbook of Evolution, Biology and Society* (pp. 1–33). Oxford University Press.
+Rotkirch, A. (2018). [Evolutionary family sociology](https://doi.org/10.1093/oxfordhb/9780190299323.013.39). In R. Hopcroft (Ed.), *Oxford Handbook of Evolution, Biology and Society* (pp. 1–33). Oxford University Press.
 
 Pettay, J. E., Lahdenperä, M., Rotkirch, A., & Lummaa, V. (2016). [Costly reproductive competition between co-resident females in humans](https://doi.org/10.1093/beheco/arw088). *Behavioral Ecology and Sociobiology*.
 
@@ -203,7 +203,7 @@ Marois, G., Rotkirch, A., & Lutz, W. (2022). [Future population ageing and produ
 
 Ollila, H. M., Partinen, M., Koskela, J., Borghi, J., Savolainen, R., Rotkirch, A., & Laine, L. T. (2022). [Face masks to prevent transmission of respiratory infections: systematic review and meta-analysis of randomized controlled trials on face mask use](https://doi.org/10.1371/journal.pone.0271517). *PLOS ONE*, 17(12), e0271517.
 
-Rotkirch, A. (2021). [*Population policy guidelines for the 2020s. Executive summary of the Finnish population policy report*](https://vnk.fi/documents/10616/78382279/vaestoselvitys_avainkohdat_VNK_2021_2_EN.pdf). Prime Minister's Office, Finland 2021:2. Finnish version: [*Syntyvyyden toipuminen ja pitenevä elinikä. Linjauksia 2020-luvun väestöpolitiikalle*](https://urn.fi/URN:ISBN:978-952-383-073-8). Valtioneuvoston kanslian julkaisuja 2021:2.
+Rotkirch, A. (2021). [*Population policy guidelines for the 2020s. Executive summary of the Finnish population policy report*](https://julkaisut.valtioneuvosto.fi/server/api/core/bitstreams/7af081e1-7870-4549-9507-e2ac6b04ba48/content). Prime Minister's Office, Finland 2021:2. Finnish version: [*Syntyvyyden toipuminen ja pitenevä elinikä. Linjauksia 2020-luvun väestöpolitiikalle*](https://urn.fi/URN:ISBN:978-952-383-073-8). Valtioneuvoston kanslian julkaisuja 2021:2.
 
 De Kai, Morgunov, A., Goldstein, G.-P., Nanglia, V., & Rotkirch, A. (2020). [Universal masking is urgent in the COVID-19 pandemic: SEIR and agent-based models, empirical validation, policy recommendations](https://arxiv.org/abs/2004.13553). arXiv preprint. ([Popularised version, pdf](files/universalmasking.pdf))
 
@@ -221,7 +221,7 @@ Temkina, A., Rotkirch, A., & Haavio-Mannila, E. (2013). [Sexual therapists in Ru
 
 Rotkirch, A., & Kesseli, K. (2012). ["Two children puts you in the zone of social misery": childbearing and risk perception among Russian women](files/4-Rotkirch-Childbearing-and-risk-perception.pdf). In H. Carlbäck, Y. Gradskova, & Z. Kravchenko (Eds.), *And they lived happily ever after* (pp. 145–164). Central European University Press.
 
-Temkina, A., & Rotkirch, A. (2012). Здоровье, удовольствие и гендер в практиках сексологов. In A. Temkina & E. Zdravomyslova (Eds.), [*Zdorove i intimnaia zhizn*](http://www.eupress.ru/books/index/item/id/119). European University of St Petersburg Press.
+Temkina, A., & Rotkirch, A. (2012). Здоровье, удовольствие и гендер в практиках сексологов. In A. Temkina & E. Zdravomyslova (Eds.), *Zdorove i intimnaia zhizn*. European University of St Petersburg Press.
 
 Rotkirch, A., Tkach, O., & Zdravomyslova, E. (2012). [Making and managing class: employment of paid domestic workers in Russia](files/Making-and-managing-class.pdf). In S. Salmenniemi (Ed.), *Rethinking class in Russia* (pp. 129–148). Ashgate.
 

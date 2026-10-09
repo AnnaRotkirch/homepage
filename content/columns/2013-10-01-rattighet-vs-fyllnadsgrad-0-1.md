@@ -3,7 +3,7 @@ date: 2013-10-01
 lang: sv
 source: https://blogs.helsinki.fi/rotkirch/2013/10/01/325/
 
-(publicerad i Hbl 25.9 <http://hbl.fi/opinion/i-dag/2013-09-24/503646/rattighet-vs-fyllnadsgrad-0-1>)
+(publicerad i Hbl 25.9)
 
 Det är sällan ett land kan stoltsera med världshistoriskt unika, kvinnovänliga uppfinningar. Finland har en handfull.
 

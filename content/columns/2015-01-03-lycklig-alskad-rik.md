@@ -23,4 +23,4 @@ Till nyåret stöper vi lyckor, granskar deras skuggor mot väggen och undrar: b
 
 Anna Rotkirch
 
-organiserar en [konferens om mänskligt beteende och evolution](http://www.ehbea2015.org) i mars
+organiserar en konferens om mänskligt beteende och evolution i mars

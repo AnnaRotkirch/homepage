@@ -21,7 +21,7 @@ Rotkirch, A., & Haavio-Mannila, E. (Eds.) (1996). [*Women's voices in Russia tod
 
 Rotkirch, A. (2024). [*20 ehdotusta lapsitoiveiden tukemiseksi. Selvitys syntyvyyden laskusta Suomessa.*](https://urn.fi/URN:ISBN:978-952-383-977-9) Valtioneuvoston julkaisuja 2025:22.
 
-Rotkirch, A. (2021). [*Population policy guidelines for the 2020s. Executive summary of the Finnish population policy report*](https://vnk.fi/documents/10616/78382279/vaestoselvitys_avainkohdat_VNK_2021_2_EN.pdf). Prime Minister's Office, Finland 2021:2. Finnish version: [*Syntyvyyden toipuminen ja pitenevä elinikä. Linjauksia 2020-luvun väestöpolitiikalle*](https://urn.fi/URN:ISBN:978-952-383-073-8). Valtioneuvoston kanslian julkaisuja 2021:2.
+Rotkirch, A. (2021). [*Population policy guidelines for the 2020s. Executive summary of the Finnish population policy report*](https://julkaisut.valtioneuvosto.fi/server/api/core/bitstreams/7af081e1-7870-4549-9507-e2ac6b04ba48/content). Prime Minister's Office, Finland 2021:2. Finnish version: [*Syntyvyyden toipuminen ja pitenevä elinikä. Linjauksia 2020-luvun väestöpolitiikalle*](https://urn.fi/URN:ISBN:978-952-383-073-8). Valtioneuvoston kanslian julkaisuja 2021:2.
 
 ## Finnish Family Barometers
 
@@ -43,7 +43,7 @@ Miettinen, A., & Rotkirch, A. (2008). [*Milloin on lapsen aika? Lastenhankinnan 
 
 Rotkirch, A. (2018). [*Känslornas svall. Året då det politiska blev personligt*](https://www.forlaget.com/bocker/kanslornas-svall/). Helsingfors: Förlaget M.
 
-Rotkirch, A. (2014). [*Yhdessä. Perhe-elämän ihanuus ja vaikeus*](http://www.kirja.fi/kirja/anna-rotkirch/yhdessa-lapsen-kasvatus-ei-ole-yksilolaji/9789510402306/). Helsinki: WSOY. Swedish edition: [*Tillsammans. Familjelivets härlighet och svårighet*](http://www.sets.fi/bok/tillsammans-2/), transl. Katja Bargum, Helsingfors: S&S, 2014.
+Rotkirch, A. (2014). *Yhdessä. Perhe-elämän ihanuus ja vaikeus*. Helsinki: WSOY. Swedish edition: *Tillsammans. Familjelivets härlighet och svårighet*, transl. Katja Bargum, Helsingfors: S&S, 2014.
 
 Fågel, S., Söderling, I., & Rotkirch, A. (Eds.) (2010). *Farkkumummot ja pehmovaarit. Uusia ikkunoita isovanhemmuuteen.* Helsinki: Väestöliitto.
 
