@@ -259,6 +259,9 @@ a.totop:hover { color: var(--accent); }
 
 JUMP_MIN = 3   # pages with at least this many h2 sections get a jump bar
 JUMP_ALWAYS = {"research.html", "columns.html"}   # pages that get the bar regardless of section count
+# Anna's decision (2026-10-09): no section bar on the CV — 11 short sections made it longer than useful.
+# The h2 headings stay in the text.
+JUMP_NEVER = {"cv.html"}
 
 def slugify(t):
     t = re.sub(r"<[^>]+>", "", t)
@@ -277,6 +280,7 @@ def add_ids_and_jump(body, slug=None):
         return f'<h2 id="{i}">{text}</h2>'
     body = re.sub(r"<h2>(.*?)</h2>", fix, body)
     long_page = len(heads) >= JUMP_MIN or (slug in JUMP_ALWAYS and len(heads) >= 2)
+    if slug in JUMP_NEVER: long_page = False
     if long_page:
         # the bar drops a heading's trailing qualifier — "Research funding (last five years)"
         # appears as "Research funding" — so the row stays scannable; the heading keeps it
