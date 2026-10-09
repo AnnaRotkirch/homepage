@@ -205,10 +205,6 @@ h2 { font-size: 1.22rem; margin: 2.3rem 0 0.7rem; letter-spacing: -0.005em; scro
 h3 { font-size: 1.02rem; margin: 1.7rem 0 0.5rem; color: var(--muted);
   font-family: "IBM Plex Sans", system-ui, -apple-system, sans-serif; font-weight: 500;
   text-transform: uppercase; letter-spacing: 0.05em; }
-h4 { font-size: 0.95rem; margin: 1.2rem 0 0.45rem; color: var(--muted);
-  font-family: "IBM Plex Sans", system-ui, -apple-system, sans-serif; font-weight: 500; }
-.featured { color: var(--muted); font-family: "IBM Plex Sans", system-ui, -apple-system, sans-serif;
-  font-size: 0.9rem; line-height: 1.6; margin-bottom: 1.2rem; }
 p, li { margin: 0 0 0.9rem; text-wrap: pretty; hyphens: none; }
 a { color: var(--link); text-decoration-thickness: 1px; text-underline-offset: 2px; }
 a:focus-visible, nav a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
@@ -332,27 +328,19 @@ def column_page(c, md):
             f'<p class="meta"><a href="columns.html">All columns</a></p>')
     return page(c["slug"], c["title"], body, desc, here="columns.html")
 
-# Anna's decision (2026-10-09): the page opens with Highlights — rows with highlight=yes in
-# media_2023_2026.csv, newest first, outlet in bold — headed by a "Featured in" line.
-FEATURED_OUTLETS = ["Financial Times", "BBC", "NPR", "The New York Times", "The Washington Post",
-                    "The New Yorker", "Die Zeit", "Le Figaro", "Reuters"]
-# Anna's decision (2026-10-09): below Highlights, ONE list per language — interviews in print,
-# broadcast and podcasts, plus press items quoting her — split by year, newest first; each line
-# ends with its kind. Set MEDIA_SPLIT = True to restore separate sections (MEDIA_SECTIONS below,
-# assigned by media_section) with International / Finnish inside each.
-MEDIA_SPLIT = False
 MEDIA_SECTIONS = ["Interviews", "Podcasts and videos", "Press mentions"]
-# Anna's decision (2026-09-17): International first, then Finnish.
+# Anna's decision (2026-09-17): within each section, International first, then Finnish.
 # Finnish = every row of media_fi_2022_2026.csv (incl. Svenska Yle and Hufvudstadsbladet) and
 # Finnish-language rows of media_2023_2026.csv; everything else (incl. Dagens Nyheter) is
-# International. Talks recordings are Finnish only if held in Finland.
+# International. Talks recordings are Finnish only if held in Finland. The section bar (h2) is unchanged.
 MEDIA_GROUPS = ["International", "Finnish"]
-# Anna's decision (2026-09-17, confirmed 2026-10-09): recordings of her talks and lectures are
-# listed on Talks only. Set INCLUDE_TALK_RECORDINGS = True to list them on Media again.
+# Anna's decision (2026-09-17): talks (keynotes, seminars, panels, debates) are listed on Talks
+# only. Set INCLUDE_TALK_RECORDINGS = True to list recorded talks on Media again.
 INCLUDE_TALK_RECORDINGS = False
+# Anna's decision (2026-09-14): three sections only, no language subsections; essays and columns
+# by her are left out of the Media page (they belong on Publications).
 def media_section(category, kind):
-    """Map a CSV row to one of MEDIA_SECTIONS (used when MEDIA_SPLIT is True), or None to leave
-    it out. Essays and columns by her are always left out (they belong on Publications)."""
+    """Map a CSV row to one of the three sections, or None to leave it out."""
     k = (kind or "").lower(); c = (category or "").lower()
     if "essay" in k or "kolumn" in k or "column" in c:
         return None
@@ -365,96 +353,66 @@ def media_section(category, kind):
         return "Press mentions"
     return "Interviews"   # Interview, Profile, Haastattelu, Intervju, Henkilöjuttu, Contributor ...
 
-def media_line(r, bold=False):
-    title = esc(r["title"])
-    title = title if title.endswith(("?", ".", "!", ")")) else title + "."
-    if title.endswith(")"): title += "."
-    link = f'<a href="{r["url"]}">{title}</a>' if r.get("url") else title
-    outlet = esc(r["outlet"])
-    head = (f"<strong>{outlet}</strong>" if bold else outlet) + \
-           (f", {fmt_date(r['date'])}" if r.get("date") else "")
-    tail = f" {esc(r['kind'])}." if r.get("kind") else ""
-    lang = r.get("language", "")
-    lang = f" In {esc(lang)}." if lang and lang != "English" else ""
-    return f"<p>{head}. {link}{tail}{lang}</p>"
-
-def by_year(hs, tag):
-    """hs: [(date, html)] newest first -> year subheadings with their lists."""
-    out, years = [], []
-    for d, h in hs:
-        y = d[:4] if d[:4].isdigit() else "Date not established"
-        if not years or years[-1][0] != y: years.append((y, []))
-        years[-1][1].append(h)
-    for y, hh in years:
-        out.append(f'<{tag}>{y}</{tag}>\n<div class="refs">')
-        out += hh
-        out.append("</div>")
-    return out
-
 def media_html():
     rows = read(os.path.join(DATA, "media_2023_2026.csv"))
     fi = read(os.path.join(DATA, "media_fi_2022_2026.csv"))
     talks = read(os.path.join(DATA, "talks_2024_2026.csv"))
     out = ["<h1>Media</h1>"]
 
-    outlets = [r["outlet"] for r in rows]
-    for o in FEATURED_OUTLETS:   # every name in the strip must match a row in the data
-        if not any(x.startswith(o) for x in outlets):
-            raise SystemExit(f"FEATURED_OUTLETS: no row in media_2023_2026.csv for {o!r}")
-    hl = sorted([r for r in rows if r.get("highlight", "").strip().lower() == "yes" and r["title"]],
-                key=lambda r: r["date"], reverse=True)
-    if hl:
-        out.append("<h2>Highlights</h2>")
-        out.append('<p class="featured">Featured in ' + " · ".join(esc(o) for o in FEATURED_OUTLETS) + "</p>")
-        out.append('<div class="refs highlights">')
-        out += [media_line(r, bold=True) for r in hl]
-        out.append("</div>")
-
-    items = []   # (sort date, html, group, section)
+    items = {sec: [] for sec in MEDIA_SECTIONS}   # sec -> [(sort date, html, group)]
     for t in talks:
-        if not t.get("Recording link") or not INCLUDE_TALK_RECORDINGS: continue
+        if not t.get("Recording link"): continue
+        if not INCLUDE_TALK_RECORDINGS: continue
         venue = esc(t["Event / Venue"].split(",")[0])
         title = esc(t["Title / Topic"])
         grp = "Finnish" if "finland" in t.get("City / Country", "").lower() else "International"
-        items.append((t["Date"], f'<p>{venue}, {fmt_date(t["Date"])}. '
-            f'<a href="{t["Recording link"]}">{title}</a>. {esc(t["Type"])}.</p>', grp,
-            "Podcasts and videos"))
+        items["Podcasts and videos"].append((t["Date"],
+            f'<p>{venue}, {fmt_date(t["Date"])}. '
+            f'<a href="{t["Recording link"]}">{title}</a>. {esc(t["Type"])}.</p>', grp))
     for r in rows:
         if not r["title"]: continue
         sec = media_section(r["category"], r["kind"])
         if not sec: continue
+        head = esc(r["outlet"]) + (f", {fmt_date(r['date'])}" if r["date"] else "")
+        title = esc(r["title"])
+        title = title if title.endswith(("?", ".", "!")) else title + "."
+        link = f'<a href="{r["url"]}">{title}</a>' if r["url"] else title
+        tail = f" {esc(r['kind'])}." if r["kind"] else ""
+        lang = f" In {esc(r['language'])}." if r["language"] and r["language"] != "English" else ""
         grp = "Finnish" if r["language"] == "Finnish" else "International"
-        # under the Finnish heading "In Finnish." would repeat the heading
-        items.append((r["date"], media_line(dict(r, language="") if grp == "Finnish" else r), grp, sec))
+        items[sec].append((r["date"], f"<p>{head}. {link}{tail}{lang}</p>", grp))
     for r in fi:
-        if not r.get("title"): continue
+        t = esc(r.get("title", ""))
+        if not t: continue
         sec = media_section(r.get("category", ""), r.get("kind", ""))
         if not sec: continue
-        items.append((r.get("date", ""), media_line(dict(r, language="")), "Finnish", sec))
+        t = t if t.endswith(("?", ".", "!")) else t + "."
+        link = f'<a href="{r["url"]}">{t}</a>' if r.get("url") else t
+        head = esc(r.get("outlet", ""))
+        if r.get("date"): head += f", {fmt_date(r['date'])}"
+        kind = f" {esc(r.get('kind',''))}." if r.get("kind") else ""
+        items[sec].append((r.get("date", ""), f"<p>{head}. {link}{kind}</p>", "Finnish"))
 
     # the same item can sit in both CSVs (e.g. a Yle interview): keep the first by URL
-    seen, kept = set(), []
-    for it in sorted(items, key=lambda x: x[0], reverse=True):
-        m = re.search(r'href="([^"]+)"', it[1])
-        key = m.group(1).rstrip("/") if m else it[1]
-        if key in seen: continue
-        seen.add(key); kept.append(it)
-
-    if not MEDIA_SPLIT:
+    seen = set()
+    for sec in MEDIA_SECTIONS:
+        kept = []
+        for d, h, g in sorted(items[sec], key=lambda x: x[0], reverse=True):
+            m = re.search(r'href="([^"]+)"', h)
+            key = m.group(1).rstrip("/") if m else h
+            if key in seen: continue
+            seen.add(key); kept.append((d, h, g))
+        items[sec] = kept
+    for sec in MEDIA_SECTIONS:
+        if not items[sec]: continue
+        out.append(f"<h2>{esc(sec)}</h2>")
         for grp in MEDIA_GROUPS:
-            hs = [(d, h) for d, h, g, _ in kept if g == grp]
+            hs = [h for _, h, g in sorted(items[sec], key=lambda x: x[0], reverse=True) if g == grp]
             if not hs: continue
-            out.append(f"<h2>{grp}</h2>")
-            out += by_year(hs, "h3")
-    else:
-        for sec in MEDIA_SECTIONS:
-            if not any(s == sec for *_, s in kept): continue
-            out.append(f"<h2>{esc(sec)}</h2>")
-            for grp in MEDIA_GROUPS:
-                hs = [(d, h) for d, h, g, s in kept if g == grp and s == sec]
-                if not hs: continue
-                out.append(f"<h3>{grp}</h3>")
-                out.append('<div class="refs">'); out += [h for _, h in hs]; out.append("</div>")
+            out.append(f"<h3>{grp}</h3>")
+            out.append('<div class="refs">')
+            out += hs
+            out.append("</div>")
     return "\n".join(out)
 
 def main():
