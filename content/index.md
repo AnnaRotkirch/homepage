@@ -5,18 +5,18 @@ Welcome to my website!
 I study fertility and family relations and engage in science popularisation and population
 policies.
 
-Much of my research and public outreach concerns recent fertility trends, including
-effects of screen use and digital wellbeing. See my essays
+Recent research includes effects of screen use on childbearing. See my essays
 [The TikTok Baby Bust](https://blnreview.de/en/ausgaben/2025-04/anna-rotkirch-tiktok-baby-bust-fertility)
 and ["Think about it all the time"](https://www.austriaca.at/0xc1aa5572_0x00416d45),
 our book chapter [Fertility desires in the digital era](https://www.routledge.com/Family-Relationships-in-the-Digital-Era-How-Information-and-Communication-Technology-Connects-and-Disconnects-Us/Tammisalo-Danielsbacka-Tanskanen/p/book/9781041100997),
-or the Financial Times interview
+and the Financial Times interview
 [Are family friendly policies no longer enough?](https://www.ft.com/content/500c0fb7-a04a-4f87-9b93-bf65045b9401)
 
 As Research Professor and Director of the
 [Population Research Institute](https://www.vaestoliitto.fi/en/research/) at Väestöliitto,
-the Family Federation of Finland, I also supervise the yearly Family Barometers and promote
-sustainable population development — but what does that even mean? Read our
+the Family Federation of Finland, I lead the team that conducts the yearly
+[Family Barometers](https://www.vaestoliitto.fi/en/research/family-barometer/) and promotes
+sustainable population development; see our
 [Population Policy Programme](https://www.vaestoliitto.fi/en/webpublications/sustainable-population-development-in-finland/).
 
 My [demographic report for the Sanna Marin government](https://vnk.fi/en/current-issues/themes/demographic-report)
