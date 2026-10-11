@@ -191,7 +191,7 @@ Jokela, M., Rotkirch, A., Rickard, I. J., Pettay, J., & Lummaa, V. (2010). [Seri
 
 Rotkirch, A. (2005). Miten sosiologinen tieto kohtaa evoluutioteorian? In A. Meurman-Solin & I. Pyysiäinen (Eds.), *Ihmistieteet tänään* (pp. 62–90). Helsinki: Gaudeamus.
 
-Rotkirch, A. (2003). Naturligtvis? Moderskap, essentialism och evolutionsteori. *Naistutkimus*, 3/03, 33–47.
+Rotkirch, A. (2003). [Naturligtvis? Moderskap, essentialism och evolutionsteori](https://journal.fi/sukupuolentutkimus/article/view/158696/102950). *Sukupuolentutkimus–Genusforskning*, 16(3), 33–47.
 
 Roos, J. P., Rotkirch, A., & Haavio-Mannila, E. (2003). Do rich men have most sex? Gender, capital and sexual activity in four countries. In A.-K. Kollind & A. Peterson (Eds.), *Thoughts on family, gender, generation and class* (Research Report No. 133). Department of Sociology, Göteborg University.
 
