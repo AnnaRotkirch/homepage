@@ -2,7 +2,7 @@
 
 Reads (all paths resolved from this script's own location):
   content/*.md            - page text in Markdown, one file per page
-  content/columns/*.md    - one column each (header lines title/date/lang/source, then the text);
+  content/columns/*.md    - one column each (header lines title/date/lang/source[/outlet/kind], then the text);
                             listed on columns.html and built as column-<file name>.html
   ../media_2023_2026.csv  - international media (the media page is generated, not hand-written)
   ../media_fi_2022_2026.csv - Finnish and Finland-Swedish media
@@ -317,22 +317,31 @@ def read_columns():
     return sorted(out, key=lambda c: c["date"], reverse=True)
 
 def columns_list(body, cols):
-    """Replace each <!-- columns: xx --> marker in the Columns page with the list for language xx."""
+    """Replace each <!-- columns: xx --> marker in the Columns page with the list for language xx;
+    <!-- columns: xx hbl --> lists only those with outlet: hbl."""
     def lst(m):
-        items = [c for c in cols if c["lang"] == m.group(1)]
+        items = [c for c in cols if c["lang"] == m.group(1)
+                 and (m.group(2) is None or c.get("outlet") == m.group(2))]
         return ('<div class="refs">\n' + "\n".join(
             f'<p><a href="{c["slug"]}" hreflang="{c["lang"]}">{esc(c["title"])}</a> '
-            f'<span class="meta nowrap">{fmt_date(c["date"])}</span></p>' for c in items) + "\n</div>")
-    return re.sub(r"<!--\s*columns:\s*(\w+)\s*-->", lst, body)
+            f'<span class="meta nowrap">{fmt_date(c["date"])}{" · " + c["kind"] if c.get("kind") else ""}</span></p>'
+            for c in items) + "\n</div>")
+    return re.sub(r"<!--\s*columns:\s*(\w+)(?:\s+(\w+))?\s*-->", lst, body)
 
 def column_page(c, md):
     md.reset()
     text = md.convert(c["text"])
     plain = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", text)).strip()
     desc = plain[:155].rsplit(" ", 1)[0] + " …" if len(plain) > 155 else plain
+    # Hbl columns (outlet: hbl) carry an approximate month; old-blog columns their posting date
+    when = (f'<em>Hufvudstadsbladet</em>, {fmt_date(c["date"])}' if c.get("outlet") == "hbl"
+            else f'posted {fmt_date(c["date"])}')
+    if c.get("kind"):                      # e.g. "bokrecension" (Anna, 2026-10-13)
+        when += f' · {c["kind"]}'
+
     body = (f'<p class="meta"><a href="columns.html">Columns</a> · {COLUMN_LANGS[c["lang"]]}</p>\n'
             f'<article lang="{c["lang"]}">\n<h1>{esc(c["title"])}</h1>\n'
-            f'<p class="meta">Anna Rotkirch · posted {fmt_date(c["date"])}</p>\n{text}\n</article>\n'
+            f'<p class="meta">Anna Rotkirch · {when}</p>\n{text}\n</article>\n'
             f'<p class="meta"><a href="columns.html">All columns</a></p>')
     return page(c["slug"], c["title"], body, desc, here="columns.html")
 

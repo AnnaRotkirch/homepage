@@ -1,6 +1,7 @@
 title: Vikingen med barnvagnen
-date: 2013-03-20
+date: 2013-02
 lang: sv
+outlet: hbl
 source: https://blogs.helsinki.fi/rotkirch/2013/03/20/287/
 
 Hur komma till Norden, och hålla sig där?

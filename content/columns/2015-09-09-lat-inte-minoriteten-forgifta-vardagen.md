@@ -1,6 +1,7 @@
 title: Låt inte minoriteten förgifta vardagen
-date: 2015-09-09
+date: 2015-09-07
 lang: sv
+outlet: hbl
 source: https://blogs.helsinki.fi/rotkirch/2015/09/09/492/
 
 I tisdags kom dottern och jag från Kabeln, som vanligt fanns det en pultsare i spårvagnen. Jag brukar säga till henne att inte bli så vettskrämd, att de är helt snälla. Den här mannen vänder sig till tre tonårsflickor intill oss och säger: ”Har ni eld? Om ni inte har så våldtar jag er, häller bensin över och tänder på. Och du” – en av flickorna har mörkt hår och mörk hy – ”fuck you, far tillbaka till dit du kom från!”

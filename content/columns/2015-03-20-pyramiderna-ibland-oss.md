@@ -1,6 +1,7 @@
 title: Pyramiderna ibland oss
-date: 2015-03-20
+date: 2013-07
 lang: sv
+outlet: hbl
 source: https://blogs.helsinki.fi/rotkirch/2015/03/20/442/
 
 Den dagen tog vi båten till Andra sidan. Branten såg ogästvänlig ut och det var den också. Där satt vi med ett gnälligt barn i en myggig glänta och ville fara hem igen. Jag hade ändå lust att klättra upp till toppen, om inte annat så för en stund i egen takt utan små armar och gaddar.  

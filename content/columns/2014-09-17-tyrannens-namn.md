@@ -1,6 +1,7 @@
 title: Tyrannens namn
-date: 2014-09-17
+date: 2014-03
 lang: sv
+outlet: hbl
 source: https://blogs.helsinki.fi/rotkirch/2014/09/17/395/
 
 Frihet är att glömma tyrannens namn, skrev poeten Joseph Brodsky under sovjettiden.  

@@ -1,6 +1,7 @@
 title: Lycklig, älskad, rik?
-date: 2015-01-03
+date: 2015-01
 lang: sv
+outlet: hbl
 source: https://blogs.helsinki.fi/rotkirch/2015/01/03/422/
 
 För femhundratusen år sedan satt någon på stranden och ristade i en snäcka med en hajtand. Det blev ett sicksack, snyggt i vitt mot musslans brunsvarta skal.

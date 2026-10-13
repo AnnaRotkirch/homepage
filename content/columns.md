@@ -13,6 +13,10 @@ Selection of columns and essays through the years.
 
 ## In Swedish
 
+### Hufvudstadsbladet, 2009–2023
+
+Columns in the *I dag* section of *Hufvudstadsbladet*.
+
 <!-- columns: sv -->
 
 ## In Finnish

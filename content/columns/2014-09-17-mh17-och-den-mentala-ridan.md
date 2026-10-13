@@ -1,6 +1,7 @@
 title: MH17 och den mentala ridån
-date: 2014-09-17
+date: 2014-07
 lang: sv
+outlet: hbl
 source: https://blogs.helsinki.fi/rotkirch/2014/09/17/401/
 
 Efter att nästan trehundra män, kvinnor och barn sprängts i luften ovanför Donetsk förde Moskvabor blommor till den holländska ambassaden. “Förlåt oss”. En rysk Facebookvän kände likadant: “Jag skäms. Jag är i Estland och kan inte se någon i ögonen.”  

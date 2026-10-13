@@ -1,6 +1,7 @@
 title: Pengarna eller lyckan?
-date: 2013-03-20
+date: 2013-01
 lang: sv
+outlet: hbl
 source: https://blogs.helsinki.fi/rotkirch/2013/03/20/283/
 
 Hbl kolumn 21.1.13 http://hbl.fi/i-dag/2013-01-21/pengarna-eller-lyckan

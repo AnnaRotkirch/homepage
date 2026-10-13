@@ -1,6 +1,7 @@
 title: Skratt, flit och galna idéer
-date: 2015-01-03
+date: 2014-11
 lang: sv
+outlet: hbl
 source: https://blogs.helsinki.fi/rotkirch/2015/01/03/420/
 
 Det fulaste huset i Oxford är en smutsvit betonglåda med snäva korridorer och en förvirrande spegelstruktur. Identiska dörrar leder antingen ut ur trappor eller in på toaletter. Här arbetar bland annat universitetets experimentella psykologer. Byggnaden liknas ofta vid en enda stor råttlabyrint.

@@ -1,6 +1,7 @@
 title: Vad Räty har rätt i, eller om hälsovårdens tudelning
-date: 2014-09-17
+date: 2014-08
 lang: sv
+outlet: hbl
 source: https://blogs.helsinki.fi/rotkirch/2014/09/17/403/
 
 Min granne och jag är i samma ålder och ungefär lika friska. Hon frilansar medan jag är fast anställd. Så då hon en höst vikarierade på en tidning fick hon en smärre chock. Arbetsgivaren uppmuntrade henne först att gå på en allmän hälsokontroll. För en åkomma behövde hon se en specialist och ta laboratorieprov, vilket allt ordnades i ett nafs. Årligen fick de anställda välja mellan tandläkare och ett par nya glasögon. Gratis för dem, och på arbetstid.  

@@ -1,6 +1,7 @@
 title: Skör balans i familjepolitiken
-date: 2014-09-17
+date: 2014-05
 lang: sv
+outlet: hbl
 source: https://blogs.helsinki.fi/rotkirch/2014/09/17/397/
 
 Familjers vardag har en skör balans och ofta märker man att den kraschat först efteråt, då någon osynlig gräns igen överskridits. Jag har börjat med en timglasteknik på jobbet. Dess genialt enkla princip är att först besluta vad du vill göra och sedan göra det. Därför ignorerar jag telefonen i 25 minuter. Just då har barnets bästa vän slagit sig blodig och körts till sjukhuset för att sys så hon textar mig i panik, snälla mamma svara nu!  

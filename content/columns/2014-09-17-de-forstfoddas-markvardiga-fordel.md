@@ -1,6 +1,7 @@
 title: De förstföddas märkvärdiga fördel
-date: 2014-09-17
+date: 2014-06
 lang: sv
+outlet: hbl
 source: https://blogs.helsinki.fi/rotkirch/2014/09/17/399/
 
 Den tyska grundskolan slutar mycket tidigare än vår. Redan på femte klass delas barnen in i mer eller mindre yrkesorienterade linjer. Kring var fjärde elev fortsätter till gymnasium, som räcker sex år och banar väg för universitetsstudier.  

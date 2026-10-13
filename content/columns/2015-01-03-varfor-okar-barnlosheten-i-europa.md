@@ -1,6 +1,7 @@
 title: Varför ökar barnlösheten i Europa?
-date: 2015-01-03
+date: 2014-10
 lang: sv
+outlet: hbl
 source: https://blogs.helsinki.fi/rotkirch/2015/01/03/418/
 
 Hbl I dag, 29.10.2014

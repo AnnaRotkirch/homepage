@@ -1,6 +1,7 @@
 title: De mest omhändertagna
-date: 2014-09-17
+date: 2014-02
 lang: sv
+outlet: hbl
 source: https://blogs.helsinki.fi/rotkirch/2014/09/17/391/
 
 Finland har största andelen omhändertagna barn i hela Norden. Skillnaderna är särskilt stora bland 0–6-åringarna. Och de är dramatiska.
