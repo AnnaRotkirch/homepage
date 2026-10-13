@@ -1,6 +1,7 @@
 title: E. Nesbits passioner
-date: 2012-09-02
+date: 2012-09
 lang: sv
+outlet: nytid
 source: https://blogs.helsinki.fi/rotkirch/2012/09/02/219/
 
 I Ekenäs bibliotek står den typiska Runebergbysten. När mormor frågar vem det är vet mina barn genast: Edit Nesbit! Då fylls jag av stolthet, för en av de få saker jag konsekvent införlivat i deras uppfostran är Nesbits (1858-1924) romaner, *Skattsökarna, Järnvägsbarnen, Det förtrollade slottet*, och framför allt den magiska trilogin *Fem barn hittar ett troll, Amuletten,* och *Fågel Fenix*. 

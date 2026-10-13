@@ -3,6 +3,9 @@ date: 2018-10
 lang: sv
 outlet: hbl
 source: Hufvudstadsbladet, I dag (manuscript: Hbl telefoner 2018 Men om jag nu ska skriva den här kolumnen så får det inte bli vad du tycker.docx)
+byline: Anna Rotkirch och Alva Roos · <em>Hufvudstadsbladet</em>, oktober 2018
+
+Anna Rotkirch är mamma till Alva Roos, som dagsverkade med denna kolumn
 
 Om jag nu ska skriva den här kolumnen så får det inte bli vad du tycker. För du tycker säkert att vi borde göra som i Frankrike. Så sätt inte att det ska bli likadant som i Frankrike för sen kanske det blir. Så att man inte får ha telefoner på rasterna.
 

@@ -2,7 +2,7 @@
 
 Reads (all paths resolved from this script's own location):
   content/*.md            - page text in Markdown, one file per page
-  content/columns/*.md    - one column each (header lines title/date/lang/source[/outlet/kind], then the text);
+  content/columns/*.md    - one column each (header lines title/date/lang/source[/outlet/kind/byline], then the text);
                             listed on columns.html and built as column-<file name>.html
   ../media_2023_2026.csv  - international media (the media page is generated, not hand-written)
   ../media_fi_2022_2026.csv - Finnish and Finland-Swedish media
@@ -316,15 +316,37 @@ def read_columns():
         out.append(d)
     return sorted(out, key=lambda c: c["date"], reverse=True)
 
+# Dates on the Columns page are written in the column's language (Anna, 2026-10-13); the
+# column pages and the rest of the site keep English dates.
+MONTHS_LANG = {
+    "sv": ["januari", "februari", "mars", "april", "maj", "juni", "juli", "augusti",
+           "september", "oktober", "november", "december"],
+    "fi": ["tammikuu", "helmikuu", "maaliskuu", "huhtikuu", "toukokuu", "kesäkuu", "heinäkuu",
+           "elokuu", "syyskuu", "lokakuu", "marraskuu", "joulukuu"],
+}
+
+def fmt_date_lang(d, lang):
+    """'2018-06-20' -> '20 juni 2018' (sv) / '20.6.2018' (fi); '2018-06' -> 'juni 2018' / 'kesäkuu 2018'."""
+    m = re.match(r"^(\d{4})-(\d{2})(?:-(\d{2}))?$", d or "")
+    if not m or lang not in MONTHS_LANG:
+        return fmt_date(d)
+    y, mo, day = m.group(1), int(m.group(2)), m.group(3)
+    if day is None:
+        return f"{MONTHS_LANG[lang][mo-1]} {y}"
+    return f"{int(day)}.{mo}.{y}" if lang == "fi" else f"{int(day)} {MONTHS_LANG[lang][mo-1]} {y}"
+
 def columns_list(body, cols):
-    """Replace each <!-- columns: xx --> marker in the Columns page with the list for language xx;
-    <!-- columns: xx hbl --> lists only those with outlet: hbl."""
+    """Replace each <!-- columns: xx --> marker in the Columns page with the list for language xx.
+    Without an outlet the marker lists Hbl columns and those with no outlet: line (Anna's choice,
+    2026-10-13: the old-blog Swedish columns sit under Hufvudstadsbladet); <!-- columns: xx nytid -->
+    lists only those with outlet: nytid."""
     def lst(m):
         items = [c for c in cols if c["lang"] == m.group(1)
-                 and (m.group(2) is None or c.get("outlet") == m.group(2))]
+                 and (c.get("outlet") in (None, "hbl") if m.group(2) is None
+                      else c.get("outlet") == m.group(2))]
         return ('<div class="refs">\n' + "\n".join(
             f'<p><a href="{c["slug"]}" hreflang="{c["lang"]}">{esc(c["title"])}</a> '
-            f'<span class="meta nowrap">{fmt_date(c["date"])}{" · " + c["kind"] if c.get("kind") else ""}</span></p>'
+            f'<span class="meta nowrap">{fmt_date_lang(c["date"], c["lang"])}{" · " + c["kind"] if c.get("kind") else ""}</span></p>'
             for c in items) + "\n</div>")
     return re.sub(r"<!--\s*columns:\s*(\w+)(?:\s+(\w+))?\s*-->", lst, body)
 
@@ -334,14 +356,18 @@ def column_page(c, md):
     plain = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", text)).strip()
     desc = plain[:155].rsplit(" ", 1)[0] + " …" if len(plain) > 155 else plain
     # Hbl columns (outlet: hbl) carry an approximate month; old-blog columns their posting date
-    when = (f'<em>Hufvudstadsbladet</em>, {fmt_date(c["date"])}' if c.get("outlet") == "hbl"
+    outlets = {"hbl": "Hufvudstadsbladet", "nytid": "Ny Tid"}
+    when = (f'<em>{outlets[c["outlet"]]}</em>, {fmt_date(c["date"])}' if c.get("outlet") in outlets
             else f'posted {fmt_date(c["date"])}')
     if c.get("kind"):                      # e.g. "bokrecension" (Anna, 2026-10-13)
         when += f' · {c["kind"]}'
 
     body = (f'<p class="meta"><a href="columns.html">Columns</a> · {COLUMN_LANGS[c["lang"]]}</p>\n'
-            f'<article lang="{c["lang"]}">\n<h1>{esc(c["title"])}</h1>\n'
-            f'<p class="meta">Anna Rotkirch · {when}</p>\n{text}\n</article>\n'
+            f'<article lang="{c["lang"]}">\n'
+            # preface: a line printed above the title, as in the paper (Mobilförbud i skolan?)
+            + (f'<p>{esc(c["preface"])}</p>\n' if c.get("preface") else "")
+            + f'<h1>{esc(c["title"])}</h1>\n'
+            f'<p class="meta">{c.get("byline") or "Anna Rotkirch · " + when}</p>\n{text}\n</article>\n'
             f'<p class="meta"><a href="columns.html">All columns</a></p>')
     return page(c["slug"], c["title"], body, desc, here="columns.html")
 
