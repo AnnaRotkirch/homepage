@@ -8,7 +8,7 @@ policies.
 Recent research includes effects of screen use on childbearing. See my essays
 [The TikTok Baby Bust](https://blnreview.de/en/ausgaben/2025-04/anna-rotkirch-tiktok-baby-bust-fertility)
 and ["Think about it all the time"](https://www.austriaca.at/0xc1aa5572_0x00416d45),
-our book chapter [Fertility desires in the digital era](https://www.routledge.com/Family-Relationships-in-the-Digital-Era-How-Information-and-Communication-Technology-Connects-and-Disconnects-Us/Tammisalo-Danielsbacka-Tanskanen/p/book/9781041100997),
+our book chapter [Fertility desires in the digital era](https://doi.org/10.4324/9781003653394-5),
 and the Financial Times interview
 [Are family friendly policies no longer enough?](https://www.ft.com/content/500c0fb7-a04a-4f87-9b93-bf65045b9401)
 

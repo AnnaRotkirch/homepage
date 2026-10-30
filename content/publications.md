@@ -5,7 +5,7 @@ Articles, chapters and working papers by theme, most recent first within each th
 
 ## Fertility
 
-Rotkirch, A., & Berg, V. (2026). Fertility desires in the digital era. In K. Tammisalo, M. Danielsbacka, & A. Tanskanen (Eds.), [*Family Relationships in the Digital Era*](https://www.routledge.com/Family-Relationships-in-the-Digital-Era-How-Information-and-Communication-Technology-Connects-and-Disconnects-Us/Tammisalo-Danielsbacka-Tanskanen/p/book/9781041100997). Routledge.
+Rotkirch, A., & Berg, V. (2026). [Fertility desires in the digital era](https://doi.org/10.4324/9781003653394-5). In K. Tammisalo, M. Danielsbacka, & A. Tanskanen (Eds.), *Family Relationships in the Digital Era*. Routledge. Open access. [PDF](files/Rotkirch_Berg_Fertility_desires_digital_era_2026.pdf)
 
 Rotkirch, A. (2026). ["Think about it all the time": reproductive cues in a late and low fertility setting](https://doi.org/10.1553/p-m272-kafe). *Vienna Yearbook of Population Research*, 24(1), 1–13.
 

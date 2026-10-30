@@ -11,7 +11,7 @@ description: Ongoing research projects, research infrastructures and earlier res
 
 Effects of screen use on romantic and family relations: the book
 [Family Relationships in the Digital Era](https://www.routledge.com/Family-Relationships-in-the-Digital-Era-How-Information-and-Communication-Technology-Connects-and-Disconnects-Us/Tammisalo-Danielsbacka-Tanskanen/p/book/9781041100997)
-with the chapter "Fertility desires in the digital era", and a
+with the chapter [Fertility desires in the digital era](https://doi.org/10.4324/9781003653394-5), and a
 [2022 report in Finnish](https://tietokayttoon.fi/julkaisut/raportti?pubid=URN:ISBN:978-952-287-913-4).
 
 [Towards a resilient future of Europe (FutuRes)](https://futu-res.eu/) — partner, EU Horizon
