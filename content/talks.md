@@ -6,8 +6,6 @@ Invitations: [anna.rotkirch@vaestoliitto.fi](mailto:anna.rotkirch@vaestoliitto.f
 
 ## Upcoming
 
-Talk, "Kestävän väestökehityksen vahvistaminen", Seutufoorumi "Tartutaan tulevaisuuteen!", Tampereen kaupunkiseutu, 24 November 2026. [Event page](https://tampereenseutu.fi/seutufoorumi/)
-
 Panel with Francesco Billari, Agnieszka Chłoń-Domińczak and Jennifer Dowd, "Demographic Ageing and What Lies Ahead of Us", 50 Years of the Vienna Institute of Demography symposium, Austrian Academy of Sciences, Vienna, 30 November 2026 (also livestreamed). [Event page](https://www.oeaw.ac.at/vid/50-years-of-vid)
 
 Keynote, Future of Family Dynamics, University of Southern Denmark, Odense, 11 March 2027.
@@ -15,6 +13,9 @@ Keynote, Future of Family Dynamics, University of Southern Denmark, Odense, 11 M
 Panel on low fertility in Sweden, "Framtidens familjepolitik – Jämställdhet, ekonomisk trygghet och det minskande barnafödandet", Socialförsäkringens dag, Münchenbryggeriet, Stockholm, 14 April 2027.
 
 ## Keynotes and talks
+
+Kestävän väestökehityksen vahvistaminen. Talk, Seutufoorumi "Tartutaan tulevaisuuteen!", Tampereen kaupunkiseutu,
+24 November 2026. [Event page](https://tampereenseutu.fi/seutufoorumi/)
 
 Fertility decline and technological change. Expert discussion, Konrad-Adenauer-Stiftung, Berlin,
 17 November 2026.
