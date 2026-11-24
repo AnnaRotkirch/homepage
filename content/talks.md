@@ -16,6 +16,9 @@ Panel on low fertility in Sweden, "Framtidens familjepolitik – Jämställdhet,
 
 ## Keynotes and talks
 
+Fertility decline and technological change. Expert discussion, Konrad-Adenauer-Stiftung, Berlin,
+17 November 2026.
+
 Did smartphones accelerate fertility decline? Plenary keynote, EHBEA 2026 Annual Conference,
 European Human Behaviour and Evolution Association, Pesthuis, Leiden University, Leiden,
 Netherlands. [Event page](https://www.ehbea2026.com/)
